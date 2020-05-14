@@ -1,0 +1,32 @@
+﻿capital = 41
+
+#oob = "SPR_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = socialism_ideology
+	last_election = "2008.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 22
+	socialism_ideology = 55
+	democratic = 10
+	neutrality = 13
+}
+
+set_convoys = 150
+
+create_country_leader = {
+	name = "Jose Zapatero"
+	desc = ""
+	picture = "Portrait_Jose_Zapatero.dds"
+	expire = "2032.1.1"
+	ideology = democratic_socialism
+	traits = {
+		#
+	}
+}

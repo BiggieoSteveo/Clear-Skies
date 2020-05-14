@@ -1,0 +1,32 @@
+﻿capital = 102
+
+set_research_slots = 3
+
+# Starting tech
+# clone of Yugoslavia
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 15
+	socialism_ideology = 5
+	democratic = 50
+	neutrality = 10
+	fascism = 20
+}
+
+create_country_leader = {
+	name = "Danilo Turk"
+	desc = ""
+	picture = "Portrait_Danilo_Turk.dds"
+	expire = "2032.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}

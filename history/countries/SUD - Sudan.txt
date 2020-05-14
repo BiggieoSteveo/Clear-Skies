@@ -1,0 +1,26 @@
+﻿capital = 551
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	socialism_ideology = 10
+	neutrality = 70
+	fascism = 20
+}
+
+create_country_leader = {
+	name = "Omar al-Bashir"
+	desc = ""
+	picture = "Portrait_Omar_al-Bashir.dds"
+	expire = "2032.1.1"
+	ideology = junta  
+	traits = {
+		#
+	}
+}

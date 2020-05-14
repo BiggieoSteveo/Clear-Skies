@@ -1,0 +1,28 @@
+﻿capital = 329
+
+#oob = "TAN_1936"
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+
+create_country_leader = {
+	name = "Salchak Toka"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/TAN/portrait_tan_salchak_toka.dds"
+	expire = "2032.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}

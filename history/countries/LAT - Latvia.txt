@@ -1,0 +1,76 @@
+﻿capital = 12
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.10.3"
+	election_frequency = 108
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 15
+	communism = 15
+	neutrality = 40
+}
+
+# probably needs some adjustment before nazi occupation in 1940
+2008.1.1 = {
+	#
+}
+
+create_country_leader = {
+	name = "Karlis Ulmanis"
+	desc = "POLITICS_KARLIS_ULMANIS_DESC"
+	picture = "GFX_Portrait_latvia_karlis_ulmanis"
+	expire = "2032.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustavs Celmiņš"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "2032.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Fricis Menders"
+	desc = ""
+	picture = "GFX_portrait_lat_fricis_menders"
+	expire = "2032.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Vilis Lacis"
+	desc = ""
+	picture = "GFX_portrait_lat_vilis_lacis"
+	expire = "2032.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Berkis Krisjanis"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { ranger }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}

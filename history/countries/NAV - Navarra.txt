@@ -1,0 +1,31 @@
+﻿capital = 792
+
+##oob = ""
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 93
+	fascism = 3
+	communism = 4
+}
+
+create_country_leader = {
+	name = "Ramón Ormazábal Tife"
+	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
+	expire = "2032.1.1"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Luis Urrengoetxea"
+	picture = "gfx//leaders//Europe//portrait_europe_generic_4.dds"
+	expire = "2032.1.1"
+	ideology = liberalism
+}

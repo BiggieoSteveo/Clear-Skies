@@ -1,0 +1,272 @@
+
+ideologies = {
+
+	communism = {
+
+		types = {
+
+			marxism = {
+			}
+			
+			leninism = {
+			}
+			
+			stalinism = {
+			}
+			
+			anti_revisionism = {
+			}
+
+			trotskyism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+
+		color = { 92 16 16 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+			ai_get_ally_desire_factor = -500
+		}
+		ai_communist = yes	
+		can_be_boosted = no
+
+	}
+	
+	socialism_ideology = {
+
+		types = {
+
+			socialism = {
+			}
+
+			democratic_socialism = {
+			}
+
+			anarchist_communism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALIST_1"
+			"FACTION_NAME_SOCIALIST_2"
+			"FACTION_NAME_SOCIALIST_3"
+			"FACTION_NAME_SOCIALIST_4"
+			"FACTION_NAME_SOCIALIST_5"
+		}
+
+		color = { 92 51 51 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+			ai_get_ally_desire_factor = -500
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+
+	}
+	
+	democratic = {
+
+		types = {
+
+			centrism = {
+			}
+
+			conservatism = {
+			}
+		
+			liberalism = {
+			}
+
+			moderatism = {
+			}
+
+			social_democracy = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CENTRIST_1"
+			"FACTION_NAME_SOCIAL_CENTRIST_2"
+			"FACTION_NAME_SOCIAL_CENTRIST_3"
+			"FACTION_NAME_SOCIAL_CENTRIST_4"
+			"FACTION_NAME_SOCIAL_CENTRIST_5"
+		}
+
+		color = { 51 51 92 } 
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+			ai_get_ally_desire_factor = -500
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	neutrality = {
+
+		types = {
+
+			despotism  = {
+			}
+
+			junta  = {
+			}
+			
+			oligarchism  = {
+			}
+
+			social_despotism  = {
+			}
+
+			salafism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_DESPOTISM_1"
+			"FACTION_NAME_DESPOTISM_2"
+			"FACTION_NAME_DESPOTISM_3"
+			"FACTION_NAME_DESPOTISM_4"
+			"FACTION_NAME_DESPOTISM_5"
+		}
+
+		color = { 87 87 87 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+			ai_get_ally_desire_factor = -500
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+
+	fascism = {
+
+		types = {
+
+			nazism = {
+			}
+			
+			fascism_ideology = {
+			}
+			
+			falangism = {
+			}
+			
+			rexism = {
+			}
+
+			ultra_corporatism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_REACTIONARY_1"
+			"FACTION_NAME_REACTIONARY_2"
+			"FACTION_NAME_REACTIONARY_3"
+			"FACTION_NAME_REACTIONARY_4"
+			"FACTION_NAME_REACTIONARY_5"
+		}
+
+		color = { 58 58 58 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+			ai_get_ally_desire_factor = -500
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	simplism = {
+		types = {
+
+			simplism_ideology = {
+			}
+
+			anarchism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_SIMPLISM_1"
+			"FACTION_NAME_SIMPLISM_2"
+			"FACTION_NAME_SIMPLISM_3"
+			"FACTION_NAME_SIMPLISM_4"
+			"FACTION_NAME_SIMPLISM_5"
+		}
+
+		color = { 0 0 0 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+			ai_get_ally_desire_factor = -500
+		}
+		ai_fascist = yes	
+		can_be_boosted = no
+	}
+
+}

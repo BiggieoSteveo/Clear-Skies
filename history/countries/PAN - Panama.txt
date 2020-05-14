@@ -1,0 +1,26 @@
+﻿capital = 304
+
+#oob = "PAN_1936"
+set_war_support = 0.1
+set_convoys = 10
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.6.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Harmodio Arias Madrid"
+	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
+	picture = "GFX_portrait_panama_harmodio_arias_madrid"
+	expire = "2032.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,27 @@
+﻿capital = 104
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Adnan Terzic"
+	desc = ""
+	picture = "Portrait_Adnan_Terzic.dds"
+	expire = "2032.1.1"
+	ideology = social_democracy 
+	traits = {
+		#
+	}
+}
+
+set_popularities = {
+	democratic = 60
+	neutrality = 20
+	fascism = 20
+}

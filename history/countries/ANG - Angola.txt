@@ -1,0 +1,30 @@
+﻿capital = 540
+
+#oob = "ANG_1936"
+
+# Starting tech
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 70
+	socialism_ideology = 30
+}
+
+create_country_leader = {
+	
+	name = "Jose dos Santos"
+	desc = ""
+	picture = "Portrait_Jose_Eduardo_dos_Santos.dds"
+	expire = "2032.1.1"
+	ideology = marxism 
+	traits = {
+		#
+	}
+}

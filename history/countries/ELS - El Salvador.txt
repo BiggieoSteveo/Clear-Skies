@@ -1,0 +1,27 @@
+﻿capital = 314
+
+#oob = "ELS_1936"
+
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	fascism = 100
+}
+
+create_country_leader = {
+	name = "Maximiliano Hernández Martínez"
+	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
+	expire = "2032.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

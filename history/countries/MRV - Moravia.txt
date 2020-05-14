@@ -1,0 +1,24 @@
+capital = 75
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		communism = 20
+		socialism_ideology = 15
+		democratic = 10
+		neutrality = 40
+		fascism = 5
+		simplism = 10
+}
+create_country_leader = { 
+	name = "Pavel Dohnal"
+	picture = "Portrait_Pavel_Dohnal.dds"
+	expire = "2032.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}

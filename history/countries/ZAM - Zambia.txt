@@ -1,0 +1,25 @@
+﻿capital = 771
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 89
+	socialism_ideology = 11
+}
+
+create_country_leader = {
+	name = "Kenneth Kaunda"
+	desc = ""
+	picture = "Portrait_Kenneth_Kaunda.dds"
+	expire = "2032.1.1"
+	ideology = marxism 
+	traits = {
+		#
+	}
+}

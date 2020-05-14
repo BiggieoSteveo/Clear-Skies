@@ -1,0 +1,19 @@
+capital = 5
+set_politics = {
+	ruling_party = simplism 
+	last_election = "2008.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		simplism = 100
+}
+create_country_leader = { 
+	name = "Wasteland Anarchy"
+	picture = "Portrait_Wasteland_Generic.dds"
+	expire = "2032.1.1"
+	ideology = anarchism 
+	traits = {
+		#
+	}
+}

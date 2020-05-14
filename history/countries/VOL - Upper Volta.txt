@@ -1,0 +1,27 @@
+﻿capital = 778
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 80
+	socialism_ideology = 10
+	democratic = 10
+}
+
+create_country_leader = {
+	
+	name = "Thomas Sankara"
+	desc = ""
+	picture = "Portrait_Thomas_Sankara.dds"
+	expire = "2032.1.1"
+	ideology = marxism 
+	traits = {
+		#
+	}
+}

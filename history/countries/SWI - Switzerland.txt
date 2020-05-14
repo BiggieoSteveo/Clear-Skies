@@ -1,0 +1,48 @@
+﻿capital = 3
+
+#oob = "SWI_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.10.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 96
+	fascism = 2
+	communism = 2
+}
+
+2008.1.1 = {
+	#next election october 39
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+set_stability = 0.85
+
+create_country_leader = {
+	name = "Federal Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Switzerland_Federal_council.dds"
+	expire = "2032.1.1"
+	ideology = centrism 
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Henri Guisan"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {  winter_specialist }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

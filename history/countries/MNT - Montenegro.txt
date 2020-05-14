@@ -1,0 +1,50 @@
+﻿capital = 105 # Montenegro
+
+#oob = "MON_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {	democratic = 33	neutrality = 33	communism = 34
+}
+
+create_country_leader = {
+	name = "Sekula Drljević"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "2032.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Novica Radović"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "2032.3.1"
+	ideology = oligarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Blažo Jovanović"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "2032.3.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
+

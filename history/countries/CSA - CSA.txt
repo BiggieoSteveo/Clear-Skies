@@ -1,0 +1,38 @@
+﻿capital = 361
+
+#oob = "USA_1936"
+
+set_research_slots = 3
+set_stability = 0.75
+
+set_convoys = 100
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 80
+	fascism = 10
+	communism = 10
+}
+
+add_ideas = {
+	civilian_economy
+	volunteer_only
+	free_trade
+	home_of_the_free
+}
+
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "gfx/leaders/USA/Portrait_USA_William_Dudley_Pelley.dds"
+	expire = "2032.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}

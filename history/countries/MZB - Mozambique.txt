@@ -1,0 +1,33 @@
+﻿capital = 544
+
+#oob = "MZB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 95
+	socialism_ideology = 5
+}
+
+create_country_leader = {
+	name = "Joaquim Chissano"
+	desc = ""
+	picture = "Portrait_Joaquim_Chissano.dds"
+	expire = "2032.1.1"
+	ideology = marxism 
+	traits = {
+		#
+	}
+}

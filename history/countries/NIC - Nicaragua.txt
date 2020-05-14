@@ -1,0 +1,37 @@
+﻿capital = 317
+
+#oob = "NIC_1936"
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	fascism = 5
+	communism = 10
+	neutrality = 70
+}
+
+create_country_leader = {
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	expire = "2032.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Anastasio Somoza García"
+	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+	picture = "GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
+	expire = "2032.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

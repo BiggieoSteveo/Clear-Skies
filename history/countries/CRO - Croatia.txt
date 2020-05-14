@@ -1,0 +1,29 @@
+﻿capital = 109
+
+set_research_slots = 2
+
+#oob = "CRO_1936"
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "2008.6.9"
+	election_frequency = 12
+	elections_allowed = no # none after offset 1
+}
+set_popularities = {
+	democratic = 80
+	socialism_ideology = 20
+}
+
+create_country_leader = {
+	name = "Zvonimir Cervenko"
+	desc = ""
+	picture = "Portrait_Zvonimir_Cervenko.dds"
+	expire = "2032.1.1"
+	ideology = moderatism 
+	traits = {
+		#
+	}
+}

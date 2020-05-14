@@ -1,0 +1,30 @@
+﻿capital = 279
+
+#oob = "CHL_1936"
+
+# Starting tech
+
+set_convoys = 20
+
+set_convoys = 5
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.10.30"
+	election_frequency = 72  #but 4 years after this one in 1938.
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 98
+	communism = 2
+}
+
+create_country_leader = {
+	name = "Arturo Alessandri"
+	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
+	picture = "GFX_Portrait_chile_arturo_alessandri"
+	expire = "2032.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

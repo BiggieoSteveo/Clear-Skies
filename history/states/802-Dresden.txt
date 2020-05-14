@@ -1,0 +1,33 @@
+
+state={
+	id=802
+	name="STATE_802"
+	manpower = 1392576
+	resources={
+		steel=33
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		victory_points = {
+			514 53
+		}
+		victory_points = {
+			3535 5 
+		}
+		add_core_of = GER
+		add_core_of = WGR
+	}
+
+	provinces={
+		514 573 3514 9535 6441 
+	}
+}

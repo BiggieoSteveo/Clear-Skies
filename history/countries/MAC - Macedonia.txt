@@ -1,0 +1,29 @@
+﻿capital = 106
+
+set_research_slots = 3
+
+# Starting tech
+# clone of Yugoslavia
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	neutrality = 75
+	fascism = 25
+}
+
+create_country_leader = {
+	name = "Nikola Gruevski"
+	desc = ""
+	picture = "Portrait_Nikola_Gruevski.dds"
+	expire = "2032.1.1"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}

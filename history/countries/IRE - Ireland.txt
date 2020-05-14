@@ -1,0 +1,41 @@
+﻿capital = 113
+
+#oob = "IRE_1936"
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 70
+	socialism_ideology = 20
+	democratic = 10
+}
+
+create_country_leader = {
+	name = "Brendan Huges"
+	desc = ""
+	picture = "Portrait_Brendan_Huges.dds"
+	expire = "2032.1.1"
+	ideology = marxism 
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Michael Costello"
+	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

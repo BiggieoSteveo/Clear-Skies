@@ -1,0 +1,28 @@
+﻿capital = 70
+
+#oob = "SLO_2008"
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "2008.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 10
+	socialism_ideology=10
+	democratic = 70
+	fascism = 5
+	simplism = 5
+}
+
+create_country_leader = {
+	name = "Ivan Gasparovic"
+	desc = ""
+	picture = "Portrait_Ivan_Gasparovic.dds"
+	expire = "2032.1.1"
+	ideology = centrism 
+	traits = {
+		#
+	}
+}

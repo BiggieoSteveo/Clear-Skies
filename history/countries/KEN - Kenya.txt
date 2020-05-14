@@ -1,0 +1,31 @@
+﻿capital = 547
+
+#oob = "KEN_1936"
+
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 24
+	neutrality = 66
+	fascism = 10
+}
+
+create_country_leader = {
+	
+	name = "Daniel Arap Moi"
+	picture = "Portrait_Daniel_Arap_Moi.dds"
+	expire = "2032.1.1"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}
+

@@ -1,0 +1,39 @@
+﻿capital = 44
+
+##oob = ""
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 90
+	socialism_ideology = 10
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Ramiz Alia"
+	desc = ""
+	picture = "Portrait_Albania_Ramiz_Alia.dds"
+	expire = "2032.1.1.12"
+	ideology = anti_revisionism 
+	traits = {
+		staunch_stalinist
+	}
+}
+
+create_field_marshal = {
+	name = "Xhemal Aranitasi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+

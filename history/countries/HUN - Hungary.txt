@@ -1,0 +1,85 @@
+﻿capital = 43
+
+#oob = "HUN_1936"
+
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.3.31"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	socialism_ideology = 10
+	neutrality = 60
+	fascism = 30
+}
+
+create_country_leader = {
+	name = "David Kovacs"
+	desc = ""
+	picture = "Portrait_David_Kovacs.dds"
+	expire = "2032.1.1"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Géza Lakatos"
+	gfx = GFX_Portrait_hungary_geza_lakatos
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Iván Hindy"
+	gfx = GFX_Portrait_hungary_ivan_hindy
+	traits = {  trickster }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Károly Beregfy"
+	gfx = GFX_Portrait_hungary_karoly_beregfy
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lajos Veress"
+	gfx = GFX_Portrait_hungary_lajos_veress
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Ferenc Feketehalmy-Czeydner"
+	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}

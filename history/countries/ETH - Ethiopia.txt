@@ -1,0 +1,40 @@
+﻿capital = 271
+
+#oob = "ETH_1936"
+
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 90
+	socialism_ideology = 10
+}
+
+create_country_leader = {
+	name = "Mengistu Haile Mariam"
+	desc = ""
+	picture = "Portrait_Mengistu_Haile_Mariam.dds"
+	expire = "2032.1.1"
+	ideology = marxism 
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Seyoum Mengesha"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+	traits = {  desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}

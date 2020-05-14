@@ -1,0 +1,30 @@
+﻿capital = 78
+
+##oob = ""
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 55
+	fascism = 1
+	communism = 30
+	neutrality = 14
+}
+
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "2032.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}
+

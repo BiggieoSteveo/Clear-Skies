@@ -1,0 +1,28 @@
+﻿capital = 121
+
+##oob = ""
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 90
+	socialism_ideology = 5
+	democratic = 5
+}
+
+create_country_leader = {
+	
+	name = "Tommy Sheridian"
+	picture = "Portrait_Tommy_Sheridian.dds"
+	expire = "2032.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}

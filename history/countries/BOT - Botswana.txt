@@ -1,0 +1,30 @@
+﻿capital = 542
+
+#oob = "BOT_1936"
+
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	socialism_ideology = 20
+	democratic = 53
+	neutrality = 7
+	fascism = 20
+}
+
+create_country_leader = {
+	
+	name = "Ian Khama"
+	picture = "Portrait_Ian_Khama.dds"
+	expire = "2032.1.1"
+	ideology = conservatism 
+	traits = {
+		#
+	}
+}

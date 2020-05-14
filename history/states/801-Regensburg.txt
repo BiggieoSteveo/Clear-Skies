@@ -1,0 +1,26 @@
+
+state={
+	id=801
+	name="STATE_801"
+	manpower = 1031109
+	
+	state_category = city
+
+	history={
+		owner = WGR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = WGR
+		add_core_of = GER
+		victory_points = {
+			9515 2
+		}
+	}
+
+	provinces={
+		6725 9515 9681
+	}
+}

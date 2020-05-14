@@ -1,0 +1,48 @@
+﻿capital = 289
+
+set_convoys = 15
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 20
+	neutrality = 80
+}
+
+create_country_leader = {
+	name = "Phraya Phahon"
+	desc = "POLITICS_PHRAYA_PHAHON_DESC"
+	picture = "Portrait_Siam_Phraya_Phahon.dds"
+	expire = "2032.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+2008.1.1 = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "2008.1.1.12"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+
+	create_country_leader = {
+		name = "Plaek Phibunsongkhram"
+		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+		expire = "2032.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
+	}
+}
