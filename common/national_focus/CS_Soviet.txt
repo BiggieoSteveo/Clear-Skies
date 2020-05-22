@@ -192,7 +192,10 @@ focus_tree = {
 		x = 8
 		y = 5
 		completion_reward = {
-				#
+		swap_ideas = {
+    			remove_idea = SOV_Pax_Sovietica_I
+    			add_idea = SOV_Pax_Sovietica_II
+			}
 		}
 	}
 	focus = {

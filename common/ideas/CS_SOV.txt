@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		SOV_Pax_Sovietica_I = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_I
+
+			modifier = {
+				war_support_factor = -0.12
+				production_speed_arms_factory_factor = -0.4
+				production_speed_industrial_complex_factor = 0.3
+				encryption_factor = 0.01
+				decryption_factor = 0.01
+				conscription_factor = -0.15
+				political_power_gain = 0.25 
+			}
+		}
+		SOV_Pax_Sovietica_II = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_II
+
+			modifier = {
+				war_support_factor = -0.6
+				production_speed_arms_factory_factor = -0.3
+				production_speed_industrial_complex_factor = 0.2
+				encryption_factor = 0.001
+				decryption_factor = 0.001
+				conscription_factor = -0.8
+				political_power_gain = 0.10 
+			}
+		}
+		SOV_Pax_Sovietica_III = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_III
+
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		SOV_High_Suicide_Rates_I = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_High_Suicide_Rates_I
+
+			modifier = {
+				stability_factor = -0.06
+				MONTHLY_POPULATION = -0.15 
+			}
+		}
+		SOV_High_Suicide_Rates_II = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_High_Suicide_Rates_II
+
+			modifier = {
+				stability_factor = -0.03
+				MONTHLY_POPULATION = -0.6 
+			}
+		}	
+	}
+}	
+
+
+
+
+
