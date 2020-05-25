@@ -1,0 +1,65 @@
+spriteTypes = {	
+
+###Soviet Union
+
+	SpriteType = {
+		name = "GFX_SOV_the_2008_report"
+		texturefile = "gfx/interface/goals/SOV_the_2008_report.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_internal_assesment"
+		texturefile = "gfx/interface/goals/SOV_internal_assesment.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_fruits_ripe_for_the_picking"
+		texturefile = "gfx/interface/goals/SOV_fruits_ripe_for_the_picking.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_our_interests_lie_elsewhere"
+		texturefile = "gfx/interface/goals/SOV_our_interests_lie_elsewhere.dds"			
+	}		
+	SpriteType = {
+		name = "GFX_SOV_enemies_at_the_gates"
+		texturefile = "gfx/interface/goals/SOV_enemies_at_the_gates.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_weve_got_our_eyes_on_you"
+		texturefile = "gfx/interface/goals/SOV_weve_got_our_eyes_on_you.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_deeper_into_the_void"
+		texturefile = "gfx/interface/goals/SOV_deeper_into_the_void.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_zero_g_manufacturing"
+		texturefile = "gfx/interface/goals/SOV_zero_g_manufacturing.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_groundwork_for_an_airtight_union"
+		texturefile = "gfx/interface/goals/SOV_groundwork_for_an_airtight_union.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_eying_up_eastern_europe"
+		texturefile = "gfx/interface/goals/SOV_eying_up_eastern_europe.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_our_freinds_in_asia"
+		texturefile = "gfx/interface/goals/SOV_our_freinds_in_asia.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_loosen_pax_sovietica"
+		texturefile = "gfx/interface/goals/SOV_loosen_pax_sovietica.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_op_restitute"
+		texturefile = "gfx/interface/goals/SOV_op_restitute.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_preludes_to_a_red_world"
+		texturefile = "gfx/interface/goals/SOV_preludes_to_a_red_world.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_an_unexpected_announcement"
+		texturefile = "gfx/interface/goals/SOV_an_unexpected_announcement.dds"			
+	}
+}

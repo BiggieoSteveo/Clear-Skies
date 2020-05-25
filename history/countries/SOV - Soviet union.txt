@@ -531,3 +531,8 @@ create_navy_leader = {
 	maneuvering_skill = 2
 	coordination_skill = 2
 }
+
+add_ideas = {
+	SOV_Pax_Sovietica_I
+	SOV_High_Suicide_Rates_I
+}

@@ -165,7 +165,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "elections"
 				position = { x = 9 y = 34 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 20
@@ -448,7 +448,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_name"
 			position = { x = 18 y = 271 }
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -520,14 +520,14 @@ guiTypes = {
 			name = "manage_occupied_button"
 			position = { x = 10 y = 390 }
 			quadTextureSprite = "GFX_government_button"
-			buttonFont = "hoi_16mbs"
+			buttonFont = "hoi_18mbs"
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
 			position = { x = 48 y = 398 }
-			font = "hoi_16mbs"
+			font = "hoi_18mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
 			alwaystransparent = yes
@@ -548,7 +548,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "show_subjects_button_text"
 				position = { x = 32 y = 8 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "MANAGE_SUBJECTS"
 				Orientation = "UPPER_LEFT"
 				maxWidth = 130
@@ -568,7 +568,7 @@ guiTypes = {
 			name = "show_exiles_collaborations_button"
 			position = { x = 190 y = 390 }
 			quadTextureSprite = "GFX_government_button"
-			buttonFont = "hoi_16mbs"
+			buttonFont = "hoi_18mbs"
 			Orientation = "UPPER_LEFT"
 			format = right
 		}
@@ -576,7 +576,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
 			position = { x = 223 y = 398 }
-			font = "hoi_16mbs"
+			font = "hoi_18mbs"
 			maxWidth = 130
 			maxHeight = 20
 			fixedsize = yes
