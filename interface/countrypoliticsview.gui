@@ -145,16 +145,6 @@ guiTypes = {
 			clipping = no
 			
 			instantTextboxType = {
-				name = "party"
-				position = { x = 6 y = 80 }
-				font = "hoi_16mbs"
-				text = "Politics_Party_Name"
-				maxWidth = 245
-				maxHeight = 20
-				fixedsize = yes
-			}
-			
-			instantTextboxType = {
 				name = "ideology"
 				position = { x = 6 y = 50 }
 				font = "hoi_16mbs"
@@ -348,7 +338,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "drop_continuous_focus_button"
-				position = { x = 327 y = 12 }
+				position = { x = 327 y = 13 }
 				spriteType = "GFX_nf_close_button"
 				scale = 0.9
 				clicksound = click_default
@@ -356,7 +346,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "drop_focus_button"
-				position = { x = 320 y = 22 }
+				position = { x = 323 y = 22 }
 				spriteType = "GFX_nf_close_button"
 				scale = 0.9
 				clicksound = click_default
