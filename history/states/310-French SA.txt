@@ -4,10 +4,10 @@ state={
 	name="STATE_310"
 	manpower = 47341
 
-	state_category = pastoral
+	state_category = city
 
 	history={
-		owner = CAY
+		owner = BRA
 		add_core_of = CAY
 		buildings = {
 			infrastructure = 2

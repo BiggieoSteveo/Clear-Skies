@@ -1,0 +1,13 @@
+capital = 158
+
+set_politics = {
+	ruling_party = fascism 
+	last_election = "2008.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 10
+	socialism_ideology = 10
+	fascism = 80
+}

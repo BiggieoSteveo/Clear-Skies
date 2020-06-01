@@ -12,12 +12,12 @@ state=
 		victory_points = {
 			3583 5
 		}
-		owner = WST
+		owner = MRV
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 		}
-		add_core_of = WST
+		add_core_of = MRV
 	}
 	provinces= {
 		421 3414 3583 6485

@@ -12,12 +12,12 @@ state={
 	}
 	
 	history={
-		owner = WST
+		owner = MEX
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = WST
+		add_core_of = MEX
 		victory_points = {
 			4956 10
 		}

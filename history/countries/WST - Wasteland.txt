@@ -1,4 +1,4 @@
-capital = 5
+capital = 713
 set_politics = {
 	ruling_party = simplism 
 	last_election = "2008.11.14"

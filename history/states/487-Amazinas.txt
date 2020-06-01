@@ -4,10 +4,10 @@ state={
 	name="STATE_487"
 	manpower = 334500
 	
-	state_category = pastoral
+	state_category = city
 
 	history={
-		owner = BOL
+		owner = ARG
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

@@ -9,7 +9,7 @@ state={
 
 
 	history={
-		owner = WST
+		owner = GER
 		victory_points = {
 			6521 50 
 		}
@@ -24,7 +24,8 @@ state={
 			air_base = 6
 
 		}
-		add_core_of = WST
+		add_core_of = GER
+		add_core_of = WGR
 	}
 
 	provinces={

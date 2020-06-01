@@ -8,11 +8,11 @@ state={
 		aluminium=60 # was: 104
 	}	
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		add_core_of = SUR
-		owner = SUR
+		owner = BRA
 		victory_points = {
 			10906 1
 		}

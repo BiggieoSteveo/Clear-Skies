@@ -3,7 +3,7 @@ state={
 	name="STATE_687"
 	manpower = 309000
 	
-	state_category = pastoral
+	state_category = city
 	
 	resources={
 		aluminium=64 # was: 112
@@ -11,7 +11,7 @@ state={
 
 	history={
 		add_core_of = GYA
-		owner = GYA
+		owner = BRA
 		victory_points = {
 			4982 1
 		}
