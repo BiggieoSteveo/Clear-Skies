@@ -684,3 +684,19 @@ MRV = {
 	color = rgb { 155  155  133 }
 	color_ui = rgb { 51 51 255 }
 }
+YOR = {
+	color = rgb { 96 103 80 }
+	color_ui = rgb { 96 103 80 }
+}
+FLA = {
+	color = rgb { 162 88 34 }
+	color_ui = rgb { 162 88 34 }
+}
+SAP = {
+	color = rgb { 136 118 45 }
+	color_ui = rgb { 136 118 45 }
+}
+SCA = {
+	color = rgb { 123 90 130 }
+	color_ui = rgb { 123 90 130 }
+}
