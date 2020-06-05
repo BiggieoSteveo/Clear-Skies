@@ -6,6 +6,7 @@ ideas = {
 			picture = GFX_idea_SOV_Pax_Sovietica_I
 
 			modifier = {
+				research_speed_factor = 0.05 
 				war_support_factor = -0.12
 				production_speed_arms_factory_factor = -0.4
 				production_speed_industrial_complex_factor = 0.3
@@ -21,6 +22,7 @@ ideas = {
 			picture = GFX_idea_SOV_Pax_Sovietica_II
 
 			modifier = {
+				research_speed_factor = 0.03
 				war_support_factor = -0.6
 				production_speed_arms_factory_factor = -0.3
 				production_speed_industrial_complex_factor = 0.2
@@ -47,7 +49,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.06
-				MONTHLY_POPULATION = -0.15 
+				MONTHLY_POPULATION = -0.10 
 			}
 		}
 		SOV_High_Suicide_Rates_II = {

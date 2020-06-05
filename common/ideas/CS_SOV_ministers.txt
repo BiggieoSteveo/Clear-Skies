@@ -1,0 +1,58 @@
+ideas = {
+	head_of_government = {
+		SOV_Minister_Boris_Pugo = {
+			allowed = { always = no }
+			visible = { tag = SOV }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Minister_Boris_Pugo
+
+			traits = {
+				trait_head_of_government
+				trait_communism
+				hog_pragmatic_statesman
+			}
+		}
+	}
+	economics_minister = {
+		SOV_Minister_Oleg_Balkanov = {
+			allowed = { always = no }
+			visible = { tag = SOV }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Minister_Oleg_Balkanov
+
+			traits = {
+				trait_economics_minister
+				trait_communism
+				eco_computer_planned_economy_proponent
+			}
+		}
+	}
+	cheif_of_staff = {
+		SOV_Minister_Valery_Gerasimov = {
+			allowed = { always = no }
+			visible = { tag = SOV }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Minister_Valery_Gerasimov
+
+			traits = {
+				trait_cheif_of_staff
+				trait_communism
+				cos_mixed_operational
+			}
+		}
+	}
+	foreign_minister = {
+		SOV_Minister_Eduard_Shevardn= {
+			allowed = { always = no }
+			visible = { tag = SOV }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Minister_Eduard_Shevardn
+
+			traits = {
+				trait_foreign_minister
+				trait_communism
+				for_iron_fisted_brute
+			}
+		}
+	}
+}

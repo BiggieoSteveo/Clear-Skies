@@ -1,4 +1,12 @@
 ﻿l_english:
+
+ ##SOV###
+ SOV_Minister_Boris_Pugo:0 "Boris Pugo"
+ SOV_Minister_Oleg_Balkanov:0 "Oleg Balkanov"
+ SOV_Minister_Valery_Gerasimov:0 "Valery Gerasimov"
+ SOV_Minister_Eduard_Shevardn:0 "Eduard Shevardn"
+ ###############################################
+ 
  GER_fascism:0 "German Reich"
  GER_fascism_DEF:0 "the German Reich"
  GER_democratic:0 "German Republic"
@@ -35,8 +43,8 @@
  SOV_democratic_DEF:0 "the Russian Federation"
  SOV_neutrality:0 "Russia"
  SOV_neutrality_DEF:0 "Russia"
- SOV_communism:0 "Soviet Union"
- SOV_communism_DEF:0 "the Soviet Union"
+ SOV_communism:0 "Union of Soviet Socialist Republics"
+ SOV_communism_DEF:0 "the Union of Soviet Socialist Republics"
  SOV_fascism_ADJ:0 "Russian"
  SOV_democratic_ADJ:0 "Russian"
  SOV_neutrality_ADJ:0 "Russian"

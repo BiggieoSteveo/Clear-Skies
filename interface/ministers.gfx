@@ -1,0 +1,27 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+
+	##SOV##
+	
+	spriteType = {
+		name = "GFX_idea_SOV_Minister_Boris_Pugo"
+		texturefile = "gfx/interface/ideas/SOV_Minister_Boris_Pugo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Minister_Eduard_Shevardn"
+		texturefile = "gfx/interface/ideas/SOV_Minister_Eduard_Shevardn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Minister_Oleg_Balkanov"
+		texturefile = "gfx/interface/ideas/SOV_Minister_Oleg_Balkanov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Minister_Valery_Gerasimov"
+		texturefile = "gfx/interface/ideas/SOV_Minister_Valery_Gerasimov.dds"
+	}
+}

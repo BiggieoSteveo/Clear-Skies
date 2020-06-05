@@ -1,4 +1,4 @@
-﻿capital = 217
+capital = 217
 
 #oob = "SOV_1936"
 
@@ -18,11 +18,11 @@ set_popularities = {
 	communism = 100
 }
 
-create_faction = Comintern
+create_faction = warsaw_treaty
 
 create_country_leader = {
 	name = "Dimitry Yazov"
-	desc = ""
+	desc = "dmitry_yazov_DESC"
 	picture = "Portrait_Dimitry_Yazov.dds"
 	expire = "2032.3.1"
 	ideology = marxism
@@ -535,4 +535,9 @@ create_navy_leader = {
 add_ideas = {
 	SOV_Pax_Sovietica_I
 	SOV_High_Suicide_Rates_I
+	##Ministers##
+	SOV_Minister_Boris_Pugo
+	SOV_Minister_Oleg_Balkanov
+	SOV_Minister_Valery_Gerasimov
+	SOV_Minister_Eduard_Shevardn
 }
