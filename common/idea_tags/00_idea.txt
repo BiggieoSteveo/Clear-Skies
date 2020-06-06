@@ -17,7 +17,7 @@ idea_categories = {
 	idea_category_ministers = {
 		slot = head_of_government
 		slot = economics_minister
-		slot = cheif_of_staff
+		slot = chief_of_staff
 		slot = foreign_minister
 		
 		ledger = civilian

@@ -6,7 +6,7 @@ leader_traits = {
 	trait_economics_minister = {
 		random = no
 	}
-	trait_cheif_of_staff = {
+	trait_chief_of_staff = {
 		random = no
 	}
 	trait_foreign_minister = {

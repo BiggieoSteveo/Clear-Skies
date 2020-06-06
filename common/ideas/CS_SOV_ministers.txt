@@ -27,7 +27,7 @@ ideas = {
 			}
 		}
 	}
-	cheif_of_staff = {
+	chief_of_staff = {
 		SOV_Minister_Valery_Gerasimov = {
 			allowed = { always = no }
 			visible = { tag = SOV }
@@ -35,7 +35,7 @@ ideas = {
 			picture = GFX_idea_SOV_Minister_Valery_Gerasimov
 
 			traits = {
-				trait_cheif_of_staff
+				trait_chief_of_staff
 				trait_communism
 				cos_mixed_operational
 			}
