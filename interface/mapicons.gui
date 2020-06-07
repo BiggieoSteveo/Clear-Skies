@@ -599,7 +599,7 @@ guiTypes = {
 #			instantTextboxType = {
 #				name = "fort"
 #				position = { x=4 y=3 }
-#				font = "hoi_16mbs"
+#				font = "garamond_12"
 #				text = "FORT"
 #				maxWidth = 52
 #				maxHeight = 20
@@ -611,7 +611,7 @@ guiTypes = {
 #			instantTextboxType = {
 #				name = "teeeeest"
 #				position = { x=4 y=17 }
-#				font = "hoi_16mbs"
+#				font = "garamond_12"
 #				text = "0+1/10"
 #				maxWidth = 52
 #				maxHeight = 20
@@ -1033,7 +1033,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "supply_count_small"
 			position = { x=-7 y=-6 }
-			font = "Main_14_grey"
+			font = "garamond_12"
 			maxWidth = 60
 			maxHeight = 14
 			format = center	
@@ -1478,7 +1478,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = {x= 0 y=0}
-			font = "hoi_20bs"
+			font = "garamond_12"
 			maxWidth = 100
 			maxHeight = 24
 			format = center

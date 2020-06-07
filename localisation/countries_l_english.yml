@@ -1,10 +1,5 @@
 ﻿l_english:
 
- ##SOV###
- SOV_Minister_Boris_Pugo:0 "Boris Pugo"
- SOV_Minister_Oleg_Balkanov:0 "Oleg Balkanov"
- SOV_Minister_Valery_Gerasimov:0 "Valery Gerasimov"
- SOV_Minister_Eduard_Shevardn:0 "Eduard Shevardn"
  ###############################################
  
  GER_fascism:0 "German Reich"
@@ -3254,3 +3249,6 @@
  SAP:0 "Sami"
  SAP_DEF:0 "Sami"
  SAP_ADJ:0 "Saami"
+ YOR:0 "Yorkshire"
+ YOR_DEF:0 "Yorkshire"
+ YOR_ADJ:0 "English"
