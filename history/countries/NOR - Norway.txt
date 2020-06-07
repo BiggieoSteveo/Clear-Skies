@@ -8,15 +8,15 @@ set_convoys = 200		# biggest merchant marine in the world
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism_ideology
 	last_election = "2008.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	socialism_ideology = 52
+	fascism = 8
+	democratic = 40
 }
 
 create_country_leader = {

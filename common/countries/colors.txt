@@ -445,7 +445,7 @@ KOR = {
 	color_ui = rgb { 255 248 229 }	
 }
 ISR = {
-	color = rgb { 139  160  171 }
+	color = rgb { 69  62  116 }
 	color_ui = rgb { 152  130  191 }
 }
 CSA = {
@@ -653,7 +653,7 @@ D50 = {
 	color_ui = rgb { 255 138 61 }
 }
 BAY = {
-	color = rgb { 233  231  246 }
+	color = rgb { 83  83  83 }
 	color_ui = rgb { 233  231  246 }
 }
 MEK = {

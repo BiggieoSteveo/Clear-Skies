@@ -7,14 +7,13 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
+	democratic = 85
+	fascism = 10
 	communism = 5
-	neutrality = 85
 }

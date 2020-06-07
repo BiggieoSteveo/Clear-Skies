@@ -3,15 +3,15 @@
 #oob = "DEN_1936"
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism_ideology
 	last_election = "2008.10.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 1
-	communism = 2
+	socialism_ideology = 46
+	democratic = 14
+	communism = 40
 }
 
 set_convoys = 40

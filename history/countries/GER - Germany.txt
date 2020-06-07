@@ -9,6 +9,11 @@ declare_war_on = {
 	type = annex_everything
 }
 
+declare_war_on = {
+	target = BAY
+	type = annex_everything
+}
+
 set_politics = {
 	ruling_party = communism 
 	last_election = "2008.3.5"

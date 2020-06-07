@@ -4,9 +4,9 @@ state=
 	name="STATE_118"
 	manpower=21372
 	
-	state_category = enclave
+	state_category = city
 	history={
-		owner = ENG
+		owner = ADU
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 6
@@ -16,7 +16,7 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_claim_by = SPR
+		add_core_of = ADU
 	}
 	provinces={
 		4135

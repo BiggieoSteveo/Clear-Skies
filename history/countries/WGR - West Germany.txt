@@ -1,6 +1,11 @@
-﻿capital = 52
+﻿capital = 55
 
 # Starting tech
+
+declare_war_on = {
+	target = BAY
+	type = annex_everything
+}
 
 set_research_slots = 4
 set_convoys = 50
