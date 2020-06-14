@@ -27,7 +27,7 @@ create_country_leader = {
 	expire = "2032.1.1"
 	ideology = despotism
 	traits = {
-		generallissimo
+		#
 	}
 }
 
@@ -38,7 +38,7 @@ create_country_leader = {
 	expire = "2032.1.1"
 	ideology = leninism
 	traits = {
-		cornered_fox
+		#
 	}
 }
 

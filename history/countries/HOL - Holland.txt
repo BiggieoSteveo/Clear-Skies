@@ -38,7 +38,7 @@ create_country_leader = {
 	expire = "2032.1.1"
 	ideology = conservatism
 	traits = {
-		strict_austerity_adherent
+		#
 	}
 }
 
@@ -49,7 +49,7 @@ create_country_leader = {
 	expire = "2032.1.1"
 	ideology = fascism_ideology
 	traits = {
-		leider
+		#
 	}
 }
 
@@ -60,7 +60,7 @@ create_country_leader = {
 	expire = "2032.1.1"
 	ideology = leninism
 	traits = {
-		veteran_communist
+		#
 	}
 }
 

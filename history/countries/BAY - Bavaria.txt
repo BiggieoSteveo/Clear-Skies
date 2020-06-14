@@ -16,8 +16,8 @@ set_popularities = {
 	neutrality = 20
 }
 
-add_ideas = {
-}
+#add_ideas = {
+#}
 
 
 

@@ -18,6 +18,6 @@ create_country_leader = {
 	expire = "2032.1.1"
 	ideology = rexism
 	traits = {
-		spirit_of_genghis
+		#
 	}
 }

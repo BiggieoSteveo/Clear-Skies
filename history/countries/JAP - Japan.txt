@@ -7,16 +7,6 @@ set_war_support = 0.8
 
 set_research_slots = 4
 set_fuel_ratio = 1.0
-add_ideas = {
-	state_shintoism
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
-	JAP_zaibatsus
-	JAP_duplicate_research_efforts
-	JAP_militarism
-}
 
 set_convoys = 400
 
@@ -37,9 +27,7 @@ create_country_leader = {
 	expire = "1989.1.1"
 	ideology = fascism_ideology
 	traits = {
-		warrior_code
-		emperor_showa
-		imperial_sanction
+		#
 	}
 	id = 700 #Hirohito
 }

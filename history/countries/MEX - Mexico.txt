@@ -35,7 +35,7 @@ create_country_leader = {
 	expire = "2032.1.1"
 	ideology = falangism
 	traits = {
-		fascist_militia_leader
+		#
 	}
 }
 
@@ -57,7 +57,7 @@ create_country_leader = { # Stalinist, took over after assassination of Trotsky.
 	expire = "2032.1.1"
 	ideology = stalinism
 	traits = {
-		staunch_stalinist
+		#
 	}
 }
 
@@ -68,7 +68,7 @@ create_country_leader = { # Trotskyist, led the PCM 1929-1940
 	expire = "2032.1.1"
 	ideology = leninism
 	traits = {
-		devoted_trotskyist
+		#
 	}
 }
 
