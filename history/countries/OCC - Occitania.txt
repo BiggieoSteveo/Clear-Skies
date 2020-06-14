@@ -8,14 +8,32 @@ set_research_slots = 3
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 15
-	communism = 15
-	neutrality = 20
+	democratic = 10
+	fascism = 60
+	communism = 20
+	neutrality = 10
+}
+
+create_country_leader = {
+	
+	name = "joe mama"
+	picture = ""
+	expire = "2032.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+give_military_access = SOV
+
+set_autonomy = {
+	target = SAV
+	autonomous_state = autonomy_integrated_puppet
 }
