@@ -1,5 +1,9 @@
+###################
+###Soviet Shared###
+###################
+
 focus_tree = {
-	id = Soviet
+	id = CS_SOV_yazov
 	country = {
 		factor = 0
 		modifier = {
@@ -8,262 +12,37 @@ focus_tree = {
 		}
 	}
 	default = no
-	focus = {
-		id = SOV_the_2008_report
-		icon = GFX_SOV_the_2008_report
-		cost = 1
-		x = 11
-		y = 2
-		completion_reward = {
-			add_political_power = 100
+	continuous_focus_position = { x = 3200 y = 1100 }
+	
+	shared_focus = SOV_the_2008_report
+}
+
+focus_tree = {
+	id = CS_SOV_pugo
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
 		}
 	}
-	focus = {
-		id = SOV_internal_assesment
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_the_2008_report
-		}
-		x = 11
-		y = 3
-		completion_reward = {
-				#
-		}
-	}
-	focus = {
-		id = SOV_fruits_ripe_for_the_picking
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_internal_assesment
-		}
-		mutually_exclusive = {
-			focus = SOV_our_interests_lie_elsewhere
-		}
-		x = 9
-		y = 4
-		completion_reward = {
-			add_war_support = 0.05
-			add_named_threat = {threat = 10}	
+	default = no
+	continuous_focus_position = { x = 3200 y = 1100 }
+	
+	shared_focus = SOV_pugos_preeminence
+}
+
+focus_tree = {
+	id = CS_SOV_baklanov
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
 		}
 	}
-	focus = {
-		id = SOV_our_interests_lie_elsewhere
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_internal_assesment
-		}
-		mutually_exclusive = {
-			focus = SOV_fruits_ripe_for_the_picking
-		}
-		x = 13
-		y = 4
-		completion_reward = {
-			add_stability = 0.05
-			add_war_support = -0.05
-		}
-	}
-	focus = {
-		id = SOV_enemies_at_the_gates
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_our_interests_lie_elsewhere
-		}
-		x = 12
-		y = 5
-		completion_reward = {
-				#
-		}
-	}
-	focus = {
-		id = SOV_weve_got_our_eyes_on_you
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_enemies_at_the_gates
-		}
-		x = 12
-		y = 6
-		completion_reward = {
-				#
-		}
-	}
-	focus = {
-		id = SOV_deeper_into_the_void
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_our_interests_lie_elsewhere
-		}
-		x = 14
-		y = 5
-		completion_reward = {
-				#
-		}
-	}
-	focus = {
-		id = SOV_zero_g_manufacturing
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_deeper_into_the_void
-		}
-		x = 14
-		y = 6
-		completion_reward = {
-				add_offsite_building = { type = industrial_complex level = 1 }
-		}
-	}
-	focus = {
-		id = SOV_groundwork_for_an_airtight_union
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_zero_g_manufacturing
-		}
-		prerequisite = {
-			focus = SOV_weve_got_our_eyes_on_you
-		}
-		x = 13
-		y = 7
-		completion_reward = {
-				#
-		}
-	}
-	focus = {
-		id = SOV_eying_up_eastern_europe
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_fruits_ripe_for_the_picking
-		}
-		x = 10
-		y = 5
-		completion_reward = {
-			add_named_threat = {threat = 5}	
-			CZE = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}	
-			MRV = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			SLO = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}	
-			HUN = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}	
-			BOS = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			SLV = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			CRO = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			YUG = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			MAC = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			GRE = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			ALB = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-			ROM = {
-				add_opinion_modifier = { target = SOV modifier = medium_decrease }
-			}
-		}
-	}
-	focus = {
-		id = SOV_loosen_pax_sovietica
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_fruits_ripe_for_the_picking
-		}
-		x = 8
-		y = 5
-		completion_reward = {
-    		remove_ideas = SOV_Pax_Sovietica_I
-    		add_ideas = SOV_Pax_Sovietica_II
-		}
-	}
-	focus = {
-		id = SOV_op_restitute
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_loosen_pax_sovietica
-		}
-		x = 8
-		y = 6
-		completion_reward = {
-				army_experience = 20
-		}
-	}
-	focus = {
-		id = SOV_our_freinds_in_asia
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_eying_up_eastern_europe
-		}
-		x = 10
-		y = 6
-		completion_reward = {
-			SIK = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 2000
-					producer = SOV
-				}
-				add_equipment_to_stockpile = {
-					type = modern_tank_equipment
-					amount = 200
-					producer = SOV
-				}
-			}
-			SIK = {
-				add_opinion_modifier = { target = SOV modifier = medium_increase }
-			}
-				add_opinion_modifier = { target = SIK modifier = medium_increase }	
-		}
-	}
-	focus = {
-		id = SOV_preludes_to_a_red_world
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_our_freinds_in_asia
-		}
-		prerequisite = {
-			focus = SOV_op_restitute
-		}
-		x = 9
-		y = 7
-		completion_reward = {		 
-		}
-	}
-	focus = {
-		id = SOV_an_unexpected_announcement
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = SOV_preludes_to_a_red_world
-			focus = SOV_groundwork_for_an_airtight_union
-		}
-		x = 11
-		y = 8
-		completion_reward = {
-				#
-		}
-	}
+	default = no
+	continuous_focus_position = { x = 3200 y = 1100 }
+
+	shared_focus = SOV_the_baklanov_ensemble
 }

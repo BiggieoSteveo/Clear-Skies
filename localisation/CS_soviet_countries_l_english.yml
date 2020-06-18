@@ -8,3 +8,42 @@
 
  ##Leader Descriptions
  dmitry_yazov_DESC:0 "In Yazov's Soviet Union it's as if Molotov never died in '86. Everything is a mirror image of it's old self albeit with fresher paint, and the people enjoy the stability it brings very much so. Though Yazov's Union cannot be defined as stagnant because it is perpetuating the old order to a tee which inherently was anti stagnancy. Former general secretary Vyacheslav Molotov's doctrines proved the be ideal for the Soviet Union in the past so why change them? A short list of the USSR's most defining features are it's planned economy that communicates through a computer network that enhances the central planning committee's ability to co-ordinate and draft up industrial plans based on relevant and actual information, bureaucrats that are shuffled every 5 years, anti-gerontocracy laws, severe penalization for administrative level nepotism and a stick and carrot style state incentivized reward system to encourages people to work harder in return for raises and promotions. Everything that could have sunk the USSR in the past has been dodged, shot and forgotten. But right now the Union faces new problems, issues that can only be classified as outside of any policy planner's possible field of vision and imagination, it's time for the USSR to decide on what's next, and Yazov has accepted he is growing too old for these kinds of pivotal tasks. In his mind he sees his work as complete, Lenin's red banner stands peerless atop the piles of the old empires, all thanks to him. Revolution after revolution, coup after coup until there wasn't anyone strong enough left to stand up to soviet power, but despite the damage the Yazov years have done to the world, rebels and unifies teem in the old nations that he's assassinated, guns and bullets can be given to the various regional ethnic separatists that the USSR has propped up to fight back against these efforts, but one of these days our grip might weaken..."
+ 
+ ##Country Names
+ SOV_fascism:0 "Russian Federation"
+ SOV_fascism_DEF:0 "the Russian Federation"
+ SOV_democratic:0 "Russian Federation"
+ SOV_democratic_DEF:0 "the Russian Federation"
+ SOV_neutrality:0 "Russian Federation"
+ SOV_neutrality_DEF:0 "the Russian Federation"
+ SOV_communism:0 "Union of Soviet Socialist Republics"
+ SOV_communism_DEF:0 "the Union of Soviet Socialist Republics"
+ SOV_socialism_ideology:0 "Union of Soviet Socialist Republics"
+ SOV_socialism_ideology_DEF:0 "the Union of Soviet Socialist Republics"
+ SOV_fascism_ADJ:0 "Russian"
+ SOV_democratic_ADJ:0 "Russian"
+ SOV_neutrality_ADJ:0 "Russian"
+ SOV_communism_ADJ:0 "Soviet"
+ SOV_socialism_ideology_ADJ:0 "Soviet"
+ SOV:0 "Russia"
+ SOV_DEF:0 "Russia"
+ SOV_ADJ:0 "Russian"
+ 
+ ##Party Names 
+ SOV_fascism_party:0 "NBP"
+ SOV_fascism_party_long:0 "National Bolshevik Party"
+ SOV_democratic_party:0 "DRM-M"
+ SOV_democratic_party_long:0 "Democratic Russia Movement - Moderate"
+ SOV_neutrality:0 "DRM-R"
+ SOV_neutrality_DEF:0 "Democratic Russia Movement - Radical" 
+ SOV_communism_party:0 "CPSU"
+ SOV_communism_party_long:0 "Communist Party of the Soviet Union"
+ SOV_socialism_ideology:0 "SOV-EUCOM"
+ SOV_socialism_ideology_long:0 "Soviet Euro-Communist Party"
+ 
+ ##Events
+ soviet.1.t:0 "First Congresss Of 2008"
+ soviet.1.d:0 "The date is the 8th January, and the Supreme Soviet of the Soviet Union has come together for its 2008 Congress. Its 542 members filed into the building, the Grand Stalingrad Palace. A large, white building with gold edges and a dark green roof. The building itself was very imposing, overlooking the Volga River as well, and the engrained letters “CPSU” into the roof added to that. The interior meanwhile, had similar white walls, with small stripes of gold vertically going along the walls. Juxtaposing this white interior was a calm blue ceiling, centred with a chandelier in the shape of a ring, and the floor had rows of wooden seats arranged in a semi-circular position. During the general noise of people coming in and chatting, some of the more important members of the Soviet had a concerned discussion. These concerns were mainly focused on budget reallocations, due to the flow of weapons into Europe being unable to be sustained. Reallocating fundings from the public sector into restarting the military-industry would be the only way to sustain the same flow of support to European allies, and the majority of those involved in the discussions were concerned that would mean the populace would grow unhappy. Meanwhile, General Secretary Yazov sat to himself. His main concerns were the decline of his health, and he realised he was growing too old to continue running the Union. However, he was still unsure of who to pick as his successor, with the main options being Boris Pugo and Oleg Baklanov. After a long while of filing in and getting settled, Yazov stood up from his seat at the front of the room, facing everybody in the Soviet. Wobbling, his hand firmly gripped his cain, and he observed the audience. One eye lazy and drooping, his gaze had lost the stern and cold feeling it once had before his prior stroke. When everybody had settled, he welcomed everyone in the Soviet. He had decided that this session would be to decide the right successor, in order to gain a final verdict. Upon this announcement, both Pugo and Baklanov stood up to present their preferred way of continuing the Union. Pugo began first, expressing his ideas on the next steps forward after Yazov’s resignation. The core of his ideology involves the Union capitalising on the chaos it had been causing globally, particularly in Europe, and starting a campaign of plunder and conquest. He argued that this would bring in economic growth, via exploiting its newly acquired territories. After sitting back down, Baklanov began his talk. His own ideas involve mainly soft economic power domination and projection, rather than attempting conquest and looting. Due to the earlier concerns of budget reallocation, people tended to agree with Baklanov’s ideas, however Yazov was still unsure. Before the Congress was due to end, Baklanov told Pugo directly that he himself would best maintain the Union’s legacy, in front of most of the Supreme Soviet and Yazov himself."
+ soviet.1.a:0 "We're going to need new maps."
+ soviet.1.b:0 "But what about the zone?"
+ 

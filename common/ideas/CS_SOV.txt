@@ -23,12 +23,12 @@ ideas = {
 
 			modifier = {
 				research_speed_factor = 0.03
-				war_support_factor = -0.6
+				war_support_factor = -0.06
 				production_speed_arms_factory_factor = -0.3
 				production_speed_industrial_complex_factor = 0.2
 				encryption_factor = 0.001
 				decryption_factor = 0.001
-				conscription_factor = -0.8
+				conscription_factor = -0.08
 				political_power_gain = 0.10 
 			}
 		}
@@ -61,7 +61,39 @@ ideas = {
 				stability_factor = -0.03
 				MONTHLY_POPULATION = -0.6 
 			}
-		}	
+		}
+		SOV_An_Awakening_I = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_An_Awakening_I
+
+			modifier = {
+				army_core_defence_factor = 0.05 
+			}
+		}
+		SOV_An_Awakening_II = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_An_Awakening_II
+
+			modifier = {
+				army_core_defence_factor = 0.05
+				decryption_factor = 0.05	
+				encryption_factor = 0.05   
+			}
+		}
+		SOV_Red_Irredentism = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Red_Irredentism
+
+			modifier = {
+				offensive_war_stability_factor = 0.01
+				army_core_defence_factor = 0.05
+				decryption_factor = 0.05	
+				encryption_factor = 0.05  
+			}
+		}
 	}
 }	
 
