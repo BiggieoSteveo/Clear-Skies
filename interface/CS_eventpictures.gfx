@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_SOV_report_event_supreme_soviet"
+		texturefile = "gfx/event_pictures/SOV_report_event_supreme_soviet.dds"
+	}
+}

@@ -20,25 +20,22 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = SOV_pugo
 		}
-		ai_chance = {
-			base = 0
+		ai_chance = { 
+			factor = 0 
 		}
 	}
 	
-	option = {#Balkanov 
+	option = {#Baklanov 
 		name = soviet.1.b
+		ai_chance = { factor = 100 }
 		complete_national_focus = SOV_our_interests_lie_elsewhere
 		hidden_effect = {
 			set_country_flag = SOV_baklanov
-		}		
-		ai_chance = {
-			base = 4000
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
 		}
-	}
+		ai_chance = { 
+			factor = 0 
+		}
+	}		
 }
 
 #Pugo News
@@ -140,7 +137,7 @@ country_event = { #pugo victory
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #
+	option = { #pugo
 		name = soviet.5.a
 		load_focus_tree = CS_SOV_pugo
 	}
@@ -156,7 +153,7 @@ country_event = { #baklanov victory
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #
+	option = { #baklanov
 		name = soviet.6.a
 		load_focus_tree = CS_SOV_baklanov
 	}

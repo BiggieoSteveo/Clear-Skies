@@ -212,8 +212,8 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = SOV_our_freinds_in_asia
-	icon = GFX_SOV_our_freinds_in_asia
+	id = SOV_our_friends_in_asia
+	icon = GFX_SOV_our_friends_in_asia
 	cost = 5
 	prerequisite = {
 		focus = SOV_weve_got_our_eyes_on_you
@@ -221,18 +221,6 @@ shared_focus = {
 	x = 8
 	y = 5
 	completion_reward = {
-		SIK = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 2000
-				producer = SOV
-			}
-			add_equipment_to_stockpile = {
-				type = modern_tank_equipment
-				amount = 200
-				producer = SOV
-			}
-		}
 		SIK = {
 			add_opinion_modifier = { target = SOV modifier = medium_increase }
 			}
@@ -258,7 +246,7 @@ shared_focus = {
 	icon = GFX_SOV_an_unexpected_announcement
 	cost = 5
 	prerequisite = {
-		focus = SOV_our_freinds_in_asia
+		focus = SOV_our_friends_in_asia
 	}
 	prerequisite = {
 		focus = SOV_preludes_to_a_red_world

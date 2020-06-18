@@ -314,11 +314,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_our_freinds_in_asia"
-		texturefile = "gfx/interface/goals/SOV_our_freinds_in_asia.dds"
+		name = "GFX_SOV_our_friends_in_asia"
+		texturefile = "gfx/interface/goals/SOV_our_friends_in_asia.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_our_freinds_in_asia.dds"
+			animationmaskfile = "gfx/interface/goals/SOV_our_friends_in_asia.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
 			animationrotation = -90.0		
 			animationlooping = no			
@@ -330,7 +330,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SOV_our_freinds_in_asia.dds"
+			animationmaskfile = "gfx/interface/goals/SOV_our_friends_in_asia.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = 90.0		
 			animationlooping = no			
