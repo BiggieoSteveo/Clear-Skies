@@ -24,4 +24,16 @@ spriteTypes = {
 		name = "GFX_idea_SOV_Minister_Valery_Gerasimov"
 		texturefile = "gfx/interface/ideas/SOV_Minister_Valery_Gerasimov.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_Minister_Alexander_Lukashenko"
+		texturefile = "gfx/interface/ideas/SOV_Minister_Alexander_Lukashenko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Minister_Yuri_Matiyasevich"
+		texturefile = "gfx/interface/ideas/SOV_Minister_Yuri_Matiyasevich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Vasily_Starodubtsev"
+		texturefile = "gfx/interface/ideas/SOV_Minister_Vasily_Starodubtsev.dds"
+	}
 }

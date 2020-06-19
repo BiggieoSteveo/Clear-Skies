@@ -139,7 +139,22 @@ country_event = { #pugo victory
 	
 	option = { #pugo
 		name = soviet.5.a
+		swap_ideas = {
+			remove_idea = SOV_Minister_Boris_Pugo
+			add_idea = SOV_Minister_Alexander_Lukashenko
+		}
 		load_focus_tree = CS_SOV_pugo
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Boris Pugo"
+			desc = ""
+			picture = "Portrait_Boris_Pugo.dds"
+			expire = "2032.3.1"
+			ideology = marxism
+			traits = {
+					#
+			}
+		}
 	}
 }
 
@@ -155,8 +170,25 @@ country_event = { #baklanov victory
 	
 	option = { #baklanov
 		name = soviet.6.a
+		swap_ideas = {
+			remove_idea = SOV_Minister_Boris_Pugo
+			add_idea = SOV_Minister_Alexander_Lukashenko
+		}
+		swap_ideas = {
+			remove_idea = SOV_Minister_Oleg_Balkanov
+			add_idea = SOV_Minister_Yuri_Matiyasevich
+		}
 		load_focus_tree = CS_SOV_baklanov
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Oleg Baklanov"
+			desc = ""
+			picture = "Portrait_Oleg_Balkanov.dds"
+			expire = "2032.3.1"
+			ideology = marxism
+			traits = {
+					#
+			}
+		}
 	}
 }
-
-

@@ -1,0 +1,39 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_GER_Stasi_Securocracy"
+		texturefile = "gfx/interface/ideas/idea_GER_Stasi_Securocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Frontline_Commissars"
+		texturefile = "gfx/interface/ideas/idea_GER_Frontline_Commissars.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WGR_The_Manic_Struggle"
+		texturefile = "gfx/interface/ideas/idea_WGR_The_Manic_Struggle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WGR_Anarchist_Brigades"
+		texturefile = "gfx/interface/ideas/idea_WGR_Anarchist_Brigades.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Pax_Sovietica_I"
+		texturefile = "gfx/interface/ideas/idea_SOV_Pax_Sovietica_I.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Pax_Sovietica_II"
+		texturefile = "gfx/interface/ideas/idea_SOV_Pax_Sovietica_II.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Pax_Sovietica_III"
+		texturefile = "gfx/interface/ideas/idea_SOV_Pax_Sovietica_III.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_High_Suicide_Rates_I"
+		texturefile = "gfx/interface/ideas/idea_SOV_High_Suicide_Rates_I.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_High_Suicide_Rates_II"
+		texturefile = "gfx/interface/ideas/idea_SOV_High_Suicide_Rates_II.dds"
+	}
+}

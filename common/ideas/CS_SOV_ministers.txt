@@ -42,7 +42,7 @@ ideas = {
 		}
 	}
 	foreign_minister = {
-		SOV_Minister_Eduard_Shevardn= {
+		SOV_Minister_Eduard_Shevardn = {
 			allowed = { always = no }
 			visible = { tag = SOV }
 			removal_cost = -1
@@ -52,6 +52,49 @@ ideas = {
 				trait_foreign_minister
 				trait_communism
 				for_iron_fisted_brute
+			}
+		}
+	}
+	head_of_government = {
+		SOV_Minister_Alexander_Lukashenko = {
+			allowed = { always = no }
+			visible = { tag = SOV }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Minister_Alexander_Lukashenko 
+
+			traits = {
+				trait_head_of_government
+				trait_communism
+				hog_silent_workhorse 
+			}
+		}
+	}
+	economics_minister = {
+		SOV_Minister_Yuri_Matiyasevich = {
+			allowed = { always = no }
+			visible = { tag = SOV }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Minister_Yuri_Matiyasevich
+
+			traits = {
+				trait_economics_minister
+				trait_communism
+				eco_computer_planned_economy_proponent 
+				eco_theoretical_scientist  
+			}
+		}
+	}
+	head_of_government = {
+		SOV_Minister_Vasily_Starodubtsev = {
+			allowed = { always = no }
+			visible = { tag = SOV }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Minister_Vasily_Starodubtsev
+
+			traits = {
+				trait_head_of_government
+				trait_communism
+				hog_political_protege
 			}
 		}
 	}
