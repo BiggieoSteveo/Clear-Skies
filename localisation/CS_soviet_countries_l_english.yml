@@ -45,8 +45,33 @@
  SOV_socialism_ideology_long:0 "Soviet Euro-Communist Party"
  
  ##Events
- soviet.1.t:0 "First Congresss Of 2008"
- soviet.1.d:0 "The date is the 8th January, and the Supreme Soviet of the Soviet Union has come together for its 2008 Congress. Its 542 members filed into the building, the Grand Stalingrad Palace. A large, white building with gold edges and a dark green roof. The building itself was very imposing, overlooking the Volga River as well, and the engrained letters “CPSU” into the roof added to that. The interior meanwhile, had similar white walls, with small stripes of gold vertically going along the walls. Juxtaposing this white interior was a calm blue ceiling, centred with a chandelier in the shape of a ring, and the floor had rows of wooden seats arranged in a semi-circular position. During the general noise of people coming in and chatting, some of the more important members of the Soviet had a concerned discussion. These concerns were mainly focused on budget reallocations, due to the flow of weapons into Europe being unable to be sustained. Reallocating fundings from the public sector into restarting the military-industry would be the only way to sustain the same flow of support to European allies, and the majority of those involved in the discussions were concerned that would mean the populace would grow unhappy. Meanwhile, General Secretary Yazov sat to himself. His main concerns were the decline of his health, and he realised he was growing too old to continue running the Union. However, he was still unsure of who to pick as his successor, with the main options being Boris Pugo and Oleg Baklanov. After a long while of filing in and getting settled, Yazov stood up from his seat at the front of the room, facing everybody in the Soviet. Wobbling, his hand firmly gripped his cain, and he observed the audience. One eye lazy and drooping, his gaze had lost the stern and cold feeling it once had before his prior stroke. When everybody had settled, he welcomed everyone in the Soviet. He had decided that this session would be to decide the right successor, in order to gain a final verdict. Upon this announcement, both Pugo and Baklanov stood up to present their preferred way of continuing the Union. Pugo began first, expressing his ideas on the next steps forward after Yazov’s resignation. The core of his ideology involves the Union capitalising on the chaos it had been causing globally, particularly in Europe, and starting a campaign of plunder and conquest. He argued that this would bring in economic growth, via exploiting its newly acquired territories. After sitting back down, Baklanov began his talk. His own ideas involve mainly soft economic power domination and projection, rather than attempting conquest and looting. Due to the earlier concerns of budget reallocation, people tended to agree with Baklanov’s ideas, however Yazov was still unsure. Before the Congress was due to end, Baklanov told Pugo directly that he himself would best maintain the Union’s legacy, in front of most of the Supreme Soviet and Yazov himself."
+ soviet.1.t:0 "16th Convocation Session, 2008"
+ soviet.1.d:0 "The date is the 8th January, and the Supreme Soviet of the Soviet Union has come together for its 2008 Session. Its 542 members filed into the building, the Grand Stalingrad Palace. A large, white building with gold edges and a dark green roof. The building itself was very imposing, overlooking the Volga River as well, and the engrained letters “CPSU” into the roof added to that. The interior meanwhile, had similar white walls, with small stripes of gold vertically going along the walls. Juxtaposing this white interior was a calm blue ceiling, centred with a chandelier in the shape of a ring, and the floor had rows of wooden seats arranged in a semi-circular position. During the general noise of people coming in and chatting, some of the more important members of the Soviet had a concerned discussion. These concerns were mainly focused on budget reallocations, due to the flow of weapons into Europe being unable to be sustained. Reallocating fundings from the public sector into restarting the military-industry would be the only way to sustain the same flow of support to European allies, and the majority of those involved in the discussions were concerned that would mean the populace would grow unhappy. Meanwhile, General Secretary Yazov sat to himself. His main concerns were the decline of his health, and he realised he was growing too old to continue running the Union. However, he was still unsure of who to pick as his successor, with the main options being Boris Pugo and Oleg Baklanov. After a long while of filing in and getting settled, Yazov stood up from his seat at the front of the room, facing everybody in the Soviet. Wobbling, his hand firmly gripped his cain, and he observed the audience. One eye lazy and drooping, his gaze had lost the stern and cold feeling it once had before his prior stroke. When everybody had settled, he welcomed everyone in the Soviet. He had decided that this session would be to decide the right successor, in order to gain a final verdict. Upon this announcement, both Pugo and Baklanov stood up to present their preferred way of continuing the Union. Pugo began first, expressing his ideas on the next steps forward after Yazov’s resignation. The core of his ideology involves the Union capitalising on the chaos it had been causing globally, particularly in Europe, and starting a campaign of plunder and conquest. He argued that this would bring in economic growth, via exploiting its newly acquired territories. After sitting back down, Baklanov began his talk. His own ideas involve mainly soft economic power domination and projection, rather than attempting conquest and looting. Due to the earlier concerns of budget reallocation, people tended to agree with Baklanov’s ideas, however Yazov was still unsure. Before the Congress was due to end, Baklanov told Pugo directly that he himself would best maintain the Union’s legacy, in front of most of the Supreme Soviet and Yazov himself."
  soviet.1.a:0 "We're going to need new maps."
  soviet.1.b:0 "But what about the zone?"
+ soviet.3.t:0 "Proposal For Space Spending"
+ soviet.3.d:0 ""
+ soviet.3.a:0 "An Interesting Proposal"
+ soviet.4.t:0 "Yazov To The World"
+ soviet.4.d:0 ""
+ soviet.4.a:0 "So Long, Comrade."
+ soviet.5.t:0 "Boris Pugo Wins Election"
+ soviet.5.d:0 ""
+ soviet.5.a:0 "Bring forth the revolution."
+ soviet.6.t:0 "Oleg Baklanov Wins Election"
+ soviet.6.d:0 ""
+ soviet.6.a:0 "Star man's at the helm."
  
+ ##News
+ sovietnews.1.t:0 "USSR Pursuing More Agressive Relations"
+ sovietnews.1.d:0 ""
+ sovietnews.1.a:0 "Really..."
+ sovietnews.2.t:0 "Change In The Politburo"
+ sovietnews.2.d:0 ""
+ sovietnews.2.a:0 "Hopefully for the better."
+ sovietnews.3.t:0 "Boris Pugo Elected As General Secretary."
+ sovietnews.3.d:0 ""
+ sovietnews.3.a:0 "Alright.
+ sovietnews.4.t:0 "Oleg Baklanov Elected As General Secretary."
+ sovietnews.4.d:0 ""
+ sovietnews.4.a:0 "A man with a plan.
