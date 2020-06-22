@@ -1,0 +1,107 @@
+﻿l_english:
+
+ ##Ministers###
+ BOS_Minister_Haris_Silajdzic:0 "Haris Silajdžić"
+ BOS_Minister_Bakir_Izetbegovic:0 "Bakir Izetbegović"
+ BOS_Minister_Mehdin_Senad_Hodzic:0 "Mehdin-Senad Hodžić"
+ BOS_Minister_Muhamed_Sacirbegovic:0 "Muhamed Šaćirbegović"
+
+ ##Leader Descriptions
+ 
+ 
+ ##Country Names
+ BOS:0 "Islamic Republic of Bosnia"
+ BOS_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_communism:0 "Islamic Republic of Bosnia"
+ BOS_communism_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_socialism:0 "Islamic Republic of Bosnia"
+ BOS_socialism_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_democratic:0 "Islamic Republic of Bosnia"
+ BOS_democratic_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_neutrality:0 "Islamic Republic of Bosnia"
+ BOS_neutrality_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_fascism:0 "Islamic Republic of Bosnia"
+ BOS_fascism_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_communism_ADJ:0 "Bosnian"
+ BOS_socialism_ADJ:0 "Bosnian"
+ BOS_democratic_ADJ:0 "Bosnian"
+ BOS_neutrality_ADJ:0 "Bosnian"
+ BOS_fascism_ADJ:0 "Bosnian"
+ BOS_ADJ:0 "Bosnian"
+ 
+ 
+ ##Islamic Emirate of Bosnia
+ BOS_islamic_emirate:0 "Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_DEF:0 "the Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_communism:0 "Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_communism_DEF:0 "the Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_socialism:0 "Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_socialism_DEF:0 "the Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_democratic:0 "Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_democratic_DEF:0 "the Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_neutrality:0 "Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_neutrality_DEF:0 "the Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_fascism:0 "Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_fascism_DEF:0 "the Islamic Emirate of Bosnia"
+ BOS_islamic_emirate_communism_ADJ:0 "Bosnian"
+ BOS_islamic_emirate_socialism_ADJ:0 "Bosnian"
+ BOS_islamic_emirate_democratic_ADJ:0 "Bosnian"
+ BOS_islamic_emirate_neutrality_ADJ:0 "Bosnian"
+ BOS_islamic_emirate_fascism_ADJ:0 "Bosnian"
+ BOS_islamic_emirate_ADJ:0 "Bosnian"
+ 
+ 
+ ##Islamic State of Bosnia
+ BOS_islamic_state:0 "Islamic State of Bosnia"
+ BOS_islamic_state_DEF:0 "the Islamic State of Bosnia"
+ BOS_islamic_state_communism:0 "Islamic State of Bosnia"
+ BOS_islamic_state_communism_DEF:0 "the Islamic State of Bosnia"
+ BOS_islamic_state_socialism:0 "Islamic State of Bosnia"
+ BOS_islamic_state_socialism_DEF:0 "the Islamic State of Bosnia"
+ BOS_islamic_state_democratic:0 "Islamic State of Bosnia"
+ BOS_islamic_state_democratic_DEF:0 "the Islamic State of Bosnia"
+ BOS_islamic_state_neutrality:0 "Islamic State of Bosnia"
+ BOS_islamic_state_neutrality_DEF:0 "the Islamic State of Bosnia"
+ BOS_islamic_state_fascism:0 "Islamic State of Bosnia"
+ BOS_islamic_state_fascism_DEF:0 "the Islamic State of Bosnia"
+ BOS_islamic_state_communism_ADJ:0 "Bosnian"
+ BOS_islamic_state_socialism_ADJ:0 "Bosnian"
+ BOS_islamic_state_democratic_ADJ:0 "Bosnian"
+ BOS_islamic_state_neutrality_ADJ:0 "Bosnian"
+ BOS_islamic_state_fascism_ADJ:0 "Bosnian"
+ BOS_islamic_state_ADJ:0 "Bosnian"
+ 
+ 
+ ##Bosnian Federation
+ BOS_federation:0 "Bosnian Federation"
+ BOS_federation_DEF:0 "the Bosnian Federation"
+ BOS_federation_communism:0 "Bosnian Federation"
+ BOS_federation_communism_DEF:0 "the Bosnian Federation"
+ BOS_federation_socialism:0 "Bosnian Federation"
+ BOS_federation_socialism_DEF:0 "the Bosnian Federation"
+ BOS_federation_democratic:0 "Bosnian Federation"
+ BOS_federation_democratic_DEF:0 "the Bosnian Federation"
+ BOS_federation_neutrality:0 "Bosnian Federation"
+ BOS_federation_neutrality_DEF:0 "the Bosnian Federation"
+ BOS_federation_fascism:0 "Bosnian Federation"
+ BOS_federation_fascism_DEF:0 "the Bosnian Federation"
+ BOS_federation_communism_ADJ:0 "Bosnian"
+ BOS_federation_socialism_ADJ:0 "Bosnian"
+ BOS_federation_democratic_ADJ:0 "Bosnian"
+ BOS_federation_neutrality_ADJ:0 "Bosnian"
+ BOS_federation_fascism_ADJ:0 "Bosnian"
+ BOS_federation_ADJ:0 "Bosnian"
+ 
+ ##Party Names
+ BOS_communism_party:0 "LCY-B"
+ BOS_communism_party_long:0 "League of Communists of Yugoslavia - Bosnia Branch"
+ BOS_socialism_ideology:0 "WCPB"
+ BOS_socialism_ideology_long:0 "Workers' Communist Party of Bosnia"
+ BOS_democratic_party:0 "RfD"
+ BOS_democratic_party_long:0 "Rally for Democracy"
+ BOS_neutrality_party:0 "PDA"
+ BOS_neutrality_party_long:0 "Party of Democratic Action"
+ BOS_fascism_party:0 "SDP"
+ BOS_fascism_party_long:0 "Serbian Democratic Party"
+ 
+ ##Events

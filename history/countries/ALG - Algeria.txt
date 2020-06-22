@@ -5,25 +5,24 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 25
-	fascism = 20
+	democratic = 50
+	socialism_ideology = 25
 	communism = 5
-	neutrality = 50
+	neutrality = 20
 }
 
 create_country_leader = {
-	name = "Ahmed Ben Bella"
-	desc = ""
+	name = "Abdallah Djaballah"
+	desc = "Abdallah_Djaballah_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = despotism
+	ideology = conservatism
 	traits = {
-		#
 	}
 }

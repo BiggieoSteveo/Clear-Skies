@@ -3,14 +3,23 @@
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	democratic = 20
+	fascism = 5
+	communism = 50
+	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Mohammad Ali Samatar"
+	desc = "Mohammad_Ali_Samatar_DESC"
+	picture = "Portrait_Arabia_Generic_communism1.dds"
+	ideology = marxism
+	traits = {
+	}
 }

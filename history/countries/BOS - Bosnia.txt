@@ -3,25 +3,36 @@
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Adnan Terzic"
-	desc = ""
-	picture = "Portrait_Adnan_Terzic.dds"
+	name = "Omer Behmen"
+	desc = "OMER_BEHMEN_DESC"
+	picture = "Portrait_Omer_Behmen.dds"
 	expire = "2032.1.1"
-	ideology = social_democracy 
+	ideology = junta
 	traits = {
-		#
 	}
 }
 
 set_popularities = {
-	democratic = 60
-	neutrality = 20
+	democratic = 20
+	neutrality = 60
 	fascism = 20
 }
+
+add_ideas = {
+	BOS_Islamic_Republic
+	BOS_Jihadist_Pressure
+	BOS_Secularist_Movement
+	#Ministers#
+	BOS_Minister_Haris_Silajdzic
+	BOS_Minister_Bakir_Izetbegovic
+	BOS_Minister_Mehdin_Senad_Hodzic
+	BOS_Minister_Muhamed_Sacirbegovic
+}
+	

@@ -3,6 +3,14 @@
  ######Clear Skies#####
  ######################
  
+ ######Bosnia#####
+ BOS_Islamic_Republic:0 "Islamic Republic"
+ BOS_Islamic_Republic_desc:0 "Bosnia is an outlier in Europe, and most certainly within the Balkans. Rather than following socialism, democracy, or a typical junta, our country is governed as an islamic republic, in accordance with shariah and the fatwas of the Sunni muftis. Our status as an islamic republic, however, has attracted criticism from both non-Muslim Bosnians, who argue it ignores their status, and extremist Muslims, who argue it does not go far enough in ensuring the basis of Allah and the Quran in the country."
+ BOS_Jihadist_Pressure:0 "Jihadist Pressure"
+ BOS_Jihadist_Pressure_desc:0 "Since the War of Independence, our Islamic Republic has had a large presence of Jihadists, consisting of both radical Bosniak Muslims and terrorists from the rest of the Muslim world. Since the end of the war, these Jihadists have only come into Bosnia in increased numbers, convinced by the presence of terrorist leaders such as Osama bin Laden and Abdelkader Mokhtari in the country. This has led to a large number of militant groups forming in the country, most significantly al-Qaeda in the Balkan Peninsula. In recent years, Jihadist groups have become frustrated with the pace of the government, and some members have even called for the overthrow of the government."
+ BOS_Secularist_Movement:0 "Secularist Movement"
+ BOS_Secularist_Movement_desc:0 "Among the cities of Bosnia, there is a growing civil resistance movement, primarily among the Serbian and Bosnian sections of our country, who have taken to the streets, openly declaring their desire to end the era of Izetbegovism and create a new, secular Bosnia. This civil resistance movement will need to be dealt with in order to fully stabilise Bosnia."
+ 
  ######Germany#####
  GER_Stasi_Securocracy:0 "Stasi Securocracy"
  GER_Stasi_Securocracy_desc:0 "The State Security Ministry has become powerful and elite, puppeteering the government from the shadows. With Stasi and the Government now one being, the general population has become obedient and ideologically submissive to propaganda. During the Neu Volkshammer Massacre on the 5th October 2008, the Stasi sieged and opened fire on the legislative building when the CDU attempted to forcefully push reforms through legislature, after a referendum was accused to be invalid by both sides. After most of the dissenting politicans of the country were killed in the Neu Volkshammer, the Stasi, Military and loyal civilan bureaucrats agreed to establish a new junta administration, which previously led the entirety of inhabitable Germany. When the civil war started, the Stasi government remained in control of the north."

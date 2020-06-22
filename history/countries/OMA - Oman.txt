@@ -12,17 +12,17 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	neutrality = 100
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
+	name = "Qaboos bin Said"
+	desc = "QABOOS_BIN_SAID_DESC"
 	picture = "GFX_portrait_oman_said_bin_taimur"
 	expire = "2032.1.1"
 	ideology = despotism
 	traits = {
-		#
 	}
 }

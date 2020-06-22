@@ -3,54 +3,24 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	fascism = 15
+	communism = 50
+	neutrality = 10
 }
 
 create_country_leader = {
-	name = "Bashir es Sadawi"
-	desc = ""
-	picture = "Portrait_Arabia_Generic_democratic1.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ettore Bastico"
-	desc = ""
-	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Idris Senussi"
-	desc = ""
-	picture = "Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hassan as-Senussi"
-	desc = ""
+	name = "Muammar Gaddafi"
+	desc = "Muammar_Gaddafi_DESC"
 	picture = "Portrait_Arabia_Generic_communism1.dds"
-	ideology = leninism
+	ideology = trotskyism #change to pan-arabism
 	traits = {
-		#
 	}
 }

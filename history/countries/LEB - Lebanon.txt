@@ -5,54 +5,23 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
+	democratic = 30
 	fascism = 10
 	communism = 10
-	neutrality = 30
+	neutrality = 50
 }
 
 create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pierre Gemayel"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_fascism1.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Melick Yarad"
-	desc = ""
+	name = "Hassan Nasrallah"
+	desc = "HASSAN_NASRALLAH_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = salafism
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rami Sarraff"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
-	ideology = leninism
-	traits = {
-		#
 	}
 }

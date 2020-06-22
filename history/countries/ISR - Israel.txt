@@ -11,46 +11,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
+	socialism_ideology = 20
 	democratic = 80
-	communism = 20
 }
 
 create_country_leader = {
-	name = "David Ben-Gurion"
-	desc = ""
+	name = "Benjamin Netanyahu"
+	desc = "Benjamin_Netanyahu_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Itzhak Gaster"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rudolf Szabó"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shmuel Mikunis"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	ideology = leninism
-	traits = {
-		#
 	}
 }

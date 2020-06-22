@@ -1,0 +1,58 @@
+ideas = {
+	head_of_government = {
+		BOS_Minister_Haris_Silajdzic = {
+			allowed = { always = no }
+			visible = { tag = BOS }
+			removal_cost = -1
+			picture = GFX_idea_BOS_Minister_Haris_Silajdzic
+
+			traits = {
+				trait_head_of_government
+				trait_neutrality
+				hog_flamboyant_tough_guy
+			}
+		}
+	}
+	economics_minister = {
+		BOS_Minister_Bakir_Izetbegovic = {
+			allowed = { always = no }
+			visible = { tag = BOS }
+			removal_cost = -1
+			picture = GFX_idea_BOS_Minister_Bakir_Izetbegovic
+
+			traits = {
+				trait_economics_minister
+				trait_neutrality
+				eco_construction_magnate
+			}
+		}
+	}
+	chief_of_staff = {
+		BOS_Minister_Mehdin_Senad_Hodzic = {
+			allowed = { always = no }
+			visible = { tag = BOS }
+			removal_cost = -1
+			picture = GFX_idea_BOS_Minister_Mehdin_Senad_Hodzic
+
+			traits = {
+				trait_chief_of_staff
+				trait_democratic
+				cos_mixed_operational
+			}
+		}
+	}
+	foreign_minister = {
+		BOS_Minister_Muhamed_Sacirbegovic = {
+			allowed = { always = no }
+			visible = { tag = BOS }
+			removal_cost = -1
+			picture = GFX_idea_BOS_Minister_Muhamed_Sacirbegovic
+
+			traits = {
+				trait_foreign_minister
+				trait_neutrality
+				for_biased_intellectual
+			}
+		}
+	}
+}

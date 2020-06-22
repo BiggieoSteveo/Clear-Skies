@@ -6,22 +6,21 @@ set_stability = 0.8
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	communism = 100
 }
 
 create_country_leader = {
-	name = "Imam Yahya"
-	desc = "POLITICS_IMAM_YAHYA_DESC"
+	name = "Ali Salem al-Beidh"
+	desc = "ALI_SALEM_AL_BEIDH_DESC"
 	picture = "GFX_portrait_yemen_imam_yahya"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = trotskyism #replace with pan-arabism
 	traits = {
-		#
 	}
 }

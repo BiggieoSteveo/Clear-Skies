@@ -7,25 +7,24 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 23
+	democratic = 75
 	fascism = 1
 	communism = 1
-	neutrality = 75
+	neutrality = 23
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "2032.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Sultan bin Muhammad al-Qasimi"
+	desc = "SULTAN_BIN_MUHAMMAD_AL_QASIMI_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1"
+	expire = "2032.1.1"
+	ideology = moderatism
+	traits = {
+	}
+}
