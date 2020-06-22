@@ -1030,14 +1030,6 @@ operation_coup_government = { ### 7 1/70
 	selection_target = {
 		targets = { FROM }
 	}
-	allowed = {
-		NOT = {
-			has_game_rule = {
-				rule = allow_coups
-				option = BLOCKED
-			}
-		}
-	}
 
 	available = {
 		
@@ -1085,21 +1077,6 @@ operation_coup_government = { ### 7 1/70
 					has_stability < 0.5
 				}
 				has_stability < 0.35 #can always coup at low stability
-			}
-		}
-		OR = {
-			has_game_rule = {
-				rule = allow_coups
-				option = FREE
-			}
-			AND = {
-				has_game_rule = {
-					rule = allow_coups
-					option = AI_ONLY
-				}
-				FROM = {
-					is_ai = yes
-				}
 			}
 		}
 	}
