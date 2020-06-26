@@ -36,4 +36,12 @@ spriteTypes = {
 		name = "GFX_idea_SOV_High_Suicide_Rates_II"
 		texturefile = "gfx/interface/ideas/idea_SOV_High_Suicide_Rates_II.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_OCC_French_Nationalist_Insurgency"
+		texturefile = "gfx/interface/ideas/French_Nationalist_Insurgency.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OCC_Soviet_Aid"
+		texturefile = "gfx/interface/ideas/Soviet_Aid_Generic.dds"
+	}
 }
