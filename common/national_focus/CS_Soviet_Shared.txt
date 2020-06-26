@@ -262,7 +262,7 @@ shared_focus = {
 ###baklanov###
 shared_focus = {
 	id = SOV_the_baklanov_ensemble
-	icon = goal_unknown
+	icon = GFX_SOV_the_baklanov_ensemble
 	cost = 1
 	x = 9
 	y = 0
@@ -272,7 +272,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_foreign_policy_reform  
-	icon = goal_unknown
+	icon = GFX_SOV_foreign_policy_reform
 	cost = 5
 	prerequisite = {
 		focus = SOV_the_baklanov_ensemble
@@ -285,7 +285,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_redefined_realpolitk  
-	icon = goal_unknown
+	icon = GFX_SOV_redefined_realpolitk
 	cost = 5
 	prerequisite = {
 		focus = SOV_foreign_policy_reform
@@ -298,7 +298,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_planning_a_perimeter
-	icon = goal_unknown
+	icon = GFX_SOV_planning_a_perimeter
 	cost = 5
 	prerequisite = {
 		focus = SOV_foreign_policy_reform
@@ -311,7 +311,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_bring_the_spetznaz_home
-	icon = goal_unknown
+	icon = GFX_SOV_bring_the_spetznaz_home
 	cost = 5
 	prerequisite = {
 		focus = SOV_planning_a_perimeter
@@ -327,7 +327,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_eyes_towards_our_old_friends
-	icon = goal_unknown
+	icon = GFX_SOV_eyes_towards_our_old_friends
 	cost = 5
 	prerequisite = {
 		focus = SOV_planning_a_perimeter
@@ -340,7 +340,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_reallocation_of_budgetary_funds
-	icon = goal_unknown
+	icon = GFX_SOV_reallocation_of_budgetary_funds
 	cost = 5
 	prerequisite = {
 		focus = SOV_redefined_realpolitk
@@ -353,7 +353,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_end_of_the_bullshit_wars
-	icon = goal_unknown
+	icon = GFX_SOV_end_of_the_bullshit_wars
 	cost = 5
 	prerequisite = {
 		focus = SOV_reallocation_of_budgetary_funds
@@ -372,7 +372,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_our_apology
-	icon = goal_unknown
+	icon = GFX_SOV_our_apology	
 	cost = 5
 	prerequisite = {
 		focus = SOV_end_of_the_bullshit_wars
@@ -385,7 +385,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_slight_apathy_for_western_europe
-	icon = goal_unknown
+	icon = GFX_SOV_slight_apathy_for_western_europe	
 	cost = 5
 	prerequisite = {
 		focus = SOV_end_of_the_bullshit_wars
@@ -398,7 +398,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_tiny_increase_in_space_spending
-	icon = goal_unknown
+	icon = GFX_SOV_tiny_increase_in_space_spending	
 	cost = 5
 	prerequisite = {
 		focus = SOV_end_of_the_bullshit_wars
@@ -411,7 +411,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_restart_comecon
-	icon = goal_unknown
+	icon = GFX_SOV_restart_comecon	
 	cost = 5
 	prerequisite = {
 		focus = SOV_tiny_increase_in_space_spending
@@ -430,7 +430,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_selling_our_glut
-	icon = goal_unknown
+	icon = GFX_SOV_selling_our_glut	
 	cost = 5
 	prerequisite = {
 		focus = SOV_restart_comecon
@@ -443,7 +443,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_draft_the_shevardn_plan
-	icon = goal_unknown
+	icon = GFX_SOV_draft_the_shevardn_plan	
 	cost = 5
 	prerequisite = {
 		focus = SOV_selling_our_glut
@@ -456,7 +456,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_propose_to_north_america
-	icon = goal_unknown
+	icon = GFX_SOV_propose_to_north_america	
 	cost = 5
 	prerequisite = {
 		focus = SOV_draft_the_shevardn_plan
@@ -469,7 +469,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_propose_to_asia
-	icon = goal_unknown
+	icon = GFX_SOV_propose_to_asia	
 	cost = 5
 	prerequisite = {
 		focus = SOV_propose_to_north_america
@@ -482,7 +482,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_propose_to_africa
-	icon = goal_unknown
+	icon = GFX_SOV_propose_to_africa	
 	cost = 5
 	prerequisite = {
 		focus = SOV_draft_the_shevardn_plan
@@ -495,7 +495,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_propose_to_western_europe
-	icon = goal_unknown
+	icon = GFX_SOV_propose_to_western_europe
 	cost = 5
 	prerequisite = {
 		focus = SOV_propose_to_africa
@@ -508,7 +508,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_soviet_solutions_to_soviet_problems
-	icon = goal_unknown
+	icon = GFX_SOV_soviet_solutions_to_soviet_problems
 	cost = 5
 	prerequisite = {
 		focus = SOV_propose_to_western_europe
@@ -524,7 +524,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_loan_masters
-	icon = goal_unknown
+	icon = GFX_SOV_loan_masters
 	cost = 5
 	prerequisite = {
 		focus = SOV_soviet_solutions_to_soviet_problems
@@ -537,7 +537,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_jack_up_the_interest
-	icon = goal_unknown
+	icon = GFX_SOV_jack_up_the_interest
 	cost = 5
 	prerequisite = {
 		focus = SOV_loan_masters
@@ -550,7 +550,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_dont_worry_you_can_default
-	icon = goal_unknown
+	icon = GFX_SOV_dont_worry_you_can_default
 	cost = 5
 	prerequisite = {
 		focus = SOV_loan_masters
@@ -563,7 +563,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_and_if_you_do_well_cut_our_losses
-	icon = goal_unknown
+	icon = GFX_SOV_and_if_you_do_well_cut_our_losses	
 	cost = 5
 	prerequisite = {
 		focus = SOV_dont_worry_you_can_default
@@ -576,7 +576,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_withholding_essential_resources 
-	icon = goal_unknown
+	icon = GFX_SOV_withholding_essential_resources
 	cost = 5
 	prerequisite = {
 		focus = SOV_jack_up_the_interest
@@ -589,7 +589,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_red_lovushka
-	icon = goal_unknown
+	icon = GFX_SOV_red_lovushka
 	cost = 5
 	prerequisite = {
 		focus = SOV_withholding_essential_resources
@@ -605,7 +605,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_allocate_global_manufacturing_deals 
-	icon = goal_unknown
+	icon = GFX_SOV_allocate_global_manufacturing_deals
 	cost = 5
 	prerequisite = {
 		focus = SOV_soviet_solutions_to_soviet_problems
@@ -618,7 +618,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_expand_civilian_goods_production
-	icon = goal_unknown
+	icon = GFX_SOV_expand_civilian_goods_production
 	cost = 5
 	prerequisite = {
 		focus = SOV_allocate_global_manufacturing_deals
@@ -631,7 +631,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_technical_advisors_to_ideologically_compatible_states
-	icon = goal_unknown
+	icon = GFX_SOV_technical_advisors_to_ideologically_compatible_states
 	cost = 5
 	prerequisite = {
 		focus = SOV_expand_civilian_goods_production
@@ -644,7 +644,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_exporting_ladas
-	icon = goal_unknown
+	icon = GFX_SOV_exporting_ladas
 	cost = 5
 	prerequisite = {
 		focus = SOV_expand_civilian_goods_production
@@ -657,7 +657,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_acquiring_foreign_assets 
-	icon = goal_unknown
+	icon = GFX_SOV_acquiring_foreign_assets
 	cost = 5
 	prerequisite = {
 		focus = SOV_exporting_ladas
@@ -673,7 +673,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_beginning_the_oilopoly 
-	icon = goal_unknown
+	icon = GFX_SOV_beginning_the_oilopoly
 	cost = 5
 	prerequisite = {
 		focus = SOV_soviet_solutions_to_soviet_problems
@@ -686,7 +686,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_trade_wars
-	icon = goal_unknown
+	icon = GFX_SOV_trade_wars	
 	cost = 5
 	prerequisite = {
 		focus = SOV_beginning_the_oilopoly
@@ -699,7 +699,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_withhold_drilling_equipment_from_venezuella
-	icon = goal_unknown
+	icon = GFX_SOV_withhold_drilling_equipment_from_venezuella
 	cost = 5
 	prerequisite = {
 		focus = SOV_trade_wars
@@ -712,7 +712,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_assassinate_saudi_distribution_capacity
-	icon = goal_unknown
+	icon = GFX_SOV_assassinate_saudi_distribution_capacity	
 	cost = 5
 	prerequisite = {
 		focus = SOV_trade_wars
@@ -725,7 +725,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_draft_operation_red_spring
-	icon = goal_unknown
+	icon = GFX_SOV_draft_operation_red_spring	
 	cost = 5
 	prerequisite = {
 		focus = SOV_assassinate_saudi_distribution_capacity
@@ -741,7 +741,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = SOV_one_and_invincible_one_and_invisible
-	icon = goal_unknown
+	icon = GFX_SOV_one_and_invincible_one_and_invisible	
 	cost = 5
 	prerequisite = {
 		focus = SOV_draft_operation_red_spring
@@ -762,7 +762,7 @@ shared_focus = {
 ###pugo###
 shared_focus = {
 	id = SOV_pugos_preeminence
-	icon = goal_unknown
+	icon = GFX_SOV_pugos_preeminence	
 	cost = 1
 	x = 9
 	y = 0
