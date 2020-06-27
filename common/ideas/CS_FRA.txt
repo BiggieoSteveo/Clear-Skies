@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		FRA_Military_State = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_I
+
+			modifier = {
+				conscription_factor = 0.10
+				war_support_factor = 0.10
+				consumer_goods_factor = -0.10
+			}
+		}
+		FRA_Savoy_Crisis = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_I
+
+			modifier = {
+				political_power_cost = 0.15
+			}
+		}
+		FRA_Euro_Coop = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_I
+
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		
+	}
+}	
+
+
+
+
+

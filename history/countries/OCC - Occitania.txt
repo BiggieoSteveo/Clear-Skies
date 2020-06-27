@@ -37,3 +37,8 @@ set_autonomy = {
 	target = SAV
 	autonomous_state = autonomy_integrated_puppet
 }
+
+add_ideas = {
+	OCC_Soviet_Aid
+	OCC_French_Nationalist_Insurgency
+}

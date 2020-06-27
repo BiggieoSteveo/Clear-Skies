@@ -43,6 +43,13 @@ give_military_access = SPR
 give_military_access = NRM
 give_military_access = BRI
 
+add_ideas = {
+	FRA_Military_State
+	FRA_Savoy_Crisis
+	FRA_Euro_Coop
+}
+
+
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
