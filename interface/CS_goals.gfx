@@ -107,6 +107,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SOV_tiny_increase_in_space_spending.dds"			
 	}
 	SpriteType = {
+		name = "GFX_SOV_selling_our_glut"
+		texturefile = "gfx/interface/goals/SOV_selling_our_glut.dds"			
+	}
+	SpriteType = {
 		name = "GFX_SOV_restart_comecon"
 		texturefile = "gfx/interface/goals/SOV_restart_comecon.dds"			
 	}

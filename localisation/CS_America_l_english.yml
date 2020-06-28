@@ -1,0 +1,21 @@
+﻿l_english:
+
+ ##Party Names 
+ USA_fascism:0 "Central Federal Government"
+ USA_fascism_DEF:0 "the Central Federal Government"
+ USA_democratic:0 "Central Federal Government"
+ USA_democratic_DEF:0 "the Central Federal Government"
+ USA_neutrality:1 "Loyalists"
+ USA_neutrality_DEF:1 "the Loyalists"
+ USA_communism:0 "Central State Worker's Republic"
+ USA_communism_DEF:0 "the Central State Worker's Republic"
+ USA_socialism_ideology:0 "Federative Commune Of The Rockies"
+ USA_socialism_ideology_DEF:0 "the Federative Commune Of The Rockies"
+ USA_fascism_ADJ:0 "American"
+ USA_democratic_ADJ:0 "American"
+ USA_neutrality_ADJ:0 "American"
+ USA_communism_ADJ:0 "American"
+ USA_socialism_ideology_ADJ:0 "American"
+ USA:0 "American"
+ USA_DEF:0 "America"
+ USA_ADJ:0 "American"

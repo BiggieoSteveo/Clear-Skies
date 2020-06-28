@@ -1,0 +1,21 @@
+﻿l_english:
+
+ ##Party Names 
+ ENG_fascism:0 "English State"
+ ENG_fascism_DEF:0 "the English State"
+ ENG_democratic:0 "English Republic"
+ ENG_democratic_DEF:0 "the English Republic"
+ ENG_neutrality:0 "English Republic"
+ ENG_neutrality_DEF:0 "the English Republic"
+ ENG_communism:0 "English Democratic Republic"
+ ENG_communism_DEF:0 "the English Democratic Republic"
+ ENG_socialism_ideology:0 "English Republic"
+ ENG_socialism_ideology_DEF:0 "the English Republic"
+ ENG_fascism_ADJ:0 "English"
+ ENG_democratic_ADJ:0 "English"
+ ENG_neutrality_ADJ:0 "English"
+ ENG_communism_ADJ:0 "English"
+ ENG_socialism_ideology_ADJ:0 "English" 
+ ENG:0 "England"
+ ENG_DEF:0 "England"
+ ENG_ADJ:0 "English"
