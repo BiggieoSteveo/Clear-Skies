@@ -3,7 +3,7 @@ ideas = {
 		FRA_Military_State = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = GFX_idea_SOV_Pax_Sovietica_I
+			picture = Military_State
 
 			modifier = {
 				conscription_factor = 0.10
@@ -14,7 +14,7 @@ ideas = {
 		FRA_Savoy_Crisis = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = GFX_idea_SOV_Pax_Sovietica_I
+			picture = Savoy_Crisis
 
 			modifier = {
 				political_power_cost = 0.15
@@ -23,7 +23,7 @@ ideas = {
 		FRA_Euro_Coop = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = GFX_idea_SOV_Pax_Sovietica_I
+			picture = European_Cooperation_League_2
 
 			modifier = {
 				research_time_factor = -0.05

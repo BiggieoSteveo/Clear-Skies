@@ -44,4 +44,16 @@ spriteTypes = {
 		name = "GFX_idea_OCC_Soviet_Aid"
 		texturefile = "gfx/interface/ideas/Soviet_Aid_Generic.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_FRA_Military_State"
+		texturefile = "gfx/interface/ideas/Military_State.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Savoy_Crisis"
+		texturefile = "gfx/interface/ideas/Savoy_Crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Euro_Coop"
+		texturefile = "gfx/interface/ideas/European_Cooperation_League_2.dds"
+	}
 }
