@@ -3,24 +3,20 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = socialism_ideology
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	socialism_ideology = 100
 }
 
 create_country_leader = {
-	name = "El-Ouali Mustapha Sayed"
-	desc = ""
+	name = "Mohamed Abdelaziz"
+	desc = "MOHAMED_ABDELAZIZ_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = centrism
+	ideology = socialism
 	traits = {
-		#
 	}
 }

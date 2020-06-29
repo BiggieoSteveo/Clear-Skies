@@ -1,0 +1,25 @@
+﻿capital = 336 #change when they get a state
+
+#oob = "PAT_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {	fascism = 100
+}
+
+create_country_leader = {
+	name = "Masae Useng"
+	desc = "MASAE_USENG_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+	expire = "2032.3.1"
+	ideology = salafism
+	traits = {
+	}
+}

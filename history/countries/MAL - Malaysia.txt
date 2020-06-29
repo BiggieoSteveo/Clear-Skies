@@ -4,49 +4,15 @@
 
 set_research_slots = 3
 
-set_popularities = {	democratic = 33	communism = 33	neutrality = 34
+set_popularities = {	democratic = 30	communism = 60	fascism = 10
 }
 
 create_country_leader = {
-	name = "Onn Jaafar"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
-	expire = "2032.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Shenton Thomas"
-	desc = ""
-	picture = "GFX_portrait_malaya_shenton_thomas"
-	expire = "2032.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Lai Teck"
-	desc = ""
+	name = "Chin Peng"
+	desc = "CHIN_PENG_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "2032.3.1"
-	ideology = marxism
+	ideology = anti_revisionism
 	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ibrahim Hj Yaacob" #this guy supported Japanese during the war, and was imprisoned for it, could be made fascist?
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "2032.3.1"
-	ideology = moderatism
-	traits = {
-		
 	}
 }

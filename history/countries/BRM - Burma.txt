@@ -16,13 +16,12 @@ set_popularities = {
 	communism = 14
 	neutrality = 12
 }
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "2032.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+
+create_country_leader = {
+	name = "Aung San Suu Kyi"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	expire = "2032.1.1"
+	ideology = centrism
+	traits = {
+	}
+}

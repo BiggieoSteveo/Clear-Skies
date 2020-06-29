@@ -10,6 +10,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	socialism_ideology = 20
 	democratic = 80
@@ -18,7 +19,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Benjamin Netanyahu"
 	desc = "Benjamin_Netanyahu_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "Portrait_Benjamin_Netanyahu.dds"
 	ideology = conservatism
 	traits = {
 	}

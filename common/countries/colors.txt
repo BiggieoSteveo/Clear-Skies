@@ -217,8 +217,8 @@ PER = {
 	color_ui = rgb { 138 155 116 }
 }
 PHI = {
-	color = rgb { 57 58 75 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 193 62 62 }
+	color_ui = rgb { 193 62 62 }
 }
 PRU = {
 	color = rgb { 196 189 204 }
@@ -233,8 +233,8 @@ SAU = {
 	color_ui = rgb { 138 155 116 }
 }
 SIA = {
-	color = rgb { 125 108 162 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 57 58 75 }
+	color_ui = rgb { 138 155 116 }
 }
 SIK = {
 	color = rgb { 140 103 103 }
@@ -377,8 +377,8 @@ LAO = {
 	color_ui = rgb { 176  102  136 }
 }
 INS = {
-	color = rgb { 176  140  72 }
-	color_ui = rgb { 40  50  120 }
+	color = rgb { 176 140 72 }
+	color_ui = rgb { 176 140 72 }
 }
 VIN = {
 	color = rgb { 135  94  94 }
@@ -389,8 +389,8 @@ CAM = {
 	color_ui = rgb { 100  71  150 }
 }
 MAL = {
-	color = rgb { 66  109  80 }
-	color_ui = rgb { 213  169  121 }
+	color = rgb { 193 118 118 }
+	color_ui = rgb { 193 118 118 }
 }
 MNT = {
 	color = rgb { 77  90  105 }
@@ -715,4 +715,16 @@ CRN = {
 NTL = {
 	color = rgb { 117 14 14 }
 	color_ui = rgb { 138 155 116 }
+}
+NKM = {
+	color = rgb { 125 108 162 }
+	color_ui = rgb { 125 108 162 }
+}
+MIN = {
+	color = rgb { 80 115 75 }
+	color_ui = rgb { 80 115 75 }
+}
+WPP = {
+	color = rgb { 105 88 130 }
+	color_ui = rgb { 105 88 130 }
 }

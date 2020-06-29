@@ -5,6 +5,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
 		noOfFrames = 14		
 	}
+	
+	##BOS##
+	
+	spriteType = {
+		name = "GFX_idea_BOS_Minister_Haris_Silajdzic"
+		texturefile = "gfx/interface/ideas/BOS_Minister_Haris_Silajdzic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_Minister_Bakir_Izetbegovic"
+		texturefile = "gfx/interface/ideas/BOS_Minister_Bakir_Izetbegovic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_Minister_Mehdin_Senad_Hodzic"
+		texturefile = "gfx/interface/ideas/BOS_Minister_Mehdin_Senad_Hodzic.dds"
+	}
 
 	##SOV##
 	

@@ -12,18 +12,14 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 75
-	fascism = 1
-	communism = 1
-	neutrality = 23
+	socialism_ideology = 25
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "2032.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Mekere Morauta"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	expire = "2032.1.1"
+	ideology = centrism
+	traits = {
+	}
+}

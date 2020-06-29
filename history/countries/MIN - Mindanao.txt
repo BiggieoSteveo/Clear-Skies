@@ -1,0 +1,27 @@
+﻿capital = 627
+
+#oob = "MIN_1936"
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.9.15"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 65
+	fascism = 35
+}
+
+create_country_leader = {
+	name = "Murad Ebrahim"
+	desc = "MURAD_EBRAHIM_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	expire = "2032.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}

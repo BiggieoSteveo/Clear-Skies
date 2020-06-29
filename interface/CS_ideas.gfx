@@ -56,4 +56,16 @@ spriteTypes = {
 		name = "GFX_idea_FRA_Euro_Coop"
 		texturefile = "gfx/interface/ideas/European_Cooperation_League_2.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_BOS_Islamic_Republic"
+		texturefile = "gfx/interface/ideas/idea_BOS_Islamic_Republic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_Jihadist_Pressure"
+		texturefile = "gfx/interface/ideas/idea_BOS_Jihadist_Pressure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_Secularist_Movement"
+		texturefile = "gfx/interface/ideas/idea_BOS_Secularist_Movement.dds"
+	}
 }

@@ -8,18 +8,18 @@ set_politics = {
 	ruling_party = communism
 	last_election = "2008.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 85
-	fascism = 15
+	democratic = 15
 }
 
 create_country_leader = {
 	name = "Pol Pot" 
 	desc = "POL_POT_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+	picture = "Portrait_Pol_Pot.dds"
 	expire = "2032.3.1"
 	ideology = stalinism
 	traits = {

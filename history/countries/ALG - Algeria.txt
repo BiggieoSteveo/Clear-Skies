@@ -21,7 +21,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Abdallah Djaballah"
 	desc = "Abdallah_Djaballah_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	picture = "Portrait_Abdallah_Djaballah.dds"
 	ideology = conservatism
 	traits = {
 	}
