@@ -8,16 +8,13 @@ ideologies = {
 			marxism = {
 			}
 			
-			leninism = {
-			}
-			
 			stalinism = {
 			}
 			
 			anti_revisionism = {
 			}
 
-			trotskyism = {
+			internationalism = {
 			}
 		}
 
@@ -56,10 +53,22 @@ ideologies = {
 			socialism = {
 			}
 
+			leninism = {
+			}
+
 			democratic_socialism = {
 			}
 
+			christian_socialism = {
+			}
+
 			anarchist_communism = {
+			}
+
+			green_leftism = {
+			}
+
+			left_wing_nationalism = {
 			}
 		}
 
@@ -153,9 +162,6 @@ ideologies = {
 
 			social_despotism  = {
 			}
-
-			salafism = {
-			}
 		}
 
 		dynamic_faction_names = {
@@ -202,6 +208,9 @@ ideologies = {
 			}
 
 			ultra_corporatism = {
+			}
+
+			jihadism = {
 			}
 		}
 

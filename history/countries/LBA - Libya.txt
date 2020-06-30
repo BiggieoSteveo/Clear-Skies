@@ -20,7 +20,7 @@ create_country_leader = {
 	name = "Muammar Gaddafi"
 	desc = "Muammar_Gaddafi_DESC"
 	picture = "Portrait_Arabia_Generic_communism1.dds"
-	ideology = trotskyism #change to pan-arabism
+	ideology = internationalism #change to pan-arabism
 	traits = {
 	}
 }

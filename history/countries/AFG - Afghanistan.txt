@@ -30,7 +30,7 @@ create_country_leader = {
 	desc = "GULBUDDIN_HEKMATYAR_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "2032.1.1.12"
-	ideology = salafism
+	ideology = jihadism
 	traits = {
 	}
 }

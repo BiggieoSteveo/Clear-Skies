@@ -21,7 +21,7 @@ create_country_leader = {
 	name = "Hassan Nasrallah"
 	desc = "HASSAN_NASRALLAH_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	ideology = salafism
+	ideology = jihadism
 	traits = {
 	}
 }
