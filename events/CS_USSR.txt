@@ -139,7 +139,7 @@ country_event = { #pugo victory
 	option = { #pugo
 		name = soviet.5.a
 		news_event = {
-			id = sovietnews.3
+			id = world.1
 			days = 2
 		}
 		swap_ideas = {
@@ -174,7 +174,7 @@ country_event = { #baklanov victory
 	option = { #baklanov
 		name = soviet.6.a
 		news_event = {
-			id = sovietnews.4
+			id = world.2
 			days = 2
 		}
 		swap_ideas = {
@@ -197,37 +197,5 @@ country_event = { #baklanov victory
 					#
 			}
 		}
-	}
-}
-
-news_event = { #pugo victory news
-	id = sovietnews.3
-	immediate = { log = "[GetDateText]: [Root.GetName]: event sovietnews.3" }
-	title = sovietnews.3.t
-	desc = sovietnews.3.d
-	picture = GFX_SOV_news_pugo_victory
-
-	major = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietnews.3.a
-	}
-}
-
-news_event = { #baklanov victory news
-	id = sovietnews.4
-	immediate = { log = "[GetDateText]: [Root.GetName]: event sovietnews.4" }
-	title = sovietnews.4.t
-	desc = sovietnews.4.d
-	picture = GFX_SOV_news_baklanov_victory
-
-	major = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietnews.4.a
 	}
 }

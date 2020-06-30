@@ -34,16 +34,16 @@
  SOV_ADJ:0 "Russian"
  
  ##Party Names 
- SOV_fascism_party:0 "NBP"
- SOV_fascism_party_long:0 "National Bolshevik Party"
+ SOV_fascism_party:0 "LDPR"
+ SOV_fascism_party_long:0 "Liberal Democratic Party of Russia"
  SOV_democratic_party:0 "DRM-M"
  SOV_democratic_party_long:0 "Democratic Russia Movement - Moderate"
  SOV_neutrality:0 "DRM-R"
  SOV_neutrality_DEF:0 "Democratic Russia Movement - Radical" 
  SOV_communism_party:0 "CPSU"
  SOV_communism_party_long:0 "Communist Party of the Soviet Union"
- SOV_socialism_ideology:0 "SOV-EUCOM"
- SOV_socialism_ideology_long:0 "Soviet Euro-Communist Party"
+ SOV_socialism_ideology:0 "NBP"
+ SOV_socialism_ideology_long:0 "National Bolshevik Party"
  
  ##Events
  soviet.1.t:0 "16th Convocation Session, 2008"
@@ -70,12 +70,8 @@
  sovietnews.2.t:0 "Change In The Supreme Soviet"
  sovietnews.2.d:0 "The 2008 Supreme Soviet meeting of the 16th convocation session has reportedly voted on the adoption of a more global outlook towards international relations. What the change entails is still a mystery, but messages to the global press regarding this issue have used positive wording towards global relations and references to the drafting of plans for a COM-ECON style organization that's aim is to repair damage caused by the war and the world scale social anarchy that ensued after the collapse of various per-war central governments. While many are rejoicing that worst is over and end tunnel light is nearing, skeptics have noted the possibility of foul play, with some going as far as saying this is nothing more then a carte-blanch for their SOUs to loot the desperate."
  sovietnews.2.a:0 "Hopefully for the better."
- sovietnews.3.t:0 "Boris Pugo Elected As General Secretary."
- sovietnews.3.d:0 ""
- sovietnews.3.a:0 "Alright.
- sovietnews.4.t:0 "Oleg Baklanov Elected As General Secretary."
- sovietnews.4.d:0 ""
- sovietnews.4.a:0 "A man with a plan.
+ world.1.b:0 "Long live the Union!"
+ world.2.b:0 "Long live the Union!"
  
  ###SOV Focus Trees
  
