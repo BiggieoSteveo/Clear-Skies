@@ -12,3 +12,14 @@ set_popularities = {
 	neutrality = 25
 	fascism = 43
 }
+
+create_country_leader = {
+	name = "Sheldon Aderson"
+	desc = ""
+	picture = "Portrait_Sheldon_Aderson.dds"
+	expire = "2032.1.1"
+	ideology = ultra_corporatism
+	traits = {
+		#
+	}
+}

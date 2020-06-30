@@ -11,3 +11,14 @@ set_popularities = {
 	democratic = 10
 	neutrality = 80
 }
+
+create_country_leader = {
+	name = "Larry D. Welch"
+	desc = ""
+	picture = "Portrait_Larry_D._Welch.dds"
+	expire = "2032.1.1"
+	ideology = junta
+	traits = {
+		#
+	}
+}

@@ -13,3 +13,14 @@ set_popularities = {
 	socialism_ideology = 13
 	democratic = 66
 }
+
+create_country_leader = {
+	name = "Seamus Flyn"
+	desc = ""
+	picture = "Portrait_Seamus_Flyn.dds"
+	expire = "2032.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
