@@ -4,14 +4,25 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
+	democratic = 5
 	fascism = 15
-	communism = 5
+	communism = 55
 	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Isaias Afwerki"
+	desc = ""
+	picture = ""
+	expire = "2032.1.1"
+	ideology = anti_revisionism
+	traits = {
+		#
+	}
 }

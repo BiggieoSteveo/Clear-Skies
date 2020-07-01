@@ -728,3 +728,19 @@ WPP = {
 	color = rgb { 105 88 130 }
 	color_ui = rgb { 105 88 130 }
 }
+AFA = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
+FNL = {
+	color = rgb { 232 234 237 }
+	color_ui = rgb { 232 234 237 }
+}
+UNI = {
+	color = rgb { 4 102 6 }
+	color_ui = rgb { 4 102 6 }
+}
+CAB = {
+	color = rgb { 242 151 15 }
+	color_ui = rgb { 242 151 15 }
+}

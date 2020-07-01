@@ -3,14 +3,15 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality 
+	ruling_party = communism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	neutrality = 75
+	communism= 55
+	democratic = 20
+	neutrality = 25
 }
 
 create_country_leader = {
@@ -18,7 +19,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Sam_Nujoma.dds"
 	expire = "2032.1.1"
-	ideology = oligarchism  
+	ideology = marxism
 	traits = {
 		#
 	}

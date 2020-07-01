@@ -7,15 +7,27 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = fascism 
+	ruling_party = communism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 20
-	neutrality = 30
-	fascism = 50
+	communism = 60
+	neutrality = 10
+	fascism = 30
+}
+
+
+create_country_leader = {
+	name = "Philip Valerio Sibanda"
+	desc = ""
+	picture = ""
+	expire = "2032.1.1"
+	ideology = marxism 
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
