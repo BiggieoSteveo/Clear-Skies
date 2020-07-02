@@ -7,5 +7,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality= 100
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Chang Wanquan"
+	desc = "CHANG_WANQUAN_DESC"
+	picture = "Portrait_Chang_Wanquan.dds"
+	expire = "2032.1.1"
+	ideology = junta
+	traits = {
+	}
 }

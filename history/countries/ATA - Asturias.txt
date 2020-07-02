@@ -1,7 +1,7 @@
 capital = 790
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism_ideology
 	last_election = "2008.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -11,4 +11,14 @@ set_popularities = {
 	communism = 22
 	socialism_ideology = 23
 	democratic = 55
+}
+
+create_country_leader = {
+	name = "Xuan Xosé Sánchez Vicente"
+	desc = "XUAN_XOSE_SANCHEZ_VICENTE_DESC"
+	picture = "Portrait_Xuan_Xose_Sanchez_Vicente.dds"
+	expire = "2032.1.1"
+	ideology = socialism
+	traits = {
+	}
 }

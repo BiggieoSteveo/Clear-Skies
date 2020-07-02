@@ -13,12 +13,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Jamphel Yeshe Gyaltsen"
-	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+	name = "14th Dalai Lama"
+	desc = "14TH_DALAI_LAMA_DESC"
+	picture = "Portrait_Dalai_Lama.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = junta
 	traits = {
-		#
 	}
 }

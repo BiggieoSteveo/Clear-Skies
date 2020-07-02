@@ -10,3 +10,13 @@ set_popularities = {
 	neutrality = 20
 	fascism = 80
 }
+
+create_country_leader = {
+	name = "Rand Paul"
+	desc = "RAND_PAUL_DESC"
+	picture = "Portrait_Rand_Paul.dds"
+	expire = "2032.1.1"
+	ideology = ultra_corporatism
+	traits = {
+	}
+}

@@ -9,3 +9,13 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+create_country_leader = {
+	name = "Zhou Qiang"
+	desc = "ZHOU_QIANG_DESC"
+	picture = "Portrait_Zhou_Qiang.dds"
+	expire = "2032.1.1"
+	ideology = junta
+	traits = {
+	}
+}

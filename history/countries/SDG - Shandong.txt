@@ -9,3 +9,13 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+create_country_leader = {
+	name = "Guo Shuqing"
+	desc = "GUO_SHUQING_DESC"
+	picture = "Portrait_Guo_Shuqing.dds"
+	expire = "2032.1.1"
+	ideology = junta
+	traits = {
+	}
+}

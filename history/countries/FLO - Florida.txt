@@ -9,3 +9,13 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+create_country_leader = {
+	name = "John Glenn"
+	desc = "JOHN_GLENN_DESC"
+	picture = "Portrait_John_Glenn.dds"
+	expire = "2032.1.1"
+	ideology = junta
+	traits = {
+	}
+}

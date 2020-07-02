@@ -1,26 +1,24 @@
 ﻿capital = 553
 
-
-
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
+	democratic = 10
+	fascism = 50
 	communism = 10
-	neutrality = 50
+	neutrality = 30
 }
 
 create_country_leader = {
 	name = "Hassan Nasrallah"
 	desc = "HASSAN_NASRALLAH_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	picture = "Portrait_Hassan_Nasrallah.dds"
 	ideology = jihadism
 	traits = {
 	}
