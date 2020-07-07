@@ -1,14 +1,24 @@
 capital = 15
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 40
-	communism = 10
-	neutrality = 30
+	communism = 20
+	democratic = 60
+	fascism = 20
+	
+}
+
+create_country_leader = { 
+	name = "Stephane Travert"
+	picture = ""
+	expire = "2032.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
 }

@@ -36,6 +36,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Elrick Irastorza"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "Portrait_Elrick_Irastorza.dds"
+	expire = "2032.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
 diplomatic_relation = { country = SPR relation = non_aggression_pact }
 diplomatic_relation = { country = NRM relation = non_aggression_pact }
 diplomatic_relation = { country = BRI relation = non_aggression_pact }
