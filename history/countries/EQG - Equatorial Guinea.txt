@@ -3,14 +3,25 @@
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2008.1.1.12"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = democratic
+	last_election = "2003.9.22"
+	election_frequency = 60
+	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	democratic = 50
+	fascism = 5
+	communism = 20
+	socialism_ideology = 25
+}
+
+create_country_leader = {
+	name = "Elías Maho"
+	desc = "ELIAS_MAHO_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "2032.1.1.12"
+	ideology = social_democracy
+	traits = {
+	}
 }

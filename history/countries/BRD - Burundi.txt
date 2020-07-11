@@ -4,15 +4,24 @@ set_convoys = 0
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 55
-	fascism = 15
-	communism = 5
-	neutrality = 25
+	democratic = 15
+	fascism = 30
+	neutrality = 55
+}
+
+create_country_leader = {
+	name = "Jean Bikomagu"
+	desc = "JEAN_BIKOMAGU_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "2032.1.1"
+	ideology = junta
+	traits = {
+	}
 }

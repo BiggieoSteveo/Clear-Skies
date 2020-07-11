@@ -1,16 +1,25 @@
-﻿capital = 556
-
-set_convoys = 0
+﻿capital = 272
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 25
 	fascism = 20
 	communism = 5
 	neutrality = 50
+}
+
+create_country_leader = {
+	name = "Tiémoko Sangaré"
+	desc = "TIEMOKO_SANGARE_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "2032.1.1.12"
+	ideology = social_democracy
+	traits = {
+	}
 }
