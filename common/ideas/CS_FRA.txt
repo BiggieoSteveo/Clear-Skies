@@ -26,7 +26,7 @@ ideas = {
 			picture = European_Cooperation_League_2
 
 			modifier = {
-				research_speed_factor = -0.05
+				research_speed_factor = 0.05
 			}
 		}
 		

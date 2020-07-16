@@ -48,7 +48,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV_Minister_Yuri_Matiyasevich.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_SOV_Vasily_Starodubtsev"
+		name = "GFX_idea_SOV_Minister_Vasily_Starodubtsev"
 		texturefile = "gfx/interface/ideas/SOV_Minister_Vasily_Starodubtsev.dds"
 	}
 }

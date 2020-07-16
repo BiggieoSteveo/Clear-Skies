@@ -125,6 +125,9 @@ shared_focus = {
 	prerequisite = {
 		focus = SOV_zero_g_manufacturing
 	}
+	prerequisite = {
+		focus = SOV_weve_got_our_eyes_on_you
+	}
 	x = 10
 	y = 5
 	completion_reward = {
@@ -234,9 +237,13 @@ shared_focus = {
 	prerequisite = {
 		focus = SOV_op_restitute
 	}
+	prerequisite = {
+		focus = SOV_weve_got_our_eyes_on_you
+	}
 	x = 6
 	y = 5
 	completion_reward = {
+		remove_ideas = SOV_An_Awakening_I
 		remove_ideas = SOV_An_Awakening_II
 		add_ideas = SOV_Red_Irredentism
 	}
