@@ -202,4 +202,112 @@ spriteTypes = {
 		name = "GFX_SOV_one_and_invincible_one_and_invisible"
 		texturefile = "gfx/interface/goals/SOV_one_and_invincible_one_and_invisible.dds"			
 	}
+	SpriteType = {
+		name = "GFX_SOV_pugos_preeminence"
+		texturefile = "gfx/interface/goals/SOV_pugos_preeminence.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_kgb_co"
+		texturefile = "gfx/interface/goals/SOV_kgb_co.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_armed_descent"
+		texturefile = "gfx/interface/goals/SOV_the_armed_descent.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_friend_of_the_army"
+		texturefile = "gfx/interface/goals/SOV_friend_of_the_army.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_discuss_with_the_pacifists"
+		texturefile = "gfx/interface/goals/SOV_discuss_with_the_pacifists.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_guns_blazing"
+		texturefile = "gfx/interface/goals/SOV_guns_blazing.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_there_will_be_glory"
+		texturefile = "gfx/interface/goals/SOV_there_will_be_glory.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_the_speech"
+		texturefile = "gfx/interface/goals/SOV_the_speech.dds"			
+	}		
+	SpriteType = {
+		name = "GFX_SOV_like_the_old_days"
+		texturefile = "gfx/interface/goals/SOV_like_the_old_days.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_the_soft_purges"
+		texturefile = "gfx/interface/goals/SOV_the_soft_purges.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_bloody_purges"
+		texturefile = "gfx/interface/goals/SOV_the_bloody_purges.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_securostate"
+		texturefile = "gfx/interface/goals/SOV_securostate.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_the_war_of_truth_campaign"
+		texturefile = "gfx/interface/goals/SOV_the_war_of_truth_campaign.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_social_imperialism"
+		texturefile = "gfx/interface/goals/SOV_social_imperialism.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_swell_the_defense_budget"
+		texturefile = "gfx/interface/goals/SOV_jack_up_the_interest.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_propagandize_the_west"
+		texturefile = "gfx/interface/goals/SOV_propagandize_the_west.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_new_army"
+		texturefile = "gfx/interface/goals/SOV_the_new_army.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_blacklist_zone_truthers"
+		texturefile = "gfx/interface/goals/SOV_blacklist_zone_truthers.dds"			
+	}		
+	SpriteType = {
+		name = "GFX_SOV_national_rallies"
+		texturefile = "gfx/interface/goals/SOV_national_rallies.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_quality_over_quantity"
+		texturefile = "gfx/interface/goals/SOV_quality_over_quantity.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_old_ways_still_work"
+		texturefile = "gfx/interface/goals/SOV_old_ways_still_work.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_contact_the_concerns"
+		texturefile = "gfx/interface/goals/SOV_contact_the_concerns.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_open_up_the_plants"
+		texturefile = "gfx/interface/goals/SOV_open_up_the_plants.dds"			
+	}
+	SpriteType = {
+		name = "GFX_SOV_extend_conscription"
+		texturefile = "gfx/interface/goals/SOV_extend_conscription.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_war_of_words"
+		texturefile = "gfx/interface/goals/SOV_war_of_words.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_soviet_neopatriotism"
+		texturefile = "gfx/interface/goals/SOV_soviet_neopatriotism.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_SOV_in_war_we_trust"
+		texturefile = "gfx/interface/goals/SOV_in_war_we_trust.dds"			
+	}			
 }
