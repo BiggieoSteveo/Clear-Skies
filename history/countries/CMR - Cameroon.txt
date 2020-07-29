@@ -10,8 +10,17 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 25
-	fascism = 20
+	democratic = 35
 	communism = 5
-	neutrality = 50
+	neutrality = 60
+}
+
+create_country_leader = {
+	name = "Bello Bouba Maigari"
+	desc = "BELLO_BOUBA_MAIGARI_DESC"
+	picture = "Portrait_Bello_Bouba_Maigari.dds"
+	expire = "2032.1.1"
+	ideology = junta
+	traits = {
+	}
 }

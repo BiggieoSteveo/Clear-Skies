@@ -1,11 +1,22 @@
 capital = 616
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	neutrality = 100
+	fascism = 100
+}
+
+create_country_leader = {
+	name = "Hui Liangyu"
+	desc = "HUI_LIANGYU_DESC"
+	picture = "Portrait_Hui_Liangyu.dds"
+	expire = "2032.1.1"
+	ideology = jihadism
+	traits = {
+	}
 }

@@ -5,36 +5,23 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "2008.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
+
 set_popularities = {
 	democratic = 49
-	fascism = 51
+	communism = 51
 }
 
 create_country_leader = {
-	name = "Óscar Benavides"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	name = "Abimael Guzman"
+	desc = "ABIMAEL_GUZMAN_DESC"
 	picture = "GFX_Portrait_peru_oscar_benavides"
 	expire = "2032.1.1"
-	ideology = fascism_ideology
+	ideology = anti_revisionism
 	traits = {
-		#
-	}
-}
-
-2008.1.1 = {
-	create_country_leader = {
-		name = "Manuel Prado Ugarteche"
-		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "2032.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
 	}
 }

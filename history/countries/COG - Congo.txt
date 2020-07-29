@@ -4,13 +4,13 @@
 
 set_convoys = 5
 
-# A colony of Italy in 2008.  However, if independent it would have the same as its 1936 politics
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	communism = 23
 	socialism_ideology = 33
@@ -18,12 +18,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	
-	name = "Josephh Kabila"
-	picture = "Portrait_Josephh_Kabila.dds"
+	name = "Joseph Kabila"
+	picture = "Portrait_Joseph_Kabila.dds"
 	expire = "2032.1.1"
 	ideology = oligarchism  
 	traits = {
-		#
 	}
 }

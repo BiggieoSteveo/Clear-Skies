@@ -10,6 +10,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 17
 	fascism = 2
@@ -20,7 +21,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Benazir Bhutto"
 	desc = "BENAZIR_BHUTTO_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+	picture = "Portrait_Benazir_Bhutto.dds"
 	expire = "2032.1.1"
 	ideology = socialism
 	traits = {

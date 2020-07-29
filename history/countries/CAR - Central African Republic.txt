@@ -3,15 +3,25 @@
 set_convoys = 0
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	socialism_ideology = 20
+	democratic = 5
+	fascism = 50
+	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Michel Djotodia"
+	desc = "MICHEL_DJOTODIA_DESC"
+	picture = "Portrait_Michel_Djotodia.dds"
+	expire = "2032.1.1"
+	ideology = jihadism
+	traits = {
+	}
 }

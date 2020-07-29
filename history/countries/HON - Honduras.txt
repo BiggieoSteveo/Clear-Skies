@@ -1,36 +1,27 @@
 ﻿capital = 312
 
 #oob = "HON_1936"
-set_country_flag = monroe_doctrine
+
 set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.10.28"
+	ruling_party = socialism_ideology
+	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 100
+	socialism_ideology = 100
 }
 
 create_country_leader = {
-	name = "Tiburcio Carías Andino"
-	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
-	picture = "GFX_portrait_honduras_portrait_tiburcio_carias_andino"
+	name = "Manuel Zelaya"
+	desc = "MANUEL_ZELAYA_DESC"
+	picture = "Portrait_Manuel_Zelaya.dds"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = left_wing_nationalism
 	traits = {
-		#
-	}
-}
-
-2008.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2008.3.28"
-		election_frequency = 48
-		elections_allowed = no
 	}
 }

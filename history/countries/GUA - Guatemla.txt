@@ -8,22 +8,23 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2008.2.8"
+	ruling_party = communism
+	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 30
-	neutrality = 70
+	communism = 70
 }
 
 create_country_leader = {
-	name = "Jorge Ubico"
-	desc = "POLITICS_JORGE_UBICO_DESC"
+	name = "Ricardo Rosales"
+	desc = "RICARDO_ROSALES_DESC"
 	picture = "GFX_portrait_guatemala_jorge_ubico"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = marxism
 	traits = {
 		#
 	}

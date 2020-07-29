@@ -4,48 +4,25 @@
 
 # Starting tech
 
-set_country_flag = monroe_doctrine
-
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.4.19"
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 97
-	communism = 3
+	socialism_ideology = 56
+	neutrality = 44
 }
 
 create_country_leader = {
-	name = "Gabriel Terra"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
-	picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
+	name = "Jorge Washington Rosales"
+	desc = "JORGE_WASHINGTON_ROSALES_DESC"
+	picture = "Portrait_Jorge_Washington_Rosales.dds"
 	expire = "2032.1.1"
-	ideology = liberalism
+	ideology = junta
 	traits = {
-		#
-	}
-}
-
-2008.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2008.3.28"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Alfredo Baldomir Ferrari"
-		desc = "POLITICS_ALFREDO_BALDOMIR_FERRARI_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "2032.1.1"
-		ideology = liberalism
-		traits = {
-			#
-		}
 	}
 }

@@ -10,6 +10,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	democratic = 72
 	fascism = 2
@@ -19,9 +20,10 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Aung San Suu Kyi"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	desc = "AUNG_SAN_SUU_KYI_DESC"
+	picture = "Portrait_Aung_San_Suu_Kyi.dds"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = social_democracy
 	traits = {
 	}
 }

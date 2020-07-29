@@ -5,21 +5,22 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.6.5"
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 100
+	neutrality = 100
 }
 
 create_country_leader = {
-	name = "Harmodio Arias Madrid"
-	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
+	name = "Manuel Noriega"
+	desc = "MANUEL_NORIEGA_DESC"
 	picture = "GFX_portrait_panama_harmodio_arias_madrid"
 	expire = "2032.1.1"
-	ideology = liberalism
+	ideology = junta
 	traits = {
 		#
 	}

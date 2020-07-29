@@ -2,9 +2,7 @@
 
 #oob = "KEN_1936"
 
-
 set_convoys = 5
-
 
 set_politics = {
 	ruling_party = neutrality
@@ -19,8 +17,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	
-	name = "Daniel Arap Moi"
+	name = "Daniel arap Moi"
 	picture = "Portrait_Daniel_Arap_Moi.dds"
 	expire = "2032.1.1"
 	ideology = despotism  

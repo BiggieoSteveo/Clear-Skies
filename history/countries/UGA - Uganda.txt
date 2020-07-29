@@ -3,14 +3,23 @@
 set_convoys = 0
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism_ideology
 	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 55
-	fascism = 15
-	communism = 5
-	neutrality = 25
+	socialism_ideology = 55
+	neutrality = 15
+	fascism = 30
+}
+
+create_country_leader = {
+	name = "Miria Obote"
+	desc = "MIRIA_OBOTE_DESC"
+	picture = "Portrait_Miria_Obote.dds"
+	expire = "2032.1.1"
+	ideology = left_wing_nationalism
+	traits = {
+	}
 }

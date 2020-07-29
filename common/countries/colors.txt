@@ -744,3 +744,7 @@ CAB = {
 	color = rgb { 242 151 15 }
 	color_ui = rgb { 242 151 15 }
 }
+GGZ = {
+	color = rgb { 100 100 115 }
+	color_ui = rgb { 100 100 115 }
+}

@@ -6,22 +6,22 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "2008.1.15"
+	ruling_party = communism
+	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 100
+	communism = 100
 }
 
 create_country_leader = {
-	name = "Maximiliano Hernández Martínez"
-	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+	name = "Joaquín Villalobos"
+	desc = "JOAQUIN_VILLALOBOS_DESC"
 	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
 	expire = "2032.1.1"
-	ideology = fascism_ideology
+	ideology = marxism
 	traits = {
-		#
 	}
 }

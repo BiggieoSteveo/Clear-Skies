@@ -1,0 +1,28 @@
+﻿capital = 789
+
+##oob = ""
+
+# Starting tech
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = socialism_ideology
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialism_ideology = 100
+}
+
+create_country_leader = {
+	name = "Amir Khadir"
+	desc = "AMIR_KHADIR_DESC"
+	picture = ""
+	expire = "2032.3.1"
+	ideology = democratic_socialism
+	traits = {
+	}
+}

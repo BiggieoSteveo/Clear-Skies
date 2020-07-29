@@ -7,23 +7,22 @@ set_convoys = 10
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2008.2.14"
+	last_election = "2006.2.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
 	democratic = 98
-	fascism = 2
+	socialism_ideology = 2
 }
 
 create_country_leader = {
-	name = "Ricardo Jiménez Oreamuno"
-	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	name = "Antonio Álvarez"
+	desc = "ANTONIO_ALVAREZ_DESC"
 	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
 	expire = "2032.1.1"
-	ideology = liberalism
+	ideology = social_democracy
 	traits = {
-		#
 	}
 }

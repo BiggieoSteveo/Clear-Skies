@@ -11,28 +11,17 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	neutrality = 100
 }
 
 create_country_leader = {
-	name = "Yan Xishan"
-	desc = "POLITICS_YAN XISHAN_DESC"
-	picture = "GFX_portrait_shanxi_portrait_yan_xishan"
+	name = "Wang Rulin"
+	desc = "WANG_RULIN_DESC"
+	picture = "Portrait_Wang_Rulin.dds"
 	expire = "2032.1.1"
 	ideology = despotism
 	traits = {
-		#
 	}
-}
-
-create_corps_commander = {
-	name = "Wang Jingguo"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { politically_connected }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

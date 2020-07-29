@@ -1,4 +1,5 @@
 ﻿capital = 325
+
 #oob = "YUN_1936"
 
 set_politics = {
@@ -7,29 +8,17 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	neutrality = 100
 }
 
 create_country_leader = {
-	name = "Long Yun"
-	desc = "POLITICS_LONG_YUN_DESC"
-	picture = "GFX_portrait_yun_long_yun"
+	name = "Qin Guangrong"
+	desc = "QIN_GUANGRONG_DESC"
+	picture = "Portrait_Qin_Guangrong.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = junta
 	traits = {
-		#
 	}
-}
-
-create_corps_commander = {
-	name = "Lu Han"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 3
 }

@@ -13,23 +13,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ma Bufang"
-	desc = ""
-	picture = "GFX_portrait_xsm_ma_bufang"
+	name = "Luo Huining"
+	desc = "LUO_HUINING_DESC"
+	picture = "Portrait_Luo_Huining.dds"
 	expire = "2032.1.1"
 	ideology = despotism
 	traits = {
-		#
 	}
-}
-
-create_corps_commander = {
-	name = "Ma Hongbin"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

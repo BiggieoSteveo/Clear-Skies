@@ -6,25 +6,24 @@
 
 set_convoys = 20
 
-set_convoys = 5
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.10.30"
-	election_frequency = 72  #but 4 years after this one in 1938.
+	ruling_party = socialism_ideology
+	last_election = "2006.1.15"
+	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 98
-	communism = 2
+	socialism_ideology = 64
+	democratic = 36
 }
 
 create_country_leader = {
-	name = "Arturo Alessandri"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
+	name = "Michelle Bachelet"
+	desc = "MICHELLE_BACHELET_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "2032.1.1"
-	ideology = liberalism
+	ideology = democratic_socialism
 	traits = {
-		#
 	}
 }

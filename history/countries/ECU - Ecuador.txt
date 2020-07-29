@@ -8,35 +8,24 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2008.12.15"
-	election_frequency = 84
+	ruling_party = socialism_ideology
+	last_election = "2006.10.15"
+	election_frequency = 36
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 100
+	socialism_ideology = 62
+	democratic = 28
+	neutrality = 10
 }
 
 create_country_leader = {
-	name = "Federico Páez"
-	desc = "POLITICS_FEDERICO_PAEZ_DESC"
-	picture = "GFX_Portrait_ecuador_federico_paez"
+	name = "Rafael Correa"
+	desc = "RAFAEL_CORREA_DESC"
+	picture = "Portrait_Rafael_Correa.dds"
 	expire = "2032.1.1"
-	ideology = socialism
+	ideology = left_wing_nationalism
 	traits = {
-		#
-	}
-}
-
-2008.1.1 = {
-	create_country_leader = {
-		name = "Aurelio Mosquera"
-		desc = "POLITICS_AURELIO_MOSQUERA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "2032.1.1"
-		ideology = liberalism
-		traits = {
-			#
-		}
 	}
 }

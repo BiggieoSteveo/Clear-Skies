@@ -1,11 +1,22 @@
 capital = 613
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = socialism_ideology
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	neutrality = 100
+	socialism_ideology = 100
+}
+
+create_country_leader = {
+	name = "Yang Xiong"
+	desc = "YANG_XIONG_DESC"
+	picture = "Portrait_Yang_Xiong.dds"
+	expire = "2032.1.1"
+	ideology = anarchist_communism
+	traits = {
+	}
 }
