@@ -11,19 +11,19 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 1
-	communism = 1
-	neutrality = 23
+	democratic = 20
+	fascism = 5
+	communism = 70
+	neutrality = 5
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "2032.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Filiberto Ojeda Rios"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	expire = "2032.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
