@@ -1,0 +1,12 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_money"
+		texturefile = "gfx/money.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "report_event_equipment"
+		texturefile = "gfx/event_pictures/report_event_equipment.dds"
+		legacy_lazy_load = no
+	}
+}

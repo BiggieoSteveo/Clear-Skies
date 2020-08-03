@@ -1,0 +1,12 @@
+defined_text = { # Country
+	name = GetMoneyTooltip
+	text = {
+		localization_key = MONEY_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetMoneyTooltipDebt
+	text = {
+		localization_key = MONEY_TOOLTIP_BASE_DEBT
+	}
+}
