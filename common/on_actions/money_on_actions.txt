@@ -21,20 +21,18 @@ on_actions = {
 				}
 					set_variable = { a = 1}
 					set_variable = { dx = a }
+					set_variable = { debttotal = 0}
 				else={
 					set_variable = { a = 10 }
 					set_variable = { dx = a }
 				#####ADD GDP HERE#####
 				SOV = {
 					set_variable = { dx = 622731 }
-					add_to_variable = {debttotal= 10540}
+					set_variable = {debttotal= 10540}
 				}
 				}
 				}
-			}
-			every_country={
-			set_variable = { debttotal = 0}
-			}
+				}
 		}
 	}
 	on_monthly = {
@@ -43,7 +41,11 @@ on_actions = {
 			clear_variable = resourceexpenses
 			clear_variable = allexpenses
 			clear_variable = nmn
-
+			clear_variable = dpm
+			
+			set_variable = { dpm = 0}
+			divide_variable = { var = dpm value = 10 }
+			
 			set_variable = { nmn = 0}
 			divide_variable = { var = nmn value = 10 }
 
@@ -159,11 +161,11 @@ on_actions = {
 				set_variable = { depression = 9 }
 			}
 			set_variable = { cfff = num_of_civilian_factories}
-			divide_variable = { var = cfff value = 250 }
+			divide_variable = { var = cfff value = 50 }
 			set_variable = { tax= num_of_controlled_states}
-			divide_variable = { var = tax value = 300 }
+			divide_variable = { var = tax value = 100 }
 			set_variable = { nc= num_of_controlled_states}
-			divide_variable = { var = nc value = 250 }
+			divide_variable = { var = nc value = 90}
 			set_variable = { chromium_import = resource_imported@chromium}
 			divide_variable = { var = chromium_import value = 100 }
 			set_variable = { tungsten_import = resource_imported@tungsten}
@@ -178,13 +180,13 @@ on_actions = {
 			divide_variable = { var = steel_import value = 50 }
 			
 			set_variable = { debtexp = debttotal}
-			divide_variable = { var = debtexp value = 10 }
+			divide_variable = { var = debtexp value = 10000 }
 			set_variable = { no = num_occupied_states }
-			divide_variable = { var = no value = 50 }
+			divide_variable = { var = no value = 200 }
 			set_variable = { nf = num_of_military_factories}
-			divide_variable = { var = nf value = 25 }
+			divide_variable = { var = nf value = 100 }
 			set_variable = { navf = num_of_naval_factories}
-			divide_variable = { var = navf value = 50 }
+			divide_variable = { var = navf value = 100 }
 			set_variable = { ms = num_divisions}
 			divide_variable = { var = ms value = 100 }
 			set_variable = { chromium_export = resource_exported@chromium}
@@ -217,6 +219,7 @@ on_actions = {
 			add_to_variable = { var = resourceexpenses value = steel_import}
 			add_to_variable = { var = resourceexpenses value = oil_import}
 			add_to_variable = { var = resourceexpenses value = aluminium_import} 	
+			add_to_variable = { var = allexpenses value = debtexp}	
 			add_to_variable = { var = allexpenses value = no}	
 			add_to_variable = { var = allexpenses value = nerfeco}
 			add_to_variable = { var = allexpenses value = tax_to_overlord}
@@ -234,9 +237,10 @@ on_actions = {
 			add_to_variable = { var = nmn value = tax }
 			add_to_variable = { var = nmn value = resourceincome }
 			add_to_variable = { var = nmn value = cfff }
-			subtract_from_variable = { var = nmn value = allexpenses }
+			add_to_variable = { var = dpm value = allexpenses }
 			set_variable ={overcome= nmn}
             add_to_variable = { var = dx value = nmn  }
+            add_to_variable = { var = debttotal value = dpm  }
             if={
             limit={
             OR={
