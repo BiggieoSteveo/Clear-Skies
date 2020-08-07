@@ -20,15 +20,18 @@ on_actions = {
 				}
 				}
 					set_variable = { a = 1}
-					set_variable = { dx = a }
-					set_variable = { debttotal = 0}
+					set_variable = { totalmoney = a }
+					set_variable = { totaldebt = 1}
+					set_variable = { debintrest = 1}
 				else={
 					set_variable = { a = 10 }
-					set_variable = { dx = a }
+					set_variable = { totalmoney = a }
+					set_variable = { totaldebt = 10}
+					set_variable = { debintrest = 1}
 				#####ADD GDP HERE#####
 				SOV = {
-					set_variable = { dx = 622731 }
-					set_variable = {debttotal= 10540}
+					set_variable = { totalmoney = 622731 }
+					set_variable = { totaldebt = 521 }
 				}
 				}
 				}
@@ -40,15 +43,24 @@ on_actions = {
 			clear_variable = resourceincome
 			clear_variable = resourceexpenses
 			clear_variable = allexpenses
-			clear_variable = nmn
-			clear_variable = dpm
+			clear_variable = GDP
+			clear_variable = epm
+			clear_variable = td
+			clear_variable = it
 			
-			set_variable = { dpm = 0}
-			divide_variable = { var = dpm value = 10 }
+			set_variable = { GDP = 0}
+			divide_variable = { var = GDP value = 10 }	
 			
-			set_variable = { nmn = 0}
-			divide_variable = { var = nmn value = 10 }
+			set_variable = { epm = 0}
+			divide_variable = { var = epm value = 10 }
 
+			set_variable = { td = 0}
+			divide_variable = { var = td value = 10 }
+
+			set_variable = { it = 0}
+			divide_variable = { var = it value = 10 }
+
+			###Ideas
 			every_country={
 				limit={
 					has_idea = GDP_economic_aid_distribution_small
@@ -74,42 +86,42 @@ on_actions = {
 				limit={
 					has_idea = GDP_economic_aid_reception_small
 				}
-				set_variable = { nmn = 0.01}
+				set_variable = { GDP = 0.01}
 			}
 				
 			every_country={
 				limit={
 					has_idea = GDP_economic_aid_reception_medium
 				}
-				set_variable = { nmn = 0.03}
+				set_variable = { GDP = 0.03}
 			}
 				
 			every_country={
 				limit={
 					has_idea = GDP_economic_aid_reception_large
 				}
-				set_variable = { nmn = 0.05}
+				set_variable = { GDP = 0.05}
 			}
 				
 			every_country={
 				limit={
 					has_idea = GDP_economic_loansharking_small
 				}
-				set_variable = { nmn = 0.04}
+				set_variable = { GDP = 0.04}
 			}
 				
 			every_country={
 				limit={
 					has_idea = GDP_economic_loansharking_medium
 				}
-				set_variable = { nmn = 0.06}
+				set_variable = { GDP = 0.06}
 			}
 				
 			every_country={
 				limit={
 					has_idea = GDP_economic_loansharking_large
 				}
-				set_variable = { nmn = 0.09}
+				set_variable = { GDP = 0.09}
 			}
 				
 			every_country={
@@ -160,12 +172,14 @@ on_actions = {
 				}
 				set_variable = { depression = 9 }
 			}
+			
+			###Earnings		
 			set_variable = { cfff = num_of_civilian_factories}
-			divide_variable = { var = cfff value = 50 }
+			divide_variable = { var = cfff value = 30 }
 			set_variable = { tax= num_of_controlled_states}
-			divide_variable = { var = tax value = 100 }
+			divide_variable = { var = tax value = 30 }
 			set_variable = { nc= num_of_controlled_states}
-			divide_variable = { var = nc value = 90}
+			divide_variable = { var = nc value = 45}
 			set_variable = { chromium_import = resource_imported@chromium}
 			divide_variable = { var = chromium_import value = 100 }
 			set_variable = { tungsten_import = resource_imported@tungsten}
@@ -179,14 +193,13 @@ on_actions = {
 			set_variable = { steel_import = resource_imported@steel}
 			divide_variable = { var = steel_import value = 50 }
 			
-			set_variable = { debtexp = debttotal}
-			divide_variable = { var = debtexp value = 10000 }
+			###Expenses
 			set_variable = { no = num_occupied_states }
-			divide_variable = { var = no value = 200 }
+			divide_variable = { var = no value = 300 }
 			set_variable = { nf = num_of_military_factories}
-			divide_variable = { var = nf value = 100 }
+			divide_variable = { var = nf value = 200 }
 			set_variable = { navf = num_of_naval_factories}
-			divide_variable = { var = navf value = 100 }
+			divide_variable = { var = navf value = 200 }
 			set_variable = { ms = num_divisions}
 			divide_variable = { var = ms value = 100 }
 			set_variable = { chromium_export = resource_exported@chromium}
@@ -202,24 +215,32 @@ on_actions = {
 			set_variable = { steel_export = resource_exported@steel}
 			divide_variable = { var = steel_export value = 60 }
 
+			###Debt to interest			
+			set_variable = { dti = debintrest }
+			divide_variable = { var =  value = 15000 }	
+			
+			###National Debt			
+			set_variable = { dxp = totaldebt }
+			divide_variable = { var =  value = 1 }		
+			
+			###Set Variables
 			set_variable ={allexpenses = 0 }
 			set_variable ={resourceexpenses = 0 }
 			set_variable ={resourceincome = 0 }
 
+			###Debt, Earnings and Expenses
 			add_to_variable = { var = resourceincome value = rubber_export}
 			add_to_variable = { var = resourceincome value = chromium_export}
 			add_to_variable = { var = resourceincome value = tungsten_export}
 			add_to_variable = { var = resourceincome value = steel_export}
 			add_to_variable = { var = resourceincome value = oil_export}
 			add_to_variable = { var = resourceincome value = aluminium_export}
-
 			add_to_variable = { var = resourceexpenses value = rubber_import}
 			add_to_variable = { var = resourceexpenses value = chromium_import}
 			add_to_variable = { var = resourceexpenses value = tungsten_import}
 			add_to_variable = { var = resourceexpenses value = steel_import}
 			add_to_variable = { var = resourceexpenses value = oil_import}
-			add_to_variable = { var = resourceexpenses value = aluminium_import} 	
-			add_to_variable = { var = allexpenses value = debtexp}	
+			add_to_variable = { var = resourceexpenses value = aluminium_import} 		
 			add_to_variable = { var = allexpenses value = no}	
 			add_to_variable = { var = allexpenses value = nerfeco}
 			add_to_variable = { var = allexpenses value = tax_to_overlord}
@@ -234,59 +255,41 @@ on_actions = {
 			add_to_variable = { var = allexpenses value = ms}
 			add_to_variable = { var = allexpenses value = nf}
 			add_to_variable = { var = allexpenses value = navf}
-			add_to_variable = { var = nmn value = tax }
-			add_to_variable = { var = nmn value = resourceincome }
-			add_to_variable = { var = nmn value = cfff }
-			add_to_variable = { var = dpm value = allexpenses }
-			set_variable ={overcome= nmn}
-            add_to_variable = { var = dx value = nmn  }
-            add_to_variable = { var = debttotal value = dpm  }
+			add_to_variable = { var = GDP value = tax }
+			add_to_variable = { var = GDP value = resourceincome }
+			add_to_variable = { var = GDP value = cfff }
+			add_to_variable = { var = epm value = resourceexpenses }
+			add_to_variable = { var = epm value = allexpenses }
+			add_to_variable = { var = td value = dxp }	
+			add_to_variable = { var = it value = dti }
+			
+			###Monetary Exchanges
+            set_variable = { var = totalexpense value = epm }
+            set_variable = { var = totaldebt value = td }			
+            set_variable = { var = debintrest value = it }
+            add_to_variable = { var = totalmoney value = GDP }
+			add_to_variable = { var = totalexpense value = it }
+			subtract_from_variable = { var = totalmoney value = epm }
+			subtract_from_variable = { var = totaldebt value = it }
+			subtract_from_variable = { var = totalmoney value = it }
+			
+			###Where The Magic Happens		
             if={
             limit={
             OR={
-            check_variable={nmn>1}
-            check_variable={nmn<-1}
+            check_variable = {GDP>1}
+            check_variable = {GDP<-1}
+			check_variable = {GDP = td}
+            check_variable = {it>1}
+            check_variable = {it<-1}
+			check_variable = {it = GDP}
+			check_variable = {it = td}
             }
             }
-            round_variable = dx
-            }
-			
-            every_country={
-            limit={
-            check_variable = { dx > 0 }
-            OR={
-            has_country_flag=money2
-            has_country_flag=money3
-            has_country_flag=money4
-            }
-            }
-            clr_country_flag = money2
-            clr_country_flag = money3
-            clr_country_flag = money4
-            }
-            every_country={
-            limit={
-            check_variable = { dx = -200 }
-            NOT={has_country_flag=money2}
-            }
-            country_event=moneymod.2
-            set_country_flag = money2	
-            }
-            every_country={
-            limit={
-            check_variable = { dx = -500 }
-            NOT={has_country_flag=money3}
-            }
-            country_event=moneymod.3
-            set_country_flag = money3
-            }
-            every_country={
-            limit={
-            check_variable = { dx = -1000 }
-            NOT={has_country_flag=money4}
-            }
-            country_event=moneymod.4
-            set_country_flag = money4
+            round_variable = totalmoney
+            round_variable = totalexpense
+            round_variable = totaldebt
+			round_variable = debintrest
             }
         }
     }
