@@ -20,7 +20,7 @@ set_popularities = {
 create_country_leader = {
 	
 	name = "Filiberto Ojeda Rios"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "Portrait_Filiberto_Ojeda_Rios.dds"
 	expire = "2032.1.1"
 	ideology = marxism
 	traits = {
