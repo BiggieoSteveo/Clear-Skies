@@ -10,48 +10,19 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 38
-	fascism = 6
-	communism = 6
-	neutrality = 50
+	democratic = 20
+	fascism = 10
+	communism = 10
+	neutrality = 60
 }
 
 create_country_leader = {
-	name = "David Kalakaua Kawananakoa"
+	name = "Daniel Inouye"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	ideology = despotism
+	picture = "Portrait_Daniel_Inouye.dds"
+	ideology = oligarchism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "David Kalakaua Kawananakoa"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Joseph Poindexter"
-	desc = ""
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Charles Fujimoto"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
