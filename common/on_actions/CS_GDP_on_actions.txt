@@ -1,0 +1,17 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				econ_start = yes
+			}
+			every_country = {
+				calculate_social_ideas = yes
+			}
+		}
+	}
+	on_monthly = {
+		effect = {		
+			eco_exchanges = yes
+		}
+	}
+}
