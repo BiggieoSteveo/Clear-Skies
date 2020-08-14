@@ -10,9 +10,15 @@ econ_start = {
 	is_major = no
 	}
 	}
-	set_variable = { a = 1}
-	set_variable = { GDP = a }
 	set_variable = { NDB = 1}
+	set_variable = { GDP_calc_num = 0}
+	set_variable = { civ_factory_count = num_of_civilian_factories }
+	multiply_variable = { var = civ_factory_count value = 10 }
+	set_variable = { taxation_amount = tax }
+	multiply_variable = { var = num_of_controlled_states value = 10 }
+	add_to_variable = { var = GDP_calc_num value = civ_factory_count }
+	add_to_variable = { var = GDP_calc_num value = taxation_amount }
+	add_to_variable = { var = GDP value = GDP_calc_num}	
 	else={
 	set_variable = { a = 10}
 	set_variable = { GDP = a }
@@ -24,6 +30,23 @@ econ_start = {
 	}
 	}
 }
+
+#calculate_starting_gdp = {
+#	if={
+#	limit={
+#	has_variable = MCT
+#	}
+#	}
+#	set_variable = { GDP_calc_num = 0}
+#	set_variable = { civ_factory_count = num_of_civilian_factories }
+#	multiply_variable = { var = civ_factory_count value = 2 }
+#	set_variable = { taxation_amount = tax }
+#	multiply_variable = { var = num_of_controlled_states value = 2 }
+#	add_to_variable = { var = GDP_calc_num value = civ_factory_count }
+#	add_to_variable = { var = GDP_calc_num value = taxation_amount }
+#	add_to_variable = { var = GDP value = GDP_calc_num}	
+#	}
+#}
 
 econ_vars = {
 	set_variable = { income = 0}
