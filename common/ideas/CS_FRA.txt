@@ -27,6 +27,8 @@ ideas = {
 
 			modifier = {
 				research_speed_factor = 0.05
+				give_guarantee = BRI
+				give_guarantee = NRM
 			}
 		}
 		

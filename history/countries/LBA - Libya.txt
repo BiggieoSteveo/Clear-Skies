@@ -19,7 +19,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Muammar Gaddafi"
 	desc = "Muammar_Gaddafi_DESC"
-	picture = "Portrait_Arabia_Generic_communism1.dds"
+	picture = "Portrait_Muammar_Gaddafi.dds"
 	ideology = internationalism #change to pan-arabism
 	traits = {
 	}
