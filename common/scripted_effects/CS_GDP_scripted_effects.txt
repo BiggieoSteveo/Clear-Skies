@@ -1,5 +1,6 @@
 econ_start = {
 	econ_vars = yes
+	econ_modifiers = yes
 	if={
 	limit={
 	OR={
@@ -10,7 +11,6 @@ econ_start = {
 	is_major = no
 	}
 	}
-	set_variable = { NDB = 1}
 	set_variable = { GDP_calc_num = 0}
 	set_variable = { civ_factory_count = num_of_civilian_factories }
 	multiply_variable = { var = civ_factory_count value = 10 }
@@ -22,7 +22,6 @@ econ_start = {
 	else={
 	set_variable = { a = 10}
 	set_variable = { GDP = a }
-	set_variable = { NDB = 1}
 	SOV = {
 	set_variable = { GDP = 622731 }
 	set_variable = { NDB = 521 }
@@ -31,26 +30,60 @@ econ_start = {
 	}
 }
 
-#calculate_starting_gdp = {
-#	if={
-#	limit={
-#	has_variable = MCT
-#	}
-#	}
-#	set_variable = { GDP_calc_num = 0}
-#	set_variable = { civ_factory_count = num_of_civilian_factories }
-#	multiply_variable = { var = civ_factory_count value = 2 }
-#	set_variable = { taxation_amount = tax }
-#	multiply_variable = { var = num_of_controlled_states value = 2 }
-#	add_to_variable = { var = GDP_calc_num value = civ_factory_count }
-#	add_to_variable = { var = GDP_calc_num value = taxation_amount }
-#	add_to_variable = { var = GDP value = GDP_calc_num}	
-#	}
-#}
+econ_modifiers = {
+	#GDP Increase
+	set_temp_variable = { GDP_increase_national = 1 }
+	divide_temp_variable = { GDP_increase_national = 12 }
+	add_to_temp_variable = { GDP_increase_national = modifier@gdp_increase }
+	multiply_variable = { var = income value = GDP_increase_national } 
+	
+	#GDP Decrease
+	set_temp_variable = { GDP_decrease_national = 1 }
+	divide_temp_variable = { GDP_decrease_national = 12 }
+	add_to_temp_variable = { GDP_decrease_national = modifier@gdp_decrease }
+	divide_variable = { var = income value = GDP_decrease_national }
+	
+	#GDP Spending Increase
+	set_temp_variable = { GDP_spending_national = 1 }
+	divide_temp_variable = { GDP_spending_national = 12 }
+	add_to_temp_variable = { GDP_spending_national = modifier@gdp_spending }
+	multiply_variable = { var = generalexpenses value = GDP_spending_national }
+	
+	#GDP Spending Decrease
+	set_temp_variable = { GDP_austerity_national = 1 }
+	divide_temp_variable = { GDP_austerity_national = 12 }
+	add_to_temp_variable = { GDP_austerity_national = modifier@gdp_austerity }
+	divide_variable = { var = generalexpenses value = GDP_austerity_national }
+	
+	#GDP Add To Eco
+	set_temp_variable = { GDP_money_gain_national = 1 }
+	divide_temp_variable = { GDP_money_gain_national = 12 }
+	add_to_temp_variable = { GDP_money_gain_national = modifier@gdp_money_gain }
+	add_to_variable = { var = GDP value = GDP_money_gain_national }
+	
+	#GDP Spending From Eco
+	#set_temp_variable = { GDP_money_spent_national = 1 }
+	#divide_temp_variable = { GDP_money_spent_national = 12 }
+	#add_to_temp_variable = { GDP_money_spent_national = modifier@gdp_money_spent }
+	#add_to_variable = { var = NDB value = GDP_money_spent_national }
+	
+	#GDP Paying Loan
+	set_temp_variable = { GDP_loan_national = 1 }
+	divide_temp_variable = { GDP_loan_national = 12 }
+	add_to_temp_variable = { GDP_loan_national = modifier@gdp_paying_loan }
+	multiply_variable = { var = DBP value = GDP_loan_national }
+	
+	#GDP Defaulting
+	#set_temp_variable = { GDP_default_national = 1 }
+	#divide_temp_variable = { GDP_default_national = 12 }
+	#add_to_temp_variable = { GDP_default_national = modifier@gdp_default_loan }
+	#multiply_variable = { var = NDB value = GDP_default_national }
+}
 
 econ_vars = {
 	set_variable = { income = 0}
 	set_variable = { generalexpenses = 0}
+	set_variable = { NDB = 1}	
 	
 	###Earnings		
 	set_variable = { cfff = num_of_civilian_factories}
@@ -95,12 +128,8 @@ econ_vars = {
 	divide_variable = { var = steel_export value = 60 }
 	
 	###Debt Expense
-	set_variable = { DBP = 0 }
+	set_variable = { DBP = 0.05 }
 	
-	###National Debt			
-	set_variable = { DX = NDB }
-	divide_variable = { var = DX value = 1 }
-			
 	add_to_variable = { var = income value = tax }
 	add_to_variable = { var = income value = cfff }
 	add_to_variable = { var = income value = rubber_export}

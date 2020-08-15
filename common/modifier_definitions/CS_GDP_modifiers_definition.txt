@@ -1,0 +1,66 @@
+###Things to keep in mind when using GDP modifiers: 
+#Do not use negative operation symbols (Minus symbol) on modifiers that increase growth/spending. 
+
+#GDP Increase - Increases monthly income & growth rate.
+gdp_increase = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Decrease - Decreases monthly income & growth rate.
+gdp_decrease = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Spending Increase - Increases the monthly expenses.
+gdp_spending = {
+	color_type = neutral
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Austerity - Decreases the monthly expenses, is very OP meaning it should be acompanied by massive debuffs whenever used in content.
+gdp_austerity = {
+	color_type = neutral
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Add To Eco - Adds to total GDP, not growth rate. 1 = 1 bn dollars.
+gdp_money_gain = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = country
+}
+
+#GDP Loss From Eco - Adds to total debt, 1 = 1 bn dollars.
+gdp_money_spent = {
+	color_type = bad
+	value_type = number
+	precision = 2
+	category = country
+}
+
+#GDP Paying Loan - Increases debt-to-income ratio at which you pay off debt. Much like austerity, representing a high dti ratio in game should mean huge debuffs though.
+gdp_paying_loan = {
+	color_type = neutral
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Defaulting - Decreases debt-to-income ratio and increases monthly debt growth.
+gdp_default_loan = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
