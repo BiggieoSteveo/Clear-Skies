@@ -62,10 +62,10 @@ econ_modifiers = {
 	add_to_variable = { var = GDP value = GDP_money_gain_national }
 	
 	#GDP Spending From Eco
-	#set_temp_variable = { GDP_money_spent_national = 1 }
-	#divide_temp_variable = { GDP_money_spent_national = 12 }
-	#add_to_temp_variable = { GDP_money_spent_national = modifier@gdp_money_spent }
-	#add_to_variable = { var = NDB value = GDP_money_spent_national }
+	set_temp_variable = { GDP_money_spent_national = 1 }
+	divide_temp_variable = { GDP_money_spent_national = 12 }
+	add_to_temp_variable = { GDP_money_spent_national = modifier@gdp_money_spent }
+	add_to_variable = { var = NDB value = GDP_money_spent_national }
 	
 	#GDP Paying Loan
 	set_temp_variable = { GDP_loan_national = 1 }
