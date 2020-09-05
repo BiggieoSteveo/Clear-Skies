@@ -353,7 +353,7 @@ PixelShader =
 		float vDot = dot( vGlobeNormal, DayNight_Hour_SunDir.yzw );
 		return saturate( ( vDot - vMin ) / ( vMax - vMin ) ) * vFoWOpacity_FoWTime_SnowMudFade_MaxGameSpeed.w;
 	}
-
+	
 
 	float DayNightFactor( float3 vGlobeNormal )
 	{
@@ -372,7 +372,6 @@ PixelShader =
 
 	    return vColor * NIGHT_DARKNESS;
 	}
-
 
 	float3 DayNightWithBlend( float3 vDayColor, float3 vGlobeNormal, float vBlend )
 	{	
@@ -673,7 +672,7 @@ PixelShader =
 
 		float3 vAmbientColor = AmbientLight(aProperties._Normal, vDayNight);
 		float3 diffuse = ((vAmbientColor + aDiffuseLight) * aProperties._Diffuse) * HdrRange;
-		float3 specular = aSpecularLight;
+		float3 specular = 0.0 * aSpecularLight;
 
 		return diffuse + specular;
 	}
@@ -902,17 +901,14 @@ PixelShader =
 
 		// Calculate color and transparency of both channels
 		float3 vGradMix;
-		
 		float vAlpha1 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh1, vNormal, vUV, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.x, GB_STRENGTH_CH1 );
+		float vAlpha2 = gradient_border_process_channel( vGradMix, vGradMix, vGBCamDistCh2, vNormal, vUV2, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.y, (1.0 - vAlpha1 * GB_STRENGTH_CH1 * GB_FIRST_LAYER_PRIORITY) * GB_STRENGTH_CH2 );
+				
 		// Now mix, the resultat with background
-		float TranspA = 1.0f - tex2D( TexCh2, vUV ).g;		
-		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspA );
-		
-		
-		float vAlpha2 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh2, vNormal, vUV2, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.y, (1.0 - vAlpha1 * GB_STRENGTH_CH1 * GB_FIRST_LAYER_PRIORITY) * GB_STRENGTH_CH2 );
+		float TranspA = 1.0f - tex2D( TexCh2, vUV ).g;
 		float TranspB = 1.0f - tex2D( TexCh2, vUV2 ).g;
-		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspB );
-		
+		float GlobalTransp = min( TranspA, TranspB );
+		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * GlobalTransp );
 	//vColor = GetOverlay( vColor, ToLinear(vGradMix), 0.80);
 
 		// Return some alpha, so the postprocess will ignore gradient borders

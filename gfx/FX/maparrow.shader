@@ -161,8 +161,6 @@ ConstantBuffer( 3, 32 ) # For arrow shader
 	float vSecondaryBodyUvScale;
 	float vTextureVariantScale; // 1.0f / (number of variants)
 	float fCullingOffset;
-	float vShadowFactor;
-	float vNormalMapFactor;
 };
 
 ConstantBuffer( 2, 32 ) # For symbol shader
@@ -356,7 +354,7 @@ PixelShader =
 			vUV.y = lerp( vBodyV, vHeadV, vIsHead );
 
 			float vWaterValue = 0;
-			float3 vNormal = vNormalMapFactor * CalculateTerrainNormal( Input.uv_terrain, Input.uv_terrain_id, vWaterValue, vTime_IsSelected_FadeInOut.x );
+			float3 vNormal = CalculateTerrainNormal( Input.uv_terrain, Input.uv_terrain_id, vWaterValue, vTime_IsSelected_FadeInOut.x );
 			vUV += vNormal.xz * ( /*vNormal.y **/ MAP_ARROW_NORMALS_STR_TERR );
 			vUV -= vNormal.xz * ( vWaterValue * MAP_ARROW_NORMALS_STR_WATER );
 			vUV = clamp( vUV, 0.001f, 0.998f );
@@ -378,8 +376,8 @@ PixelShader =
 		#if 1
 			vArrowColor.rgb = RGBtoHSV(vArrowColor.rgb);
 			vArrowColor.r = mod( vArrowColor.r, 6.0 ); //H
-			vArrowColor.g *= 1.5; //S bump up the saturation and light
-			vArrowColor.b *= 1.0; //V
+			vArrowColor.g *= 0.8; //S
+			vArrowColor.b *= 0.7; //V
 			vArrowColor.rgb = HSVtoRGBPost(vArrowColor.rgb);
 
 			float4 vColor = saturate( vPattern * vArrowColor );
@@ -409,18 +407,17 @@ PixelShader =
 			vUV.y = ( ( vUV.y - 0.5f ) * vVariantBodyUvScale + 0.5f + vTextureVariant ) * vTextureVariantScale; // Adjust UV vertically to select the correct packed texture variant.
 
 			float vWaterValue = 0;
-			float3 vNormal = vNormalMapFactor * CalculateTerrainNormal( Input.uv_terrain, Input.uv_terrain_id, vWaterValue, vTime_IsSelected_FadeInOut.x );
-
+			float3 vNormal = CalculateTerrainNormal( Input.uv_terrain, Input.uv_terrain_id, vWaterValue, vTime_IsSelected_FadeInOut.x );
 			vUV += vNormal.xz * ( vNormal.y * MAP_ARROW_NORMALS_STR_TERR );
 			vUV -= vNormal.xz * ( vWaterValue * MAP_ARROW_NORMALS_STR_WATER );
 
 			float4 vMask = tex2D( TexMask, vUV );
 			vMask -= ( ( sin( vTime_IsSelected_FadeInOut.x * MAP_ARROW_SEL_BLINK_SPEED ) * MAP_ARROW_SEL_BLINK_RANGE + 1.0f - MAP_ARROW_SEL_BLINK_RANGE * 0.5f ) * 0.5f ) * vTime_IsSelected_FadeInOut.y;
 			vMask = saturate( vMask );
-			//clip( vMask.a <= 0 ? -1 : 1 );
+			clip( vMask.a <= 0 ? -1 : 1 );
 			vMask.rgb = vMask.rgb * ArrowMask.rgb * vMask.a;
 			float vMaskValue = saturate( vMask.r + vMask.g + vMask.b );
-			clip( vMaskValue <= 0 ? -1 : 1 );
+			clip( vMaskValue <= 0 ? 0 : 1 );
 
 			float4 vPattern = tex2D( TexPattern, vUV );
 
@@ -428,8 +425,8 @@ PixelShader =
 			#if 1
 				vArrowColor.rgb = RGBtoHSV(vArrowColor.rgb);
 				vArrowColor.r = mod( vArrowColor.r, 6.0 ); //H
-				vArrowColor.g *= 2.0; //S bump up the saturation and light
-				vArrowColor.b *= 1.5; //V
+				vArrowColor.g *= 0.8; //S
+				vArrowColor.b *= 0.8; //V
 				vArrowColor.rgb = HSVtoRGBPost(vArrowColor.rgb);
 
 				float4 vColor = saturate( vPattern * vArrowColor );
@@ -440,7 +437,7 @@ PixelShader =
 				vColor.rgb = CalculateLighting( Input.prepos, Input.vScreenCoord, vNormal, vColor );
 			#endif
 			
-			vColor.rgb *= GetShadowScaled( vShadowFactor * SHADOW_WEIGHT_TERRAIN, Input.vScreenCoord, ShadowMap );
+			vColor.rgb *= GetShadowScaled( SHADOW_WEIGHT_TERRAIN, Input.vScreenCoord, ShadowMap );
 			vColor.rgb = ApplyDistanceFog( vColor.rgb, Input.prepos );
 			vColor.rgb = DayNightWithBlend( vColor.rgb, CalcGlobeNormal( Input.prepos.xz ), 0.2f );
 			return float4( vColor.rgb, vColor.a * vMaskValue );
@@ -534,14 +531,6 @@ Effect MapArrowDefaultWithDepth
 	VertexShader = "ArrowVertexShader"
 	PixelShader = "ArrowPixelShader"
 	DepthStencilState = "DefaultDepthNoStencil"
-}
-
-Effect MapArrowNoHeadWidthDepth
-{
-	VertexShader = "ArrowVertexShader"
-	PixelShader = "ArrowPixelShaderNoHead"
-	DepthStencilState = "DefaultDepthNoStencil"
-	Defines = { "ANIM_TEXTURE" }
 }
 
 Effect MapArrowNoHead

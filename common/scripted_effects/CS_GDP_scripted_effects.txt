@@ -22,10 +22,6 @@ econ_start = {
 	else={
 	set_variable = { a = 10}
 	set_variable = { GDP = a }
-	SOV = {
-	set_variable = { GDP = 622731 }
-	set_variable = { NDB = 521 }
-	}
 	}
 	}
 }

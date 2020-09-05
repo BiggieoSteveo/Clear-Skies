@@ -168,11 +168,6 @@ PixelShader =
 		    float Grey = dot( OutColor.rgb, float3( 0.212671f, 0.715160f, 0.072169f ) ); 
 		    OutColor.rgb = float3(Grey, Grey, Grey);
 
-		#ifdef ANIMATED
-			OutColor = Animate(OutColor, v.vTexCoord, v.vAnimatedTexCoord, MaskTexture, AnimatedTexture, MaskTexture2, AnimatedTexture2);
-		#endif
-
-
 		#ifdef MASKING
 			float4 MaskColor = tex2D( MaskingTexture, v.vTexCoord );
 			OutColor.a *= MaskColor.a;
