@@ -5,44 +5,23 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism_ideology
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 75
-	fascism = 1
-	communism = 1
-	neutrality = 23
+	socialism_ideology = 66
+	democratic = 34
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "2032.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
-
-
-}
-
-
-2008.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2008.1.1.12"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 75
-		fascism = 1
-		communism = 1
-		neutrality = 23
+create_country_leader = {
+	name = "Sheikh Hasina"
+	desc = "SHEIKH_HASINA_DESC"
+	picture = "Portrait_Sheikh_Hasina.dds"
+	expire = "2032.1.1"
+	ideology = democratic_socialism
+	traits = {
 	}
 }

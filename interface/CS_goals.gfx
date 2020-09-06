@@ -1,5 +1,20 @@
 spriteTypes = {	
 
+###Bosnia
+
+	SpriteType = {
+		name = "GFX_BOS_A_New_Year_for_Bosnia"
+		texturefile = "gfx/interface/goals/BOS_A_New_Year_for_Bosnia.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_BOS_A_Terrorist_Attack"
+		texturefile = "gfx/interface/goals/BOS_A_Terrorist_Attack.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BOS_Go_On_as_Usual"
+		texturefile = "gfx/interface/goals/BOS_Go_On_as_Usual.dds"			
+	}
+
 ###Soviet Union
 
 	SpriteType = {

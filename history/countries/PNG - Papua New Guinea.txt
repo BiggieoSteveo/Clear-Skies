@@ -10,6 +10,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	democratic = 75
 	socialism_ideology = 25
@@ -17,7 +18,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Mekere Morauta"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	desc = "MEKERE_MORAUTA_DESC"
+	picture = "Portrait_Mekere_Morauta.dds"
 	expire = "2032.1.1"
 	ideology = centrism
 	traits = {
