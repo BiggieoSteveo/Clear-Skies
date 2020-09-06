@@ -1,16 +1,6 @@
 econ_start = {
 	econ_vars = yes
 	econ_modifiers = yes
-	if={
-	limit={
-	OR={
-	capital_scope  = { is_on_continent = asia }
-	capital_scope  = { is_on_continent = africa }
-	capital_scope  = { is_on_continent = south_america }
-	capital_scope  = { is_on_continent = middle_east }
-	is_major = no
-	}
-	}
 	set_variable = { GDP_calc_num = 0}
 	set_variable = { civ_factory_count = num_of_civilian_factories }
 	multiply_variable = { var = civ_factory_count value = 10 }
@@ -19,11 +9,8 @@ econ_start = {
 	add_to_variable = { var = GDP_calc_num value = civ_factory_count }
 	add_to_variable = { var = GDP_calc_num value = taxation_amount }
 	add_to_variable = { var = GDP value = GDP_calc_num}	
-	else={
-	set_variable = { a = 10}
-	set_variable = { GDP = a }
-	}
-	}
+	round_variable = GDP
+	round_variable = NDB
 }
 
 econ_modifiers = {
@@ -124,7 +111,7 @@ econ_vars = {
 	divide_variable = { var = steel_export value = 60 }
 	
 	###Debt Expense
-	set_variable = { DBP = 0.05 }
+	set_variable = { DBP = 1 }
 	
 	add_to_variable = { var = income value = tax }
 	add_to_variable = { var = income value = cfff }
