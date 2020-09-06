@@ -1,4 +1,3 @@
-
 state={
 	id=632
 	name="STATE_632"
@@ -6,8 +5,8 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = GUM
-		add_core_of = GUM
+		owner = HAW
+		add_core_of = HAW
 		buildings = {
 			infrastructure = 3
 			13047 = {
@@ -17,8 +16,8 @@ state={
 		victory_points = {
 			13047 1 
 		}
-
 	}
+	
 	provinces={
 		13047 
 	}

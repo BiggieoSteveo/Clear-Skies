@@ -18,7 +18,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ahmed Ould Daddah"
 	desc = "AHMED_OULD_DADDAH_DESC"
-	picture = "Portrait_Arabia_Generic_communism1.dds"
+	picture = "Portrait_Ahmed_Ould_Daddah.dds"
 	ideology = marxism
 	traits = {
 	}

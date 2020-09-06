@@ -1,9 +1,6 @@
 ﻿capital = 293
 
 #oob = "YEM_1936"
-set_war_support = 0.1
-set_stability = 0.8
-set_convoys = 5
 
 set_politics = {
 	ruling_party = communism
@@ -11,6 +8,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	communism = 100
 }
@@ -18,7 +16,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ali Salem al-Beidh"
 	desc = "ALI_SALEM_AL_BEIDH_DESC"
-	picture = "GFX_portrait_yemen_imam_yahya"
+	picture = "Portrait_Ali_Salem_al-Beidh.dds"
 	expire = "2032.1.1"
 	ideology = internationalism #replace with pan-arabism
 	traits = {

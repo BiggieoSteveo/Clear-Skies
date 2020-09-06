@@ -36,4 +36,12 @@ spriteTypes = {
 		name = "GFX_SOV_news_baklanov_victory"
 		texturefile = "gfx/event_pictures/SOV_news_baklanov_victory.dds"
 	}
+	spriteType = {
+		name = "GFX_ANH_report_ghost_of_lei_feng"
+		texturefile = "gfx/event_pictures/ANH_report_ghost_of_lei_feng.dds"
+	}
+	spriteType = {
+		name = "GFX_PRC_report_ghost_of_lei_feng"
+		texturefile = "gfx/event_pictures/PRC_report_ghost_of_lei_feng.dds"
+	}
 }

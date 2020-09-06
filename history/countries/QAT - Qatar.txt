@@ -5,25 +5,22 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 51
-	fascism = 1
-	communism = 1
-	neutrality = 47
+	democratic = 47
+	neutrality = 53
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "2032.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Sabah al-Ahmad al-Jaber"
+	desc = "SABAH_AL-AHMAD_AL-JABER_DESC"
+	picture = "Portrait_Sabah_al-Ahmad_al-Jaber.dds"
+	expire = "2032.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
