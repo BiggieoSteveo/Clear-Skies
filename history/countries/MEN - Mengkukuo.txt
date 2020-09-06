@@ -1,22 +1,21 @@
 ﻿capital = 621
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 80
-	neutrality = 20
+	neutrality = 100
 }
 
 create_country_leader = {
-	name = "Prince Demchugdongrub"
-	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-	picture = "GFX_portrait_men_demchugdongrub"
+	name = "Hu Chunhua"
+	desc = ""
+	picture = "Portrait_Hu_Chunhua.dds"
 	expire = "2032.1.1"
-	ideology = rexism
+	ideology = social_despotism
 	traits = {
 		#
 	}
