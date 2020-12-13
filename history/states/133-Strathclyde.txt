@@ -11,8 +11,9 @@ state={
 	}
 
 	history={
-		add_core_of = SCO
-		owner = SCO
+		add_core_of = ENG
+		owner = ENG
+		owner = ENG
 		victory_points = {
 			3273 15
 		}

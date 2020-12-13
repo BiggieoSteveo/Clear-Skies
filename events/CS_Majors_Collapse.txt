@@ -1,0 +1,45 @@
+###########################
+# Majors Collapse Events
+###########################
+
+add_namespace = soviet_collapse
+add_namespace = soviet_collapse_bad
+add_namespace = soviet_collapse_news
+add_namespace = american_collapse
+add_namespace = american_collapse_bad
+add_namespace = american_collapse_news
+
+#America Collapses
+country_event = {
+	id = american_collapse.1
+	title = american_collapse.1.t
+	desc = american_collapse.1.d
+	picture = GFX_BOS_report_sarajevo_bombing
+	
+	fire_only_once = yes	
+	is_triggered_only = yes
+
+	option = {
+		name = american_collapse.1.a
+		hidden_effect = {
+			set_country_flag = america_collapse_one
+				USA = {
+				collapse_usa_alpha = yes
+			}
+		}
+	}	
+}
+
+news_event = {
+	id = american_collapse_news.1
+	title = american_collapse_news.1.t
+	desc = american_collapse_news.1.d
+	picture = GFX_SOV_news_bomber
+	
+	fire_only_once = yes	
+	is_triggered_only = yes
+
+	option = {
+		name = american_collapse_news.1.a
+	}	
+}

@@ -141,7 +141,7 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 240  190  190 }
+	color = rgb { 117  67  61 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -767,4 +767,12 @@ LAB = {
 NFL = {
 	color = rgb { 120 109 138 }
 	color_ui = rgb { 88 120 155 }
+}
+ALK = {
+	color = rgb { 97 96 152 }
+	color_ui = rgb { 65 103 181 }
+}
+USB = {
+	color = rgb { 94 123 127 }
+	color_ui = rgb { 65 103 181 }
 }

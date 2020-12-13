@@ -1,18 +1,17 @@
-﻿capital = 382
+﻿capital = 811
 
 #oob = "USA_1936"
 
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	neutrality = 100
 }
 
 create_country_leader = {
@@ -20,31 +19,9 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Dick_Cheney.dds"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		#
-	}
-}
-
-create_country_leader = {
-	name = "William Dudley Pelley"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
-	expire = "2032.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Earl Browder"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "portrait_USA_earl_browder.dds"
-	expire = "2032.1.1"
-	ideology = marxism
-	traits = {
-		
 	}
 }
 

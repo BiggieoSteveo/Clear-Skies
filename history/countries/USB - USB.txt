@@ -1,4 +1,4 @@
-﻿capital = 361
+﻿capital = 382
 
 #oob = "USA_1936"
 
@@ -13,4 +13,15 @@ set_politics = {
 set_popularities = {
 	neutrality = 99
 	communism = 1
+}
+
+create_country_leader = {
+	name = "Brogan Gross"
+	desc = ""
+	picture = ""
+	expire = "2032.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
 }

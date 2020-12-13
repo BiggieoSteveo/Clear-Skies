@@ -1,0 +1,4 @@
+USA_collapse_alphastate = {
+	color = rgb { 76 88 106 }
+	color_ui = rgb { 76 88 106 }
+}

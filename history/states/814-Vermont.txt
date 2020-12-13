@@ -1,0 +1,28 @@
+state={
+	id=814
+	name="STATE_814"
+	resources={
+		steel=1
+	}
+
+	state_category = rural
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = USA
+		victory_points = {
+			4445 1 
+		}
+
+	}
+
+	provinces={
+		9675 4445 7629 13158
+	}
+	manpower=1398
+}

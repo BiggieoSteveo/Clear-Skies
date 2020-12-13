@@ -1,0 +1,35 @@
+state={
+	id=815
+	name="STATE_815"
+	resources={
+		steel=8
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9832 1 
+		}
+
+	}
+
+	provinces={
+		6909 9832 9847 9850 11830
+	}
+	manpower=544713
+}
