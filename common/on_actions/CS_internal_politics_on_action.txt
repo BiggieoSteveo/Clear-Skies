@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				inpol_start = yes
+			}
+		}
+	}
+	on_monthly = {
+		effect = {		
+			inpol_gain = yes
+		}
+	}
+}

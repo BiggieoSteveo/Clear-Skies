@@ -1,0 +1,8 @@
+﻿l_english:
+ infuence_point:0 "Infuence Point"
+ EXECUTIVE_BRANCH_NAME:0 "Executive Branch"
+ EXECUTIVE_BRANCH:0 "Executive Branch Influence:[?executive_branch_faction_infuence]"
+ THE_PARTY:0 "Party influence [?the_party_faction_infuence]"
+ INTELIGENCIA:0 "Inteligencia Influence [?inteligencia_faction_infuence]"
+ ARMED_FORCES:0 "Armed Forces Influence [?armed_forces_faction_infuence]"
+ MILITIA:0 "Militias Influence [?militia_faction_infuence]"

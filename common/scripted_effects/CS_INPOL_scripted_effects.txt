@@ -1,0 +1,33 @@
+inpol_start = {
+
+	set_variable = { infuence_point = 0.25 }
+
+	set_variable = { executive_branch_faction_infuence = 0 }
+	set_variable = { the_party_faction_infuence = 0 }
+	set_variable = { inteligencia_faction_infuence = 0 }
+	set_variable = { armed_forces_faction_infuence = 0 }
+	set_variable = { militia_faction_infuence = 0 }
+	
+	clamp_variable = { var = executive_branch_faction_infuence min = 0 max = 100 }
+	clamp_variable = { var = the_party_faction_infuence min = 0 max = 100 }
+	clamp_variable = { var = inteligencia_faction_infuence min = 0 max = 100 }
+	clamp_variable = { var = armed_forces_faction_infuence min = 0 max = 100 }	
+	clamp_variable = { var = militia_faction_infuence min = 0 max = 100 }
+
+	round_variable = infuence_point	
+	round_variable = executive_branch_faction_infuence
+	round_variable = the_party_faction_infuence
+	round_variable = inteligencia_faction_infuence
+	round_variable = armed_forces_faction_infuence
+	round_variable = militia_faction_infuence
+}
+
+inpol_gain = {
+	add_to_variable = { var = executive_branch_faction_infuence value = infuence_point }
+	add_to_variable = { var = the_party_faction_infuence value = infuence_point }
+	add_to_variable = { var = inteligencia_faction_infuence value = infuence_point }
+	add_to_variable = { var = armed_forces_faction_infuence value = infuence_point }
+	add_to_variable = { var = militia_faction_infuence value = infuence_point }
+}
+	
+	

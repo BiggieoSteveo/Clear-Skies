@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_CS_header_small"
+		texturefile = "gfx/interface/cs_header_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CS_header_micro"
+		texturefile = "gfx/interface/cs_header_micro.dds"
+	}
+}
