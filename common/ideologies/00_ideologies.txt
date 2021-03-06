@@ -16,6 +16,9 @@ ideologies = {
 
 			internationalism = {
 			}
+			
+			left_wing_nationalism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -66,9 +69,6 @@ ideologies = {
 			}
 
 			green_leftism = {
-			}
-
-			left_wing_nationalism = {
 			}
 		}
 

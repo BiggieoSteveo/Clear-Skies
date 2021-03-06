@@ -27,9 +27,9 @@ state={
 			}
 
 		}
-		add_core_of = GER
 		add_core_of = WGR
-		add_core_of = BAY
+		add_core_of = GER
+		add_core_of = GRM
 	}
 
 	provinces={

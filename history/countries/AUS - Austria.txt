@@ -14,16 +14,15 @@ set_politics = {
 set_popularities = {
 	communism = 10
 	socialism_ideology = 15
-	fascism = 50
-	simplism = 25
+	fascism = 75
 }
 
 set_stability = 0.50
 
 create_country_leader = {
-	name = "Wolfgang Schussel"
+	name = "Florian Bogen"
 	desc = ""
-	picture = "Portrait_Wolfgang_Schussel.dds"
+	picture = "Portrait_Florian_Bogen.dds"
 	expire = "2032.1.1"
 	ideology = fascism_ideology 
 	traits = {

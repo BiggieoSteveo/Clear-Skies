@@ -1,23 +1,23 @@
 capital = 158
 
 set_politics = {
-	ruling_party = fascism 
+	ruling_party = communism 
 	last_election = "2008.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 10
-	socialism_ideology = 10
-	fascism = 80
+	communism = 60
+	neutrality = 20
+	fascism = 20
 }
 
 create_country_leader = {
-	name = "Pino Rauti"
-	desc = "PINO_RAUTI_DESC"
-	picture = "Portrait_Pino_Rauti.dds"
+	name = "Franco Freda"
+	desc = "FRANCO_FREDA_DESC"
+	picture = "Portrait_Franco_Freda.dds"
 	expire = "2032.1.1"
-	ideology = fascism_ideology
+	ideology = left_wing_nationalism
 	traits = {
 	}
 }

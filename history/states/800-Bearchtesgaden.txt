@@ -10,7 +10,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BAY
+		owner = GRM
 		victory_points = {
 			708 1
 		}
@@ -18,9 +18,9 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = BAY
 		add_core_of = WGR
 		add_core_of = GER
+		add_core_of = GRM
 	}
 
 	provinces={

@@ -35,7 +35,7 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes
 			
-			pdx_tooltip = "MONEY_TOOLTIP" 
+			pdx_tooltip = "MONEY_TOOLTIP_BASE" 
 		}
 	}
 	containerWindowType = {

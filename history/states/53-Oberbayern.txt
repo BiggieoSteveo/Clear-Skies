@@ -7,15 +7,15 @@ state={
 	state_category = rural
 
 	history={
-		owner = BAY
+		owner = GRM
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		add_core_of = BAY
 		add_core_of = WGR
 		add_core_of = GER
+		add_core_of = GRM
 		victory_points = {
 			3541 1
 		}

@@ -776,3 +776,7 @@ USB = {
 	color = rgb { 94 123 127 }
 	color_ui = rgb { 65 103 181 }
 }
+GRM = {
+	color = rgb { 83  83  83 }
+	color_ui = rgb { 233  231  246 }
+}
