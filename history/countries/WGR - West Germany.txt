@@ -3,7 +3,7 @@
 # Starting tech
 
 declare_war_on = {
-	target = BAY
+	target = GRM
 	type = annex_everything
 }
 

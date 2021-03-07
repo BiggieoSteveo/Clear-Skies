@@ -10,7 +10,7 @@ declare_war_on = {
 }
 
 declare_war_on = {
-	target = BAY
+	target = GRM
 	type = annex_everything
 }
 
