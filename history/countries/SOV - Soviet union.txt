@@ -21,9 +21,9 @@ set_popularities = {
 create_faction = warsaw_treaty
 
 create_country_leader = {
-	name = "Dimitry Yazov"
+	name = "Grigory Romanov"
 	desc = "dmitry_yazov_DESC"
-	picture = "Portrait_Dimitry_Yazov.dds"
+	picture = "Portrait_Grigory_Romanov.dds"
 	expire = "2032.3.1"
 	ideology = authoritarian_socialism_subtype
 	traits = {
