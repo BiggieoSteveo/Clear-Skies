@@ -15,7 +15,7 @@ create_country_leader = {
 	desc = "ZHAO_KEZHI_DESC"
 	picture = "Portrait_Zhao_Kezhi.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

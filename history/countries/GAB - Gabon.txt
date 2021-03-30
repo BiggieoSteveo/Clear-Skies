@@ -12,7 +12,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 79
-	socialism_ideology = 7
+	left_populism = 7
 	neutrality = 14
 }
 
@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "PIERRE_MAMBOUNDOU_DESC"
 	picture = "Portrait_Pierre_Mamboundou.dds"
 	expire = "2032.1.1"
-	ideology = social_democracy
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

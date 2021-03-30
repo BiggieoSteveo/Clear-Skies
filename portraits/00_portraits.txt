@@ -58,7 +58,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_8.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
@@ -73,7 +73,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
@@ -114,7 +114,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_7.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
@@ -129,7 +129,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
@@ -169,7 +169,7 @@ continent = {
 					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
@@ -184,7 +184,7 @@ continent = {
 					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
 			}
@@ -225,7 +225,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
@@ -240,7 +240,7 @@ continent = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
@@ -282,7 +282,7 @@ continent = {
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -305,7 +305,7 @@ continent = {
 					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
@@ -352,7 +352,7 @@ continent = {
 					"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
@@ -367,7 +367,7 @@ continent = {
 					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
 			}
@@ -405,7 +405,7 @@ continent = {
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 			}
@@ -420,7 +420,7 @@ continent = {
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
 			}
@@ -738,7 +738,7 @@ RAJ = {
 					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 			}
@@ -753,7 +753,7 @@ RAJ = {
 					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
 			}
@@ -781,7 +781,7 @@ PAK = {
 					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 			}
@@ -796,7 +796,7 @@ PAK = {
 					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
 			}
@@ -853,7 +853,7 @@ AFG = {
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 			}
@@ -868,7 +868,7 @@ AFG = {
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
 			}
@@ -1022,7 +1022,7 @@ BAH = {
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -1044,7 +1044,7 @@ BAH = {
 					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
@@ -1088,7 +1088,7 @@ BLZ = {
 					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
@@ -1103,7 +1103,7 @@ BLZ = {
 					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
 			}
@@ -1135,7 +1135,7 @@ WST = {
 					"gfx/leaders/WST/Portrait_Wasteland_Generic.dds"
 			}
 		}
-		socialism_ideology = {
+		left_populism = {
 				male = { 
 					"gfx/leaders/WST/Portrait_Wasteland_Generic.dds"
 			}
@@ -1150,7 +1150,7 @@ WST = {
 					"gfx/leaders/WST/Portrait_Wasteland_Generic.dds"
 			}
 		}
-		simplism = {
+		anarchy = {
 				male = { 
 					"gfx/leaders/WST/Portrait_Wasteland_Generic.dds" 
 			}

@@ -12,7 +12,7 @@ set_politics = {
 }
 set_popularities = {
 	communism = 90
-	socialism_ideology = 5
+	left_populism = 5
 	democratic = 5
 }
 
@@ -21,7 +21,7 @@ create_country_leader = {
 	name = "Tommy Sheridian"
 	picture = "Portrait_Tommy_Sheridian.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		#
 	}

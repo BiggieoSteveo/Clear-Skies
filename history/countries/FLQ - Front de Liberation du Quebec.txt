@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = "JACQUES_LANCTOT_DESC"
 	picture = "Portrait_Jacques_Lanctot.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 	}
 }

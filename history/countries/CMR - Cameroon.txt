@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "BELLO_BOUBA_MAIGARI_DESC"
 	picture = "Portrait_Bello_Bouba_Maigari.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

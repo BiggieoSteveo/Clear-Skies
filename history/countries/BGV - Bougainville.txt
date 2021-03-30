@@ -13,7 +13,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 65
-	socialism_ideology = 35
+	left_populism = 35
 }
 
 create_country_leader = {
@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "JAMES_TANIS_DESC"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "2032.1.1"
-	ideology = social_democracy
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

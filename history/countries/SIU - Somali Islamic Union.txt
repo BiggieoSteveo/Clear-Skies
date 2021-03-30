@@ -19,7 +19,7 @@ create_country_leader = {
 	name = "Shura Council"
 	desc = "Shura_Council_DESC"
 	picture = "Portrait_Arabia_Generic_communism1.dds"
-	ideology = jihadism
+	ideology = clerical_ultranationalism
 	traits = {
 	}
 }

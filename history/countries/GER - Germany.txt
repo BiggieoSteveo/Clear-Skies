@@ -23,7 +23,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 80
-	socialism_ideology = 20
+	left_populism = 20
 }
 
 create_country_leader = {
@@ -31,7 +31,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Wolfgang_Schwanitz.dds"
 	expire = "2032.1.1"
-	ideology = stalinism
+	ideology = securocratic_socialism
 	traits = {
 		#
 	}

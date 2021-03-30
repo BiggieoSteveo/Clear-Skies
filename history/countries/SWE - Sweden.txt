@@ -17,7 +17,7 @@ set_politics = {
 set_popularities = {
 	democratic = 2
 	neutrality = 14
-	socialism_ideology = 5
+	left_populism = 5
 	communism = 8
 	fascism = 71
 }
@@ -30,7 +30,7 @@ create_country_leader = {
 	desc = "KlAS_LUND_DESC"
 	picture = "Portrait_Klas_Lund.dds"
 	expire = "2032.1.1"
-	ideology = nazism
+	ideology = ultranational_socialism
 	traits = {
 	}
 }

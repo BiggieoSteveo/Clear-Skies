@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Henrique_NZita_Tiago.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}

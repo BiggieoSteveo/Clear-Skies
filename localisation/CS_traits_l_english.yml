@@ -9,12 +9,11 @@
  trait_cheif_of_staff:0 "Cheif Of Staff"
  trait_foreign_minister:0 "Foreign Minister"
  ##Ideology## 
- trait_communism:0 "§MCommunism§!"
- trait_socialism_ideology:0 "§PLeftist Populist§!"
- trait_democratic:0 "§DDespocracist§!"
- trait_neutrality:0 "§AAutocrat§!"
- trait_fascism:0 "§FReactionary§!"
- trait_simplism:0 "Simplism"
+ trait_authoritarian_socialism:0 "§MAuthoritarian Socialism§!"
+ trait_left_populism:0 "§PLeftist Populist§!"
+ trait_anocracy:0 "§DAnocracy§!"
+ trait_despotism:0 "§ADespotism§!"
+ trait_ultranationalism:0 "§FUltranationalism§!"
  ##HOS##
  hog_ambitious_union_boss:0 "Ambitious Union Boss"
  hog_backroom_backstabber:0 "Backroom Backstabber"

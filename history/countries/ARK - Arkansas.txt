@@ -7,9 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 84
-	simplism = 16
-
+	neutrality = 100
 }
 
 create_country_leader = {
@@ -17,7 +15,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Alfred_M._Gray_Jr.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 		#
 	}

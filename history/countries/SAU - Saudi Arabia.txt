@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "POLITICS_ABDULAZIZ_DESC"
 	picture = "Portrait_Abdullah_bin_Abdulaziz.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 	}
 }

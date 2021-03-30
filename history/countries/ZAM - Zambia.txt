@@ -10,7 +10,7 @@ set_politics = {
 }
 set_popularities = {
 	communism = 89
-	socialism_ideology = 11
+	left_populism = 11
 }
 
 create_country_leader = {
@@ -18,7 +18,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Kenneth_Kaunda.dds"
 	expire = "2032.1.1"
-	ideology = marxism 
+	ideology = authoritarian_socialism_subtype 
 	traits = {
 		#
 	}

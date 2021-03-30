@@ -24,6 +24,6 @@ create_country_leader = {
 	name = "Christian Troadec"
 	picture = "Portrait_Christian_Troadec.dds"
 	expire = "2032.1.1"
-	ideology = social_democracy
+	ideology = anocracy_subtype
 }
 

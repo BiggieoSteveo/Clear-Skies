@@ -8,6 +8,6 @@ set_politics = {
 }
 
 set_popularities = {
-	socialism_ideology = 45
+	left_populism = 45
 	neutrality = 55
 }

@@ -18,7 +18,7 @@ create_country_leader = {
 	desc = "ALI_SALEM_AL_BEIDH_DESC"
 	picture = "Portrait_Ali_Salem_al-Beidh.dds"
 	expire = "2032.1.1"
-	ideology = internationalism #replace with pan-arabism
+	ideology = congressional_socialism #replace with pan-arabism
 	traits = {
 	}
 }

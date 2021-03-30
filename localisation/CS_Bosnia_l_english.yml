@@ -95,8 +95,8 @@
  ##Party Names
  BOS_communism_party:0 "LCY-B"
  BOS_communism_party_long:0 "League of Communists of Yugoslavia - Bosnia Branch"
- BOS_socialism_ideology:0 "WCPB"
- BOS_socialism_ideology_long:0 "Workers' Communist Party of Bosnia"
+ BOS_left_populism:0 "WCPB"
+ BOS_left_populism_long:0 "Workers' Communist Party of Bosnia"
  BOS_democratic_party:0 "RfD"
  BOS_democratic_party_long:0 "Rally for Democracy"
  BOS_neutrality_party:0 "PDA"

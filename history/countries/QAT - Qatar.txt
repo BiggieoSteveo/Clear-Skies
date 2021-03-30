@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "SABAH_AL-AHMAD_AL-JABER_DESC"
 	picture = "Portrait_Sabah_al-Ahmad_al-Jaber.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 	}
 }

@@ -6,18 +6,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-		communism = 20
-		socialism_ideology = 15
+		communism = 30
+		left_populism = 15
 		democratic = 10
 		neutrality = 40
 		fascism = 5
-		simplism = 10
 }
 create_country_leader = { 
 	name = "Pavel Dohnal"
 	picture = "Portrait_Pavel_Dohnal.dds"
 	expire = "2032.1.1"
-	ideology = oligarchism
+	ideology = congressional_despotism
 	traits = {
 		#
 	}

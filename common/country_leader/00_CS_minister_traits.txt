@@ -12,22 +12,19 @@ leader_traits = {
 	trait_foreign_minister = {
 		random = no
 	}
-	trait_communism = {
+	trait_authoritarian_socialism = {
 		random = no
 	}
-	trait_socialism_ideology = {
+	trait_left_populism = {
 		random = no
 	}
-	trait_democratic = {
+	trait_anocracy = {
 		random = no
 	}
-	trait_neutrality = {
+	trait_despotism = {
 		random = no
 	}
-	trait_fascism = {
-		random = no
-	}
-	trait_simplism = {
+	trait_ultranationalism = {
 		random = no
 	}
 

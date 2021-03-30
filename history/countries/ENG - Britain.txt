@@ -11,7 +11,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 95
-	socialism_ideology = 5
+	left_populism = 5
 }
 
 create_country_leader = {
@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Jeremy_Corbyn.dds"
 	expire = "2032.1.1"
-	ideology = anti_revisionism 
+	ideology = military_socialism 
 	traits = {
 		#
 	}

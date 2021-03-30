@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "PHAM_DUC_LINH_DESC"
 	picture = "Portrait_Pham_Duc_Linh.dds"
 	expire = "2032.3.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 	}
 }

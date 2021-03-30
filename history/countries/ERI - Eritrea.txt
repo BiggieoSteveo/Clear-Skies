@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "ISAIAS_AFWERKI_DESC"
 	picture = "Portrait_Isaias_Afwerki.dds"
 	expire = "2032.1.1"
-	ideology = anti_revisionism
+	ideology = military_socialism
 	traits = {
 	}
 }

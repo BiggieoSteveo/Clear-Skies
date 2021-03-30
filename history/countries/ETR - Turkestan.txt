@@ -15,7 +15,7 @@ create_country_leader = {
 	desc = "ABDUL_HAQ_AL_TURKISTANI_DESC"
 	picture = "Portrait_Abdul_Haq_al-Turkistani.dds"
 	expire = "2032.1.1"
-	ideology = jihadism
+	ideology = clerical_ultranationalism
 	traits = {
 	}
 }

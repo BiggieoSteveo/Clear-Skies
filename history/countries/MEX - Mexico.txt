@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 	expire = "2032.1.1"
-	ideology = moderatism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -33,7 +33,7 @@ create_country_leader = {
 	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
 	picture = "GFX_Portrait_MEX_Salvador_Abascal"
 	expire = "2032.1.1"
-	ideology = falangism
+	ideology = military_ultranationalism
 	traits = {
 		#
 	}
@@ -44,7 +44,7 @@ create_country_leader = { # Exiled until 1935 following a rebellion attempt, all
 	desc = "POLITICS_ADOLFO_DE_LA_HUERTA_DESC"
 	picture = "GFX_Portrait_MEX_Adolfo_de_la_Huerta"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -55,7 +55,7 @@ create_country_leader = { # Stalinist, took over after assassination of Trotsky.
 	desc = "POLITICS_DIONISIO_ENCINA_DESC"
 	picture = "GFX_Portrait_MEX_Dionisio_Encina"
 	expire = "2032.1.1"
-	ideology = stalinism
+	ideology = securocratic_socialism
 	traits = {
 		#
 	}
@@ -66,7 +66,7 @@ create_country_leader = { # Trotskyist, led the PCM 1929-1940
 	desc = "POLITICS_HERNAN_LABORDE_DESC"
 	picture = "GFX_Portrait_MEX_Hernan_Laborde"
 	expire = "2032.1.1"
-	ideology = leninism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}

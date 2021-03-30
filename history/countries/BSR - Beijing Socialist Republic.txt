@@ -16,7 +16,7 @@ create_country_leader = {
 	desc = "BO_XILAI_DESC"
 	picture = "Portrait_Bo_Xilai.dds"
 	expire = "2032.1.1"
-	ideology = anti_revisionism
+	ideology = military_socialism
 	traits = {
 	}
 }

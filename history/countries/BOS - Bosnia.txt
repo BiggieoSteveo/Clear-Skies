@@ -14,7 +14,7 @@ create_country_leader = {
 	desc = "OMER_BEHMEN_DESC"
 	picture = "Portrait_Omer_Behmen.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

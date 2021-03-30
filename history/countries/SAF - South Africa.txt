@@ -7,14 +7,14 @@ set_war_support = 0.1
 set_convoys = 25
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
 	communism = 20
-	socialism_ideology = 50
+	left_populism = 50
 	democratic = 20
 	fascism  = 10
 }
@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Nelson_Mandella.dds"
 	expire = "2032.1.1"
-	ideology = socialism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}

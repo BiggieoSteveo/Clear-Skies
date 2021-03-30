@@ -19,7 +19,7 @@ create_country_leader = {
 	name = "Mohammad Ali Samatar"
 	desc = "Mohammad_Ali_Samatar_DESC"
 	picture = "Portrait_Arabia_Generic_communism1.dds"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 	}
 }

@@ -25,7 +25,7 @@ create_country_leader = {
 	desc = "YOSHIAKI_TSUTSUMI_DESC"
 	picture = "Portrait_Yoshiaki_Tsutsumi.dds"
 	expire = "1989.1.1"
-	ideology = oligarchism
+	ideology = congressional_despotism
 	traits = {
 	}
 }

@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Jiang_Zemin.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		#
 	}

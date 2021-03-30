@@ -174,7 +174,7 @@ collapse_usa_alpha = {
 				desc = "federal_emergnecy_council_DESC"
 				picture = "Portrait_Federal_Emergnecy_Council.dds"
 				expire = "2032.3.1"
-				ideology = despotism  
+				ideology = despotism_subtype  
 				traits = {
 						#
 				}

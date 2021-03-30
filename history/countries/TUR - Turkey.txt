@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "2032.1.1"
-	ideology = social_democracy
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

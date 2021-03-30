@@ -17,7 +17,7 @@ create_country_leader = {
 	name = "Stephane Travert"
 	picture = "Portrait_Stephane_Travert.dds"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}

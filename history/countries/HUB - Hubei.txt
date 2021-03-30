@@ -15,7 +15,7 @@ create_country_leader = {
 	desc = "YU_ZHENGSHENG_DESC"
 	picture = "Portrait_Yu_Zhengsheng.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 	}
 }

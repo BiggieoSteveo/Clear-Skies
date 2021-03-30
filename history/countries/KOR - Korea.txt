@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "KIM_JONG_IL_DESC"
 	picture = "Portrait_Kim_Jong-il.dds"
 	expire = "2032.1.1"
-	ideology = stalinism
+	ideology = securocratic_socialism
 	traits = {
 	}
 }

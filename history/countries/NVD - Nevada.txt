@@ -7,7 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism_ideology = 11
+	left_populism = 11
 	democratic = 21
 	neutrality = 25
 	fascism = 43
@@ -18,7 +18,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Sheldon_Aderson.dds"
 	expire = "2032.1.1"
-	ideology = ultra_corporatism
+	ideology = congressional_ultranationalism
 	traits = {
 		#
 	}

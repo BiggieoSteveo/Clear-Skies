@@ -153,7 +153,7 @@ country_event = { #pugo victory
 			desc = "boris_pugo_DESC"
 			picture = "Portrait_Boris_Pugo.dds"
 			expire = "2032.3.1"
-			ideology = marxism
+			ideology = authoritarian_socialism_subtype
 			traits = {
 					#
 			}
@@ -192,7 +192,7 @@ country_event = { #baklanov victory
 			desc = "oleg_baklanov_DESC"
 			picture = "Portrait_Oleg_Balkanov.dds"
 			expire = "2032.3.1"
-			ideology = marxism
+			ideology = authoritarian_socialism_subtype
 			traits = {
 					#
 			}

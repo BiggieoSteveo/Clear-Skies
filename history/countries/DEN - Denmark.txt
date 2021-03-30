@@ -3,13 +3,13 @@
 #oob = "DEN_1936"
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.10.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	socialism_ideology = 46
+	left_populism = 46
 	democratic = 14
 	communism = 40
 }
@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "2032.1.1"
-	ideology = socialism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}
@@ -32,7 +32,7 @@ create_country_leader = {
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "2032.1.1"
-	ideology = nazism
+	ideology = ultranational_socialism
 	traits = {
 		#
 	}
@@ -43,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_AKSEL_LARSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "2032.1.1"
-	ideology = leninism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}
@@ -54,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}

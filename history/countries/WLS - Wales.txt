@@ -11,7 +11,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	socialism_ideology = 20
+	left_populism = 20
 	neutrality = 54
 	democratic = 20
 	fascism = 6
@@ -22,7 +22,7 @@ create_country_leader = {
 	name = "Paul Davies"
 	picture = "Portrait_Paul_Davies.dds"
 	expire = "2032.1.1"
-	ideology = oligarchism  
+	ideology = congressional_despotism  
 	traits = {
 		#
 	}

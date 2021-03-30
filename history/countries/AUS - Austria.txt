@@ -13,7 +13,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 10
-	socialism_ideology = 15
+	left_populism = 15
 	fascism = 75
 }
 
@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Florian_Bogen.dds"
 	expire = "2032.1.1"
-	ideology = fascism_ideology 
+	ideology = ultranationalism_subtype 
 	traits = {
 		#
 	}

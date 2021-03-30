@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "TANYA_CHAN_DESC"
 	picture = "Portrait_Tanya_Chan.dds"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

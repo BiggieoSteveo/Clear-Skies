@@ -21,7 +21,7 @@ create_country_leader = {
 	name = "Denis Sassou Nguesso"
 	desc = "DENIS_SASSOU_NGUESSO_DESC"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 	}
 }

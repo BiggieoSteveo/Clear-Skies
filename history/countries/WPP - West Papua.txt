@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "GOLIATH_TABUNI_DESC"
 	picture = "Portrait_Goliath_Tabuni.dds"
 	expire = "2032.3.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

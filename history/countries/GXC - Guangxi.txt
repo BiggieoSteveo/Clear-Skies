@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "WANG_YANG_DESC"
 	picture = "Portrait_Wang_Yang.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

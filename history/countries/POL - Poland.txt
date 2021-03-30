@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Wojciech_Jaruzelski.dds"
 	expire = "2032.1.1"
-	ideology = stalinism 
+	ideology = securocratic_socialism 
 	traits = {
 		#
 	}

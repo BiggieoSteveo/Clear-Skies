@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "MURAD_EBRAHIM_DESC"
 	picture = "Portrait_Murad_Ebrahim.dds"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

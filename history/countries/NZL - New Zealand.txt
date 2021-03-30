@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
 	picture = "GFX_NZL_michael_joseph_savage"
 	expire = "2032.1.1"
-	ideology = socialism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}
@@ -32,7 +32,7 @@ create_country_leader = {
 	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
 	picture = "GFX_NZL_sidney_holland"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -43,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_ORMOND_DESC"
 	picture = "GFX_NZL_john_ormond"
 	expire = "2032.1.1"
-	ideology = fascism_ideology
+	ideology = ultranationalism_subtype
 	traits = {
 		#
 	}
@@ -54,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_ORMOND_DESC"
 	picture = "GFX_NZL_elsie_farrelly"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	female = yes
 	traits = {
 		#

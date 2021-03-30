@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "JOSE_MARIA_SISON_DESC"
 	picture = "Portrait_Jose_Maria_Sison.dds"
 	expire = "2032.1.1"
-	ideology = anti_revisionism
+	ideology = military_socialism
 	traits = {
 	}
 }

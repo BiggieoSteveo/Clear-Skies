@@ -8,7 +8,7 @@ ideas = {
 
 			traits = {
 				trait_head_of_government
-				trait_communism
+				trait_authoritarian_socialism
 				hog_pragmatic_statesman
 			}
 		}
@@ -22,7 +22,7 @@ ideas = {
 
 			traits = {
 				trait_economics_minister
-				trait_communism
+				trait_authoritarian_socialism
 				eco_computer_planned_economy_proponent
 			}
 		}
@@ -36,7 +36,7 @@ ideas = {
 
 			traits = {
 				trait_chief_of_staff
-				trait_communism
+				trait_authoritarian_socialism
 				cos_mixed_operational
 			}
 		}
@@ -50,7 +50,7 @@ ideas = {
 
 			traits = {
 				trait_foreign_minister
-				trait_communism
+				trait_authoritarian_socialism
 				for_iron_fisted_brute
 			}
 		}
@@ -64,7 +64,7 @@ ideas = {
 
 			traits = {
 				trait_head_of_government
-				trait_communism
+				trait_authoritarian_socialism
 				hog_silent_workhorse 
 			}
 		}
@@ -78,7 +78,7 @@ ideas = {
 
 			traits = {
 				trait_economics_minister
-				trait_communism
+				trait_authoritarian_socialism
 				eco_computer_planned_economy_proponent 
 				eco_theoretical_scientist  
 			}
@@ -93,7 +93,7 @@ ideas = {
 
 			traits = {
 				trait_head_of_government
-				trait_communism
+				trait_authoritarian_socialism
 				hog_political_protege
 			}
 		}

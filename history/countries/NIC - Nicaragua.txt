@@ -11,7 +11,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 20
-	socialism_ideology = 10
+	left_populism = 10
 	communism = 70
 }
 
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "DANIEL_ORTEGA_DESC"
 	picture = "Portrait_Daniel_Ortega.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		#
 	}

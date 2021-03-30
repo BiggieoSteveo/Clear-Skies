@@ -16,7 +16,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Dennis_J._Reimer.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 		#
 	}

@@ -5,7 +5,7 @@
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -14,7 +14,7 @@ set_politics = {
 set_convoys = 25
 
 set_popularities = {
-	socialism_ideology = 80
+	left_populism = 80
 	democratic = 10
 	fascism = 10
 }
@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = "MEGAWATI_SUKARNOPUTRI_DESC"
 	picture = "Portrait_Megawati_Sukarnoputri.dds"
 	expire = "2032.3.1"
-	ideology = socialism
+	ideology = left_populism_subtype
 	traits = {
 	}
 }

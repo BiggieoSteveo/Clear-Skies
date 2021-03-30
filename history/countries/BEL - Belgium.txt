@@ -16,7 +16,7 @@ set_politics = {
 set_popularities = {
 	democratic = 40
 	fascism = 10
-	socialism_ideology = 5
+	left_populism = 5
 	communism = 45
 }
 
@@ -28,7 +28,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "2032.1.1"
-	ideology = internationalism
+	ideology = congressional_socialism
 	traits = {
 		#
 	}
@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Laurent_Brogniet.dds"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}

@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = "MASAE_USENG_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "2032.3.1"
-	ideology = jihadism
+	ideology = clerical_ultranationalism
 	traits = {
 	}
 }

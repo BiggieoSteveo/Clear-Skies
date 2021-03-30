@@ -16,7 +16,7 @@ create_country_leader = {
 	desc = "HUI_LIANGYU_DESC"
 	picture = "Portrait_Hui_Liangyu.dds"
 	expire = "2032.1.1"
-	ideology = jihadism
+	ideology = clerical_ultranationalism
 	traits = {
 	}
 }

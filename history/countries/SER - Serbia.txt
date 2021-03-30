@@ -34,7 +34,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "2032.1.1"
-	ideology = fascism_ideology
+	ideology = ultranationalism_subtype
 	traits = {
 		#
 	}
@@ -56,7 +56,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "2032.1.1"
-	ideology = Despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}
@@ -67,7 +67,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "2032.1.1"
-	ideology = leninism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}

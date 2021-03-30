@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "IBRAHIM_HARUN_DESC"
 	picture = "Portrait_Ibrahim_Harun.dds"
 	expire = "2032.1.1"
-	ideology = anti_revisionism
+	ideology = military_socialism
 	traits = {
 	}
 }

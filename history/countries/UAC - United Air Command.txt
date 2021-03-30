@@ -7,7 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism_ideology = 10
+	left_populism = 10
 	democratic = 10
 	neutrality = 80
 }
@@ -17,7 +17,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Larry_D._Welch.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 		#
 	}

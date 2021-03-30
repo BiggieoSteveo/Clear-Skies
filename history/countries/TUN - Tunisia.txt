@@ -19,7 +19,7 @@ create_country_leader = {
 	name = "Rachid Sfar"
 	desc = "RACHID_SFAR_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	ideology = internationalism #change to pan-arabism
+	ideology = congressional_socialism #change to pan-arabism
 	traits = {
 	}
 }

@@ -1,18 +1,18 @@
 capital = 713
 set_politics = {
-	ruling_party = simplism 
+	ruling_party = anarchy 
 	last_election = "2008.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-		simplism = 100
+	anarchy = 100
 }
 create_country_leader = { 
 	name = "Wasteland Anarchy"
 	picture = "Portrait_Wasteland_Generic.dds"
 	expire = "2032.1.1"
-	ideology = anarchism 
+	ideology = no_authority
 	traits = {
 		#
 	}

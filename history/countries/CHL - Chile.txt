@@ -7,14 +7,14 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2006.1.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	socialism_ideology = 64
+	left_populism = 64
 	democratic = 36
 }
 
@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = "MICHELLE_BACHELET_DESC"
 	picture = "Portrait_Michelle_Bachelet.dds"
 	expire = "2032.1.1"
-	ideology = democratic_socialism
+	ideology = socialist_democracy
 	traits = {
 	}
 }

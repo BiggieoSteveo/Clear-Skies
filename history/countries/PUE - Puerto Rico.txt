@@ -22,7 +22,7 @@ create_country_leader = {
 	name = "Filiberto Ojeda Rios"
 	picture = "Portrait_Filiberto_Ojeda_Rios.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		#
 	}

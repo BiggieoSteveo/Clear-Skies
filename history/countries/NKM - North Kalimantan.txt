@@ -13,7 +13,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 20
-	socialism_ideology = 10	democratic = 70
+	left_populism = 10	democratic = 70
 }
 
 create_country_leader = {
@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "ABANG_JOHARI_ABANG_OPENG_DESC"
 	picture = "Portrait_Abang_Johari_Abang_Openg.dds"
 	expire = "2032.3.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

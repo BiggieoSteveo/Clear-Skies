@@ -13,11 +13,10 @@ set_politics = {
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	communism = 10
-	socialism_ideology = 5
+	communism = 15
+	left_populism = 5
 	democratic = 60
 	fascism = 20
-	simplism = 5
 }
 
 set_stability = 0.75
@@ -27,7 +26,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Kostas_Karamanlis.dds"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}

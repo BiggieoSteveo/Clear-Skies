@@ -17,12 +17,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 12
-	socialism_ideology = 16
+	communism = 15
+	left_populism = 14
 	democratic = 21
 	neutrality = 35
-	fascism = 7
-	simplism = 9
+	fascism = 15
 }
 
 create_country_leader = {
@@ -30,7 +29,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_Maurice_Schmitt.dds"
 	expire = "2032.1.1"
-	ideology = junta  
+	ideology = military_despotism  
 	traits = {
 		#
 	}
@@ -41,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_Elrick_Irastorza.dds"
 	expire = "2032.1.1"
-	ideology = liberalism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}

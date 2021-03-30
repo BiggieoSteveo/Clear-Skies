@@ -3,14 +3,14 @@
 #oob = ""
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2005.11.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	socialism_ideology = 44
+	left_populism = 44
 	democratic = 33
 	neutrality = 23
 }
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "KUUPIK_KLEIST_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "2032.1.1"
-	ideology = democratic_socialism
+	ideology = socialist_democracy
 	traits = {
 	}
 }

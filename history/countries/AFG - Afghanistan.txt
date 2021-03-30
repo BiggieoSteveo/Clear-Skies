@@ -11,7 +11,7 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 15
-	socialism_ideology = 10
+	left_populism = 10
 	democratic = 75
 }
 
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "AHMAD_SHAH_MASSOUD_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "2032.1.1.12"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }
@@ -30,7 +30,7 @@ create_country_leader = {
 	desc = "GULBUDDIN_HEKMATYAR_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "2032.1.1.12"
-	ideology = jihadism
+	ideology = clerical_ultranationalism
 	traits = {
 	}
 }

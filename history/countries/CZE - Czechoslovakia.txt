@@ -12,11 +12,9 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 10
-	socialism_ideology = 10
+	communism = 25
 	democratic = 65
 	neutrality = 10
-	simplism = 5
 }
 
 create_country_leader = {
@@ -24,7 +22,7 @@ create_country_leader = {
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Portrait_Vaclav_Klaus.dds"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -35,7 +33,7 @@ create_country_leader = {
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "2032.1.1"
-	ideology = nazism
+	ideology = ultranational_socialism
 	traits = {
 		#
 	}
@@ -46,7 +44,7 @@ create_country_leader = {
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
 	picture = "Portrait_Czech_Klement_Gottwald.dds"
 	expire = "2032.1.1"
-	ideology = stalinism
+	ideology = securocratic_socialism
 	traits = {
 		#
 	}

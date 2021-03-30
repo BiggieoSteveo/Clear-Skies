@@ -13,7 +13,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism_ideology = 56
+	left_populism = 56
 	neutrality = 44
 }
 
@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "JORGE_WASHINGTON_ROSALES_DESC"
 	picture = "Portrait_Jorge_Washington_Rosales.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

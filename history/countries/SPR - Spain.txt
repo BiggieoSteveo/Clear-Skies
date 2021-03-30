@@ -5,7 +5,7 @@
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -13,7 +13,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 22
-	socialism_ideology = 55
+	left_populism = 55
 	democratic = 10
 	neutrality = 13
 }
@@ -25,7 +25,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Jose_Zapatero.dds"
 	expire = "2032.1.1"
-	ideology = democratic_socialism
+	ideology = socialist_democracy
 	traits = {
 		#
 	}

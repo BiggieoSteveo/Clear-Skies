@@ -15,7 +15,7 @@ create_country_leader = {
 	desc = "JOHN_GLENN_DESC"
 	picture = "Portrait_John_Glenn.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

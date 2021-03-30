@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "ISSA_SESAY_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

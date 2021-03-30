@@ -10,7 +10,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 90
-	socialism_ideology = 10
+	left_populism = 10
 }
 
 set_convoys = 5
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Albania_Ramiz_Alia.dds"
 	expire = "2032.1.1.12"
-	ideology = anti_revisionism 
+	ideology = military_socialism 
 	traits = {
 		#
 	}

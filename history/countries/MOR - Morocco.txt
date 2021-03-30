@@ -20,7 +20,7 @@ create_country_leader = {
 	name = "Mohamed VI"
 	desc = "MOHAMED_VI_DESC"
 	picture = "Portrait_Mohamed_VI.dds"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

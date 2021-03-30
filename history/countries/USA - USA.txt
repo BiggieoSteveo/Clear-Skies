@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Dick_Cheney.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}

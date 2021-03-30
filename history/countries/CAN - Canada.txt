@@ -26,7 +26,7 @@ create_country_leader = {
 	desc = "POLITICS_MACKENZIE_KING_DESC"
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "2032.1.1"
-	ideology = liberalism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_ADRIEN_ARCAND_DESC"
 	picture = "GFX_CAN_adrien_arcand"
 	expire = "2032.1.1"
-	ideology = nazism
+	ideology = ultranational_socialism
 	traits = {
 		#
 	}
@@ -48,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_TIM_BUCK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		#
 	}
@@ -59,7 +59,7 @@ create_country_leader = {
 	desc = "POLITICS_JS_WOODSWORTH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}

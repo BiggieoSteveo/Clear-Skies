@@ -25,7 +25,7 @@ set_popularities = {
 #	desc = ""
 #	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 #	expire = "2032.1.1"
-#	ideology = conservatism
+#	ideology = anocracy_subtype
 #	traits = {
 #	}
 #}
@@ -36,7 +36,7 @@ set_popularities = {
 #	desc = "POLITICS_OTTO_WELS_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "2032.1.16"
-#	ideology = socialism
+#	ideology = left_populism_subtype
 #	traits = {
 #		exiled
 #		union_man
@@ -48,7 +48,7 @@ set_popularities = {
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "2032.1.1"
-#	ideology = stalinism
+#	ideology = securocratic_socialism
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet

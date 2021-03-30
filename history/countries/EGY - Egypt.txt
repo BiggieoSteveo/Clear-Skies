@@ -19,7 +19,7 @@ create_country_leader = {
 	name = "Mohammed Mahdi Akef"
 	desc = ""
 	picture = "Portrait_Mohammed_Mahdi_Akef.dds"
-	ideology = jihadism
+	ideology = clerical_ultranationalism
 	traits = {
 		#
 	}

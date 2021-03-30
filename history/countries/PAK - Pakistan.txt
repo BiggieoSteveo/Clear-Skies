@@ -5,7 +5,7 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -15,7 +15,7 @@ set_popularities = {
 	democratic = 17
 	fascism = 2
 	communism = 1
-	socialism_ideology = 80
+	left_populism = 80
 }
 
 create_country_leader = {
@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = "BENAZIR_BHUTTO_DESC"
 	picture = "Portrait_Benazir_Bhutto.dds"
 	expire = "2032.1.1"
-	ideology = socialism
+	ideology = left_populism_subtype
 	traits = {
 	}
 }

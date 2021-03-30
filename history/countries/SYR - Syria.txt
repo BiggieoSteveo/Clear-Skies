@@ -12,7 +12,7 @@ set_politics = {
 set_popularities = {
 	democratic = 50
 	fascism = 10
-	socialism_ideology = 10
+	left_populism = 10
 	neutrality = 30
 }
 
@@ -20,7 +20,7 @@ create_country_leader = {
 	name = "Hashim al-Atassi"
 	desc = "HASHIM_AL_ATASSI_DESC"
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

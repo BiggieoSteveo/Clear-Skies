@@ -18,7 +18,7 @@ create_country_leader = {
 	desc = "QIN_GUANGRONG_DESC"
 	picture = "Portrait_Qin_Guangrong.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "JACQUES_PARIZEAU_DESC"
 	picture = ""
 	expire = "2032.3.1"
-	ideology = social_democracy
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

@@ -22,7 +22,7 @@ set_popularities = {
 #	name = "Jonas Lote"
 #	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 #	expire = "2032.1.1"
-#	ideology = centrism
+#	ideology = anocracy_subtype
 #	traits = {
 #		#
 #	}

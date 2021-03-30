@@ -5,19 +5,25 @@ ideologies = {
 
 		types = {
 
-			marxism = {
+			authoritarian_socialism_subtype = {
 			}
 			
-			stalinism = {
+			securocratic_socialism = {
 			}
 			
-			anti_revisionism = {
-			}
-
-			internationalism = {
+			military_socialism = {
 			}
 			
 			left_wing_nationalism = {
+			}
+
+			congressional_socialism = {
+			}
+			
+			clerical_socialism = {
+			}
+			
+			mitia_socialism = {
 			}
 		}
 
@@ -49,35 +55,23 @@ ideologies = {
 
 	}
 	
-	socialism_ideology = {
+	left_populism = {
 
 		types = {
 
-			socialism = {
+			left_populism_subtype = {
 			}
 
-			leninism = {
-			}
-
-			democratic_socialism = {
-			}
-
-			christian_socialism = {
-			}
-
-			anarchist_communism = {
-			}
-
-			green_leftism = {
+			socialist_democracy = {
 			}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIALIST_1"
-			"FACTION_NAME_SOCIALIST_2"
-			"FACTION_NAME_SOCIALIST_3"
-			"FACTION_NAME_SOCIALIST_4"
-			"FACTION_NAME_SOCIALIST_5"
+			"FACTION_NAME_LEFT_POPULIST_1"
+			"FACTION_NAME_LEFT_POPULIST_2"
+			"FACTION_NAME_LEFT_POPULIST_3"
+			"FACTION_NAME_LEFT_POPULIST_4"
+			"FACTION_NAME_LEFT_POPULIST_5"
 		}
 
 		color = { 92 51 51 }
@@ -104,19 +98,10 @@ ideologies = {
 
 		types = {
 
-			centrism = {
+			anocracy_subtype = {
 			}
 
-			conservatism = {
-			}
-		
-			liberalism = {
-			}
-
-			moderatism = {
-			}
-
-			social_democracy = {
+			liberal_democracy = {
 			}
 		}
 
@@ -151,16 +136,25 @@ ideologies = {
 
 		types = {
 
-			despotism  = {
+			despotism_subtype = {
 			}
 
-			junta  = {
+			securocratic_despotism = {
 			}
 			
-			oligarchism  = {
+			military_despotism = {
 			}
 
-			social_despotism  = {
+			social_despotism = {
+			}
+
+			clerical_despotism = {
+			}
+
+			congressional_despotism = {
+			}
+
+			militia_despotism = {
 			}
 		}
 
@@ -195,31 +189,34 @@ ideologies = {
 
 		types = {
 
-			nazism = {
+			ultranationalism_subtype = {
 			}
 			
-			fascism_ideology = {
+			securocratic_ultranationalism = {
 			}
 			
-			falangism = {
+			military_ultranationalism = {
 			}
 			
-			rexism = {
+			ultranational_socialism	 = {
 			}
 
-			ultra_corporatism = {
+			congressional_ultranationalism	 = {
 			}
 
-			jihadism = {
+			clerical_ultranationalism = {
+			}
+
+			militia_ultranationalism = {
 			}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_REACTIONARY_1"
-			"FACTION_NAME_REACTIONARY_2"
-			"FACTION_NAME_REACTIONARY_3"
-			"FACTION_NAME_REACTIONARY_4"
-			"FACTION_NAME_REACTIONARY_5"
+			"FACTION_NAME_ULTRANATIONALISM_1"
+			"FACTION_NAME_ULTRANATIONALISM_2"
+			"FACTION_NAME_ULTRANATIONALISM_3"
+			"FACTION_NAME_ULTRANATIONALISM_4"
+			"FACTION_NAME_ULTRANATIONALISM_5"
 		}
 
 		color = { 58 58 58 }
@@ -241,22 +238,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	simplism = {
+	anarchy = {
 		types = {
 
-			simplism_ideology = {
-			}
-
-			anarchism = {
+			no_authority = {
 			}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_SIMPLISM_1"
-			"FACTION_NAME_SIMPLISM_2"
-			"FACTION_NAME_SIMPLISM_3"
-			"FACTION_NAME_SIMPLISM_4"
-			"FACTION_NAME_SIMPLISM_5"
+			"FACTION_NAME_ANARCHY_1"
+			"FACTION_NAME_ANARCHY_2"
+			"FACTION_NAME_ANARCHY_3"
+			"FACTION_NAME_ANARCHY_4"
+			"FACTION_NAME_ANARCHY_5"
 		}
 
 		color = { 0 0 0 }

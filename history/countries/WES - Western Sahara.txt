@@ -3,21 +3,21 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	socialism_ideology = 100
+	left_populism = 100
 }
 
 create_country_leader = {
 	name = "Mohamed Abdelaziz"
 	desc = "MOHAMED_ABDELAZIZ_DESC"
 	picture = "Portrait_Mohamed_Abdelaziz.dds"
-	ideology = socialism
+	ideology = left_populism_subtype
 	traits = {
 	}
 }

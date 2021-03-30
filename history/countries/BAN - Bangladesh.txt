@@ -5,14 +5,14 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	socialism_ideology = 66
+	left_populism = 66
 	democratic = 34
 }
 
@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "SHEIKH_HASINA_DESC"
 	picture = "Portrait_Sheikh_Hasina.dds"
 	expire = "2032.1.1"
-	ideology = democratic_socialism
+	ideology = socialist_democracy
 	traits = {
 	}
 }

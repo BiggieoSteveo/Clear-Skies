@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = "POLITICS_REZA_SHAH_II_PAHLAVI_DESC"
 	picture = "Portrait_Reza_Shah_Pahlavi.dds"
 	expire = "2032.1.1"
-	ideology = moderatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

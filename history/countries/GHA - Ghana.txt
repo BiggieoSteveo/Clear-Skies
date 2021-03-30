@@ -3,7 +3,7 @@
 set_convoys = 15
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
@@ -11,7 +11,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 3
-	socialism_ideology = 48
+	left_populism = 48
 	democratic = 49
 }
 

@@ -7,7 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism_ideology = 5
+	left_populism = 5
 	democratic = 15
 	neutrality = 80
 }
@@ -17,7 +17,7 @@ create_country_leader = {
 	desc = "SONNY_PERDUE_DESC"
 	picture = "Portrait_Sonny_Perdue.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

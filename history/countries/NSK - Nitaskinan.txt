@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "SHA_KO_HEN_TEH_THA_DESC"
 	picture = ""
 	expire = "2032.3.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

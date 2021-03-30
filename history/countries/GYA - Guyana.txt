@@ -5,13 +5,13 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	socialism_ideology = 75
+	left_populism = 75
 	neutrality = 2
 	democratic = 23
 }
@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "BHARRAT_JAGDEO_DESC"
 	picture = "Portrait_Bharrat_Jagdeo.dds"
 	expire = "2032.1.1"
-	ideology = democratic_socialism
+	ideology = socialist_democracy
 	traits = {
 	}
 }

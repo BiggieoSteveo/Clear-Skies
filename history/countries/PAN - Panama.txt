@@ -18,7 +18,7 @@ create_country_leader = {
 	desc = "MANUEL_NORIEGA_DESC"
 	picture = "Portrait_Manuel_Noriega.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 		#
 	}

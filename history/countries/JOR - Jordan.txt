@@ -18,7 +18,7 @@ create_country_leader = {
 	name = "Nayef Hawatmeh"
 	desc = "Nayef_Hawatmeh_DESC"
 	picture = "Portrait_Nayef_Hawatmeh.dds"
-	ideology = anti_revisionism
+	ideology = military_socialism
 	traits = {
 	}
 }

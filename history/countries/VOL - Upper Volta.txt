@@ -10,7 +10,7 @@ set_politics = {
 }
 set_popularities = {
 	communism = 80
-	socialism_ideology = 10
+	left_populism = 10
 	democratic = 10
 }
 
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Thomas_Sankara.dds"
 	expire = "2032.1.1"
-	ideology = marxism 
+	ideology = authoritarian_socialism_subtype 
 	traits = {
 		#
 	}

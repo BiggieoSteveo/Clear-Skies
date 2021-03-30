@@ -17,7 +17,7 @@ create_country_leader = {
 	name = "Bilal Ag Acherif"
 	desc = "BILAL_AG_ACHERIF_DESC"
 	picture = "Portrait_Bilal_Ag_Acherif.dds"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

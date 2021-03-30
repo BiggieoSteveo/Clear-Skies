@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "JORGE_RAFAEL_VIDELA_DESC"
 	picture = "Portrait_Jorge_Rafael_Videla.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

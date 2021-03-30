@@ -17,7 +17,7 @@ create_country_leader = {
 	desc = "NUR_BEKRI_DESC"
 	picture = "Portrait_Nur_Bekri.dds"
 	expire = "2032.1.1"
-	ideology = stalinism
+	ideology = securocratic_socialism
 	traits = {
 	}
 }

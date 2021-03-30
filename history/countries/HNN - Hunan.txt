@@ -15,7 +15,7 @@ create_country_leader = {
 	desc = "ZHOU_QIANG_DESC"
 	picture = "Portrait_Zhou_Qiang.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

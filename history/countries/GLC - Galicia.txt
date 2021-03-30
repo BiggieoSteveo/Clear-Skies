@@ -22,26 +22,26 @@ create_country_leader = {
 	name = "Fuco Gómez"
 	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Alfonso Daniel Castelao"
 	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
 	expire = "2032.1.1"
-	ideology = liberalism
+	ideology = anocracy_subtype
 }
 
 create_country_leader = {
 	name = "Vicente Martínez Risco"
 	picture = "gfx//leaders//Europe//portrait_europe_generic_land_13.dds"
 	expire = "2032.1.1"
-	ideology = fascism_ideology
+	ideology = ultranationalism_subtype
 }
 
 create_country_leader = {
 	name = "Santiago Casares Quiroga"
 	picture = "gfx//leaders//Europe//portrait_europe_generic_6.dds"
 	expire = "2032.1.1"
-	ideology = centrism
+	ideology = anocracy_subtype
 }

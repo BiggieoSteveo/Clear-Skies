@@ -8,7 +8,7 @@ ideas = {
 
 			traits = {
 				trait_head_of_government
-				trait_neutrality
+				trait_despotism
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -22,7 +22,7 @@ ideas = {
 
 			traits = {
 				trait_economics_minister
-				trait_neutrality
+				trait_despotism
 				eco_construction_magnate
 			}
 		}
@@ -36,7 +36,7 @@ ideas = {
 
 			traits = {
 				trait_chief_of_staff
-				trait_democratic
+				trait_anocracy
 				cos_mixed_operational
 			}
 		}
@@ -50,7 +50,7 @@ ideas = {
 
 			traits = {
 				trait_foreign_minister
-				trait_neutrality
+				trait_despotism
 				for_biased_intellectual
 			}
 		}

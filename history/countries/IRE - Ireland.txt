@@ -14,7 +14,7 @@ set_politics = {
 }
 set_popularities = {
 	communism = 70
-	socialism_ideology = 20
+	left_populism = 20
 	democratic = 10
 }
 
@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Brendan_Huges.dds"
 	expire = "2032.1.1"
-	ideology = marxism 
+	ideology = authoritarian_socialism_subtype 
 	traits = {
 		#
 	}

@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = "SULTAN_BIN_MUHAMMAD_AL_QASIMI_DESC"
 	picture = "Portrait_Sultan_bin_Muhammad_al-Qasimi.dds"
 	expire = "2032.1.1"
-	ideology = moderatism
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

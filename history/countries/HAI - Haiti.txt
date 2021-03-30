@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "POLITICS_STENIO_VINCENT_DESC"
 	picture = "GFX_portrait_haiti_stenio_vincent"
 	expire = "2032.1.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -31,7 +31,7 @@ create_country_leader = {
 	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "2032.1.1"
-	ideology = marxism
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		#
 	}

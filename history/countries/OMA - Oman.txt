@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "QABOOS_BIN_SAID_DESC"
 	picture = "Portrait_Qaboos_bin_Said.dds"
 	expire = "2032.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 	}
 }

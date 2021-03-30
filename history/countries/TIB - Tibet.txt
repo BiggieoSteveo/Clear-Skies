@@ -17,7 +17,7 @@ create_country_leader = {
 	desc = "14TH_DALAI_LAMA_DESC"
 	picture = "Portrait_Dalai_Lama.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

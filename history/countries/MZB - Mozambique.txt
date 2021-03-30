@@ -12,7 +12,7 @@ set_politics = {
 }
 set_popularities = {
 	communism = 95
-	socialism_ideology = 5
+	left_populism = 5
 }
 
 create_country_leader = {
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Joaquim_Chissano.dds"
 	expire = "2032.1.1"
-	ideology = marxism 
+	ideology = authoritarian_socialism_subtype 
 	traits = {
 		#
 	}

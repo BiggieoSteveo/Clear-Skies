@@ -10,7 +10,7 @@ set_politics = {
 }
 
 set_popularities = {
-	socialism_ideology = 25
+	left_populism = 25
 	fascism = 20
 	democratic = 5
 	neutrality = 50
@@ -21,7 +21,7 @@ create_country_leader = {
 	desc = "FELIX_MALLOUM_DESC"
 	picture = "Portrait_Felix_Malloum.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

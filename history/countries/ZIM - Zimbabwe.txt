@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Philip_Valerio_Sibanda.dds"
 	expire = "2032.1.1"
-	ideology = marxism 
+	ideology = authoritarian_socialism_subtype 
 	traits = {
 		#
 	}
@@ -34,7 +34,7 @@ create_country_leader = {
 	name = "Robert Mugabe"
 	picture = "Portrait_Robert_Mugabe.dds"
 	expire = "2032.1.1"
-	ideology = fascism_ideology 
+	ideology = ultranationalism_subtype 
 	traits = { 
 		#	
 	}

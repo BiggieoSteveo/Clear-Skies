@@ -1,7 +1,7 @@
 capital = 735
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = yes
@@ -10,7 +10,7 @@ set_popularities = {
 	democratic = 10
 	fascism = 20
 	communism = 10
-	socialism_ideology= 60
+	left_populism= 60
 }
 
 create_country_leader = {

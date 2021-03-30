@@ -14,7 +14,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_KAZ_Nikolay_Skvortsov.dds"
 	expire = "2032.3.1"
-	ideology = stalinism
+	ideology = securocratic_socialism
 	traits = {
 		
 	}
@@ -25,7 +25,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_KAZ_Ilyas_Zhansugurov.dds"
 	expire = "2032.3.1"
-	ideology = conservatism
+	ideology = anocracy_subtype
 	traits = {
 		
 	}

@@ -13,7 +13,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 23
-	socialism_ideology = 33
+	left_populism = 33
 	neutrality = 44
 }
 
@@ -21,7 +21,7 @@ create_country_leader = {
 	name = "Joseph Kabila"
 	picture = "Portrait_Joseph_Kabila.dds"
 	expire = "2032.1.1"
-	ideology = oligarchism  
+	ideology = congressional_despotism  
 	traits = {
 	}
 }

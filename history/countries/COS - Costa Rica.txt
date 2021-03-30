@@ -11,7 +11,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 98
-	socialism_ideology = 2
+	left_populism = 2
 }
 
 create_country_leader = {
@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = "ANTONIO_ALVAREZ_DESC"
 	picture = "Portrait_Antonio_Alvarez.dds"
 	expire = "2032.1.1"
-	ideology = social_democracy
+	ideology = anocracy_subtype
 	traits = {
 	}
 }

@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "GUILLERMO_LORA_DESC"
 	picture = "Portrait_Guillermo_Lora.dds"
 	expire = "2032.1.1"
-	ideology = internationalism
+	ideology = congressional_socialism
 	traits = {
 	}
 }

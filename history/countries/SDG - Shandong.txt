@@ -15,7 +15,7 @@ create_country_leader = {
 	desc = "GUO_SHUQING_DESC"
 	picture = "Portrait_Guo_Shuqing.dds"
 	expire = "2032.1.1"
-	ideology = anti_revisionism
+	ideology = military_socialism
 	traits = {
 	}
 }

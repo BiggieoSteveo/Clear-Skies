@@ -11,7 +11,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism_ideology = 20
+	left_populism = 20
 	neutrality = 80
 }
 
@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "Ayad_Allawi_DESC"
 	picture = "Portrait_Ayad_Allawi.dds"
 	expire = "2032.1.1"
-	ideology = junta
+	ideology = military_despotism
 	traits = {
 	}
 }

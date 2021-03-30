@@ -8,14 +8,14 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = socialism_ideology
+	ruling_party = left_populism
 	last_election = "2006.10.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	socialism_ideology = 62
+	left_populism = 62
 	democratic = 28
 	neutrality = 10
 }

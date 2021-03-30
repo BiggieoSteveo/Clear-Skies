@@ -20,7 +20,7 @@ create_country_leader = {
 	name = "Ahmed Hilmi Pasha"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = liberalism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}
@@ -30,7 +30,7 @@ create_country_leader = {
 	name = "Amin al-Husseini"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_land_2.dds"
-	ideology = fascism_ideology
+	ideology = ultranationalism_subtype
 	traits = {
 		#
 	}
@@ -40,7 +40,7 @@ create_country_leader = {
 	name = "Prince Henry"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Britain_George_VI.dds"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	name = "Bulus Farah"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_2.dds"
-	ideology = leninism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}

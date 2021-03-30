@@ -9,7 +9,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism_ideology = 10
+	left_populism = 10
 	neutrality = 70
 	fascism = 20
 }
@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Omar_al-Bashir.dds"
 	expire = "2032.1.1"
-	ideology = junta  
+	ideology = military_despotism  
 	traits = {
 		#
 	}
