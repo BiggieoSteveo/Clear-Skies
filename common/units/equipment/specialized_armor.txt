@@ -1,0 +1,67 @@
+equipments = {
+
+	napalmer_tank_equipment = { ##M67 Flame Thrower Tank
+		year = 1954
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	infantry_tank_equipment = { ##Merkava
+		year = 1965
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	nrsev_equipment = { ##Nuclear Resistant Sealed Environment Vehicle aka Object 279
+		year = 1965
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	apv_equipment = { ##Armored Engineering Vehicle
+		year = 1965
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}

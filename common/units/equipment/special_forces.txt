@@ -1,0 +1,152 @@
+equipments = {
+
+	para_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	marine_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	mountaineer_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	security_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	sf_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	advsf_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	impsf_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	elitesf_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}
+
+equipments = {
+
+	srvsf_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+}

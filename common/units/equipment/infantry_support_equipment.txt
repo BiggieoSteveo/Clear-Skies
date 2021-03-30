@@ -1,0 +1,303 @@
+equipments = {
+
+	infantry_manpads_equipment = {
+		year = 1960
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+	infantry_manpads_equipment1 = {
+		year = 1965
+
+		archetype = infantry_manpads_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_manpads_equipment2 = {
+		year = 1970
+
+		archetype = infantry_manpads_equipment
+		parent = infantry_manpads_equipment1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_manpads_equipment3 = {
+		year = 1975
+
+		archetype = infantry_manpads_equipment
+		parent = infantry_manpads_equipment2
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_manpads_equipment4 = {
+		year = 1980
+
+		archetype = infantry_manpads_equipment
+		parent = infantry_manpads_equipment3
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+}
+
+equipments = {
+
+	infantry_mg_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+	infantry_mg_equipment1 = {
+		year = 1948
+
+		archetype = infantry_mg_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_mg_equipment2 = {
+		year = 1956
+
+		archetype = infantry_mg_equipment
+		parent = infantry_mg_equipment1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_mg_equipment3 = {
+		year = 1964
+
+		archetype = infantry_mg_equipment
+		parent = infantry_mg_equipment2
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_mg_equipment4 = {
+		year = 1968
+
+		archetype = infantry_mg_equipment
+		parent = infantry_mg_equipment3
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_mg_equipment5 = {
+		year = 1974
+
+		archetype = infantry_mg_equipment
+		parent = infantry_mg_equipment4
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_mg_equipment6 = {
+		year = 1980
+
+		archetype = infantry_mg_equipment
+		parent = infantry_mg_equipment5
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+}
+
+equipments = {
+
+	infantry_nvg_equipment = {
+		year = 1945
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+	infantry_nvg_equipment1 = {
+		year = 1960
+
+		archetype = infantry_nvg_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_nvg_equipment2 = {
+		year = 1970
+
+		archetype = infantry_nvg_equipment
+		parent = infantry_nvg_equipment1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_nvg_equipment3 = {
+		year = 1980
+
+		archetype = infantry_nvg_equipment
+		parent = infantry_nvg_equipment2
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+}
+
+equipments = {
+
+	infantry_at_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+	infantry_at_equipment1 = {
+		year = 1948
+
+		archetype = infantry_at_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_at_equipment2 = {
+		year = 1954
+
+		archetype = infantry_at_equipment
+		parent = infantry_at_equipment1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_at_equipment3 = {
+		year = 1965
+
+		archetype = infantry_at_equipment
+		parent = infantry_at_equipment2
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_at_equipment4 = {
+		year = 1970
+
+		archetype = infantry_at_equipment
+		parent = infantry_at_equipment3
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_at_equipment5 = {
+		year = 1975
+
+		archetype = infantry_at_equipment
+		parent = infantry_at_equipment4
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_at_equipment6 = {
+		year = 1980
+
+		archetype = infantry_at_equipment
+		parent = infantry_at_equipment5
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+}
+equipments = {
+
+	infantry_uniform_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+#		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+	}
+	infantry_uniform_equipment1 = {
+		year = 1948
+
+		archetype = infantry_uniform_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_uniform_equipment2 = {
+		year = 1954
+
+		archetype = infantry_uniform_equipment
+		parent = infantry_uniform_equipment1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_uniform_equipment3 = {
+		year = 1965
+
+		archetype = infantry_uniform_equipment
+		parent = infantry_uniform_equipment2
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_uniform_equipment4 = {
+		year = 1970
+
+		archetype = infantry_uniform_equipment
+		parent = infantry_uniform_equipment3
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_uniform_equipment5 = {
+		year = 1975
+
+		archetype = infantry_uniform_equipment
+		parent = infantry_uniform_equipment4
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+	infantry_uniform_equipment6 = {
+		year = 1980
+
+		archetype = infantry_uniform_equipment
+		parent = infantry_uniform_equipment5
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+}

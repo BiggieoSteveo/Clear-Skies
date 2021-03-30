@@ -2384,7 +2384,7 @@ operation_steal_tech_army = { ### 16 3/55
 				folder = armour_folder
 				folder = artillery_folder
 				folder = infantry_folder
-				folder = support_folder
+				
 				bonus = 3.0
 				dynamic = yes
 				instant = yes
@@ -2405,8 +2405,7 @@ operation_steal_tech_army = { ### 16 3/55
 					steal_random_tech_bonus = {
 						folder = armour_folder
 						folder = artillery_folder
-						folder = infantry_folder
-						folder = support_folder
+						folder = infantry_folder		
 
 						bonus = 3.0
 						ahead_reduction = 2
@@ -2423,8 +2422,7 @@ operation_steal_tech_army = { ### 16 3/55
 					steal_random_tech_bonus = {
 						folder = armour_folder
 						folder = artillery_folder
-						folder = infantry_folder
-						folder = support_folder
+						folder = infantry_folder	
 
 						bonus = 3.0
 						dynamic = yes
@@ -2445,7 +2443,7 @@ operation_steal_tech_army = { ### 16 3/55
 				folder = armour_folder
 				folder = artillery_folder
 				folder = infantry_folder
-				folder = support_folder
+				
 				bonus = 3.0
 				dynamic = yes
 				instant = yes

@@ -3,7 +3,6 @@ equipments = {
 	strat_bomber_equipment = {
 		year = 1933
 
-
 		is_archetype = yes
 		is_convertable = yes
 		picture = archetype_strat_bomber_equipment			
@@ -48,7 +47,6 @@ equipments = {
 	
 	jet_strat_bomber_equipment = {
 		year = 1933
-
 
 		is_archetype = yes
 		is_convertable = yes

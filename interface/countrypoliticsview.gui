@@ -178,10 +178,24 @@ guiTypes = {
 				quadTextureSprite = "GFX_tiled_window_transparent"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
+			}	
+			
+			iconType = {
+				name = "monitor_effect_politics_view_medium"
+				spriteType = "GFX_monitor_effect_politics_view_medium"
+				position = { x = -3 y = 36 }
+				alwaystransparent = yes
+			}	
+			
+			iconType = {
+				name = "monitor_effect_politics_view"
+				spriteType = "GFX_monitor_effect_politics_view"
+				position = { x = 259 y = 36 }
+				alwaystransparent = yes
 			}			
 			
 		}
-						
+
 		containerWindowType = {
 			name = "autonomy_progress_view"
 			position = { x = 170 y = 242 }

@@ -1,0 +1,90 @@
+sub_units = {
+
+	cbrne_specialists = {
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+		priority = 100
+		ai_priority = 100
+		active = no
+		affects_speed = no
+
+		type = {
+			mechanized
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.09
+		can_be_parachuted = yes
+
+		essential = {
+			support_equipment
+			mechanized_equipment
+		}
+		
+		need = {
+			support_equipment = 30
+			infantry_equipment = 40
+			mechanized_equipment = 20
+		}
+	}
+	
+	mobile_missile_unit = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		special_forces = yes
+		priority = 100
+		ai_priority = 100
+		active = no
+		
+		type = {
+			armor
+			support
+			rocket
+		}
+
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+		
+		essential = {
+			msl_tractor_equipment
+		}
+		
+		need = {
+			msl_tractor_equipment = 20
+		}
+		
+		manpower = 600
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.6
+		training_time = 180
+		weight = 2
+		supply_consumption = 0.5
+	}
+}

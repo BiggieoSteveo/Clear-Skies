@@ -1,0 +1,105 @@
+equipments = {
+
+	msl_tractor_equipment = {
+		year = 1950
+
+		is_archetype = yes
+		picture = archetype_motorized_rocket_equipment			
+		type = { 
+			armor
+			artillery
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.7
+
+		#Defensive Abilities
+		defense = 1
+		breakthrough = 1
+		hardness = 0.1
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 1
+		ap_attack = 1
+		
+		build_cost_ic = 50
+		resources = {
+			steel = 5
+			chromium = 5
+		}
+
+		fuel_consumption = 4
+	}
+	
+	msl_tractor_equipment_1 = {
+		year = 1950
+
+		archetype = msl_tractor_equipment
+		priority = 40
+		visual_level = 0
+	}
+	
+	msl_tractor_equipment_2 = {
+		year = 1960
+
+		archetype = msl_tractor_equipment
+		parent = mlrs_equipment_1
+		priority = 40
+		visual_level = 0
+		is_convertable = yes
+
+		maximum_speed = 11
+		reliability = 0.8
+		
+		build_cost_ic = 30
+		resources = {
+			steel = 5
+			chromium = 6
+		}
+	}
+	
+	msl_tractor_equipment_3 = {
+		year = 1970
+
+		archetype = msl_tractor_equipment
+		parent = mlrs_equipment_2
+		priority = 40
+		visual_level = 0
+		is_convertable = yes
+
+		maximum_speed = 11.5
+		reliability = 0.85
+		
+		build_cost_ic = 31
+		resources = {
+			steel = 6
+			chromium = 6
+		}
+	}
+	
+	msl_tractor_equipment_4 = {
+		year = 1980
+
+		archetype = msl_tractor_equipment
+		parent = mlrs_equipment_3
+		priority = 40
+		visual_level = 0
+		is_convertable = yes
+		
+		maximum_speed = 12
+		reliability = 0.9
+		
+		build_cost_ic = 30
+		resources = {
+			steel = 7
+			chromium = 6
+		}
+	}
+}

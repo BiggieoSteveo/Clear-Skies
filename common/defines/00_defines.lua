@@ -1,8 +1,8 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "2008.1.1.12",
-	END_DATE = "2038.1.1.1",
+	START_DATE = "1936.1.1.12",
+	END_DATE = "1949.1.1.1",
 	MAP_SCALE_PIXEL_TO_KM = 7.114,					-- Yes, we did the math
 	SAVE_VERSION = 7,								-- 1.8.0
 	CHECKSUM_SALT = "zwOdv5d9wm9uDSOT",				-- Data to modify generated checksum when game binaries have changed but not any content files.
@@ -521,7 +521,7 @@ NProduction = {
 },
 
 NTechnology = {
-	MAX_SUBTECHS = 3,						-- Max number of sub technologies a technology can have.
+	MAX_SUBTECHS = 8,						-- Max number of sub technologies a technology can have.
 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
 	BASE_YEAR_AHEAD_PENALTY_FACTOR = 2,		-- Base year ahead penalty
 	BASE_TECH_COST = 85,					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties
