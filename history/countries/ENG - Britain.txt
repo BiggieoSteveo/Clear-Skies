@@ -3,15 +3,29 @@
 set_convoys = 800
 
 set_politics = {
-	ruling_party = communism 
+	ruling_party = democratic 
 	last_election = "2008.11.14"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 95
+	democratic = 80
+	fascism = 5
+	communism = 5
 	left_populism = 5
+	neutrality = 5
+}
+
+create_country_leader = {
+	name = "Peter Carington"
+	desc = ""
+	picture = "Portrait_Peter_Carington.dds"
+	expire = "2032.1.1"
+	ideology = anocracy_subtype 
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
@@ -19,7 +33,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Jeremy_Corbyn.dds"
 	expire = "2032.1.1"
-	ideology = military_socialism 
+	ideology = left_populism_subtype 
 	traits = {
 		#
 	}

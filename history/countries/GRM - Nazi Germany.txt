@@ -17,7 +17,7 @@ create_country_leader = {
 	desc = "BENEDIKT_DELBRUCK_DESC"
 	picture = "Portrait_Benedikt_Delbrück.dds"
 	expire = "2032.1.1"
-	ideology = ultranationalism_subtype
+	ideology = military_ultranationalism
 	traits = {
 	}
 }

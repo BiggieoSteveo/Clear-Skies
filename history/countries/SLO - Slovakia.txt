@@ -3,24 +3,23 @@
 #oob = "SLO_2008"
 
 set_politics = {
-	ruling_party = democratic 
+	ruling_party = neutrality
 	last_election = "2008.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 10
-	left_populism=10
-	democratic = 70
+	communism = 20
+	neutrality = 70
 	fascism = 10
 }
 
 create_country_leader = {
-	name = "Ivan Gasparovic"
+	name = "Maximilian Laska"
 	desc = ""
-	picture = "Portrait_Ivan_Gasparovic.dds"
+	picture = "Portrait_Maximilian_Laska.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype 
+	ideology = militia_despotism
 	traits = {
 		#
 	}

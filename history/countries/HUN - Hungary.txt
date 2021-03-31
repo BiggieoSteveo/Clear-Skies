@@ -7,15 +7,14 @@ set_stability = 0.7
 set_war_support = 0.6
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "2008.3.31"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	left_populism = 10
-	neutrality = 60
-	fascism = 30
+	neutrality = 30
+	fascism = 70
 }
 
 create_country_leader = {
@@ -23,7 +22,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_David_Kovacs.dds"
 	expire = "2032.1.1"
-	ideology = despotism_subtype  
+	ideology = ultranationalism_subtype  
 	traits = {
 		#
 	}

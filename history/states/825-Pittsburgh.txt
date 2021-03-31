@@ -1,0 +1,33 @@
+state={
+	id=825
+	name="STATE_825"
+	manpower = 9631346
+	
+	state_category = arcoplex
+	
+	resources={
+		steel=10
+	}
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 10
+			industrial_complex = 15
+			arms_factory = 10
+			air_base = 8
+			anti_air_building = 2
+			radar_station = 3
+		}
+		add_core_of = USA
+		victory_points = {
+			13239 20
+		}
+
+	}
+
+	provinces={
+		13239
+	}
+}

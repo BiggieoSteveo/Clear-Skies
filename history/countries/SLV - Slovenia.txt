@@ -2,21 +2,18 @@
 
 set_research_slots = 3
 
-# Starting tech
-# clone of Yugoslavia
-
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 15
 	left_populism = 5
-	democratic = 50
-	neutrality = 10
+	democratic = 10
+	neutrality = 50
 	fascism = 20
 }
 
@@ -25,7 +22,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Danilo_Turk.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype
+	ideology = congressional_despotism
 	traits = {
 		#
 	}

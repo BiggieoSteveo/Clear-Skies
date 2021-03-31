@@ -7,22 +7,22 @@ set_research_slots = 2
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic 
+	ruling_party = fascism 
 	last_election = "2008.6.9"
 	election_frequency = 12
-	elections_allowed = no # none after offset 1
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 80
-	left_populism = 20
+	fascism = 80
+	neutrality = 20
 }
 
 create_country_leader = {
-	name = "Zvonimir Cervenko"
+	name = "Aleksandar Bartulovic"
 	desc = ""
-	picture = "Portrait_Zvonimir_Cervenko.dds"
+	picture = "Portrait_Aleksandar_Bartulovic.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype 
+	ideology = clerical_ultranationalism 
 	traits = {
 		#
 	}

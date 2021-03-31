@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Florian_Bogen.dds"
 	expire = "2032.1.1"
-	ideology = ultranationalism_subtype 
+	ideology = ultranational_socialism 
 	traits = {
 		#
 	}

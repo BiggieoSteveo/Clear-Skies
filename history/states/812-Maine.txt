@@ -5,7 +5,7 @@ state={
 		steel=10
 	}
 
-	state_category = city
+	state_category = rural
 
 
 	history={
@@ -13,22 +13,21 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
-			dockyard = 1
-			air_base = 10
+			air_base = 3
 			3732 = {
-				naval_base = 8
+				naval_base = 4
 
 			}
 		}
 		add_core_of = USA
 		victory_points = {
-			12459 1 
+			12459 3
 		}
 
 	}
 
 	provinces={
-		1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459
+		3732 6719 7462 10318 12202 12459
 	}
 	manpower=346790
 }

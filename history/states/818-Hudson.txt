@@ -1,33 +1,29 @@
 state={
-	id=360
-	name="STATE_360"
-	manpower = 101372
+	id=818
+	name="STATE_818"
+	resources={
+		steel=2
+	}
 	
 	state_category = rural
-	
-	resources={
-		steel=30
-	}
-
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
-			6845 = {
-				naval_base = 10
-
-			}
 		}
 		add_core_of = USA
+		
 		victory_points = {
-			11785 2
+			3894 3 
 		}
 
 	}
 
 	provinces={
-		822 891 3824 3847 3897 6845 6869 9820 11785 11799
+		3894 3806 6911 9673 9693 9774 
 	}
+	manpower=14502
+	buildings_max_level_factor=1.000
 }
