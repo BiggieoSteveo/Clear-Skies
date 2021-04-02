@@ -18,7 +18,7 @@ create_country_leader = {
 	name = "Patrice Abeille"
 	picture = "Portrait_Patrice_Abeille.dds"
 	expire = "2032.1.1"
-	ideology = left_wing_nationalism
+	ideology = left_populism_subtype
 	traits = {
 		#
 	}

@@ -9,24 +9,24 @@ set_war_support = 0.7
 set_convoys = 200
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	left_populism = 8
-	democratic = 80
-	fascism = 10
-	communism = 2
+	left_populism = 9
+	neutrality = 55
+	fascism = 24
+	communism = 12
 }
 
 create_country_leader = {
-	name = "Silvio Berlusconi"
+	name = "Lauriano Anastasi"
 	desc = ""
-	picture = "Portrait_Silvio_Berlusconi.dds"
+	picture = "Portrait_Lauriano_Anastasi.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype 
+	ideology = military_despotism 
 	traits = {
 		#
 	}

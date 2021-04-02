@@ -368,8 +368,8 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 128 y = 38 }
-				font = "garamond_12"
-				font = "garamond_12"
+				font = "hoi_16mbs"
+				font = "hoi_16mbs"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
 				maxHeight = 20
@@ -402,8 +402,8 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 110 y = 92 }
-				font = "garamond_12"
-				text = "Ministers"
+				font = "hoi_16mbs"
+				text = "POLITICS_MINISTERS"
 				maxWidth = 200
 				maxHeight = 20
 				alwaystransparent = yes
@@ -420,7 +420,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 110 y = -4 }
-				font = "garamond_12"
+				font = "hoi_16mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
 				maxHeight = 20

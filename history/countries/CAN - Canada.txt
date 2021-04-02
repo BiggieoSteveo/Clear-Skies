@@ -9,57 +9,25 @@ set_war_support = 0.1
 # Starting tech
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.10.14"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 98
+	neutrality = 59
 	fascism = 1
-	communism = 1
+	democratic = 30
+	communism = 10
 }
 
 create_country_leader = {
-	name = "Mackenzie King"
-	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
+	name = "Peter Mckay"
+	desc = ""
+	picture = "Portrait_Peter_Mckay.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Adrien Arcand"
-	desc = "POLITICS_ADRIEN_ARCAND_DESC"
-	picture = "GFX_CAN_adrien_arcand"
-	expire = "2032.1.1"
-	ideology = ultranational_socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Tim Buck"
-	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "2032.1.1"
-	ideology = authoritarian_socialism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "J. S. Woodsworth"
-	desc = "POLITICS_JS_WOODSWORTH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "2032.1.1"
-	ideology = anocracy_subtype
+	ideology = congressional_despotism
 	traits = {
 		#
 	}

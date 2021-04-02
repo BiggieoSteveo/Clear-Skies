@@ -3,63 +3,29 @@
 #oob = "DEN_1936"
 
 set_politics = {
-	ruling_party = left_populism
+	ruling_party = neutrality
 	last_election = "2008.10.22"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	left_populism = 46
-	democratic = 14
-	communism = 40
+	neutrality  = 46
+	democratic = 24
+	communism = 30
 }
 
 set_convoys = 40
 
 create_country_leader = {
-	name = "Thorvald Stauning"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
+	name = "Olav Paulsen"
+	desc = ""
+	picture = "Portrait_Olav_Paulsen.dds"
 	expire = "2032.1.1"
-	ideology = left_populism_subtype
+	ideology = social_despotism 
 	traits = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Frits Clausen"
-	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "2032.1.1"
-	ideology = ultranational_socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aksel Larsen"
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "2032.1.1"
-	ideology = left_populism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peter Rochegune Munch"
-	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "2032.1.1"
-	ideology = anocracy_subtype
-	traits = {
-		#
-	}
-}
-
 
 create_corps_commander = {
 	name = "Wilhelm Wain Prior"

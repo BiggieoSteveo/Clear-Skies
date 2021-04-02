@@ -5,24 +5,24 @@
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.5.19"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 25
-	democratic = 65
-	neutrality = 10
+	neutrality = 55
+	democratic = 20
 }
 
 create_country_leader = {
-	name = "Vaclav Klaus"
-	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Vaclav_Klaus.dds"
+	name = "Drahoslav Bilek"
+	desc = ""
+	picture = "Portrait_Drahoslav_Bilek.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype
+	ideology = social_despotism
 	traits = {
 		#
 	}
