@@ -1,0 +1,103 @@
+scripted_gui = {
+
+	CS_banner_nato = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "CS_nato_faction_banner"
+
+
+		visible = {
+			OR = {
+				is_in_faction_with = USA
+			}
+		}
+
+		properties = {
+            nato_member = {
+                image = "GFX_NATO"
+            }
+		}
+	}	
+
+	CS_banner_warpac = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "CS_warpac_faction_banner"
+
+
+		visible = {
+			OR = {
+				is_in_faction_with = SOV
+			}
+		}
+
+		properties = {
+            warpac_member = {
+                image = "GFX_WARPAC"
+            }
+		}
+	}
+	
+	CS_banner_tripac = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "CS_tripac_faction_banner"
+
+
+		visible = {
+			OR = {
+				is_in_faction_with = AUS
+				is_in_faction_with = NIT
+				is_in_faction_with = HUN
+				is_in_faction_with = GRM
+			}
+		}
+
+		properties = {
+            tripac_member = {
+                image = "GFX_TRIPAC"
+            }
+		}
+	}
+	
+	CS_banner_indchism = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "CS_indchism_faction_banner"
+
+
+		visible = {
+			OR = {
+				is_in_faction_with = VIN
+				is_in_faction_with = LAO
+				is_in_faction_with = CAM
+			}
+		}
+
+		properties = {
+            tripac_member = {
+                image = "GFX_INDCHISM"
+            }
+		}
+	}
+	
+	CS_banner_neutral = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "CS_neutral_banner"
+
+
+		visible = {
+			OR = {
+				is_in_faction = no
+			}
+		}
+
+		properties = {
+            neutral = {
+                image = "GFX_Neutral_Faction"
+            }
+		}
+	}
+}
+

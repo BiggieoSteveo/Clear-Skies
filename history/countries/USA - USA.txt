@@ -14,6 +14,12 @@ set_popularities = {
 	neutrality = 100
 }
 
+create_faction = nato
+add_to_faction = CAN
+add_to_faction = ENG
+add_to_faction = HAW
+add_to_faction = ALK
+
 create_country_leader = {
 	name = "Dick Cheney"
 	desc = ""
@@ -23,6 +29,16 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+set_autonomy = {
+	target = ALK
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = HAW
+	autonomous_state = autonomy_integrated_puppet
 }
 
 create_corps_commander = {

@@ -175,7 +175,7 @@ guiTypes = {
 			
 			extendedScrollbarType = {
 				name = "slider"
-				position = { x = 0 y = 100 }
+				position = { x = 0 y = 200 }
 			}
 			
 			instantTextBoxType = {
@@ -189,6 +189,58 @@ guiTypes = {
 				fixedsize = yes	
 				
 				pdx_tooltip = "EXECUTIVE_BRANCH" 
+			}
+			
+			instantTextBoxType = {
+				name ="faction_text_2"
+				position = { x= 0 y = 40 }
+				font = "hoi_18mbs"
+				text = "THE_PARTY_NAME"
+				format = left
+				maxWidth = 115
+				maxHeight = 0
+				fixedsize = yes	
+				
+				pdx_tooltip = "THE_PARTY" 
+			}
+			
+			instantTextBoxType = {
+				name ="faction_text_3"
+				position = { x= 0 y = 80 }
+				font = "hoi_18mbs"
+				text = "INTELIGENCIA_NAME"
+				format = left
+				maxWidth = 115
+				maxHeight = 0
+				fixedsize = yes	
+				
+				pdx_tooltip = "INTELIGENCIA" 
+			}
+			
+			instantTextBoxType = {
+				name ="faction_text_4"
+				position = { x= 0 y = 120 }
+				font = "hoi_18mbs"
+				text = "ARMED_FORCES_NAME"
+				format = left
+				maxWidth = 115
+				maxHeight = 0
+				fixedsize = yes	
+				
+				pdx_tooltip = "ARMED_FORCES" 
+			}
+			
+			instantTextBoxType = {
+				name ="faction_text_5"
+				position = { x= 0 y = 160 }
+				font = "hoi_18mbs"
+				text = "MILITIA_NAME"
+				format = left
+				maxWidth = 115
+				maxHeight = 0
+				fixedsize = yes	
+				
+				pdx_tooltip = "MILITIA" 
 			}
 		}
 	}

@@ -17,6 +17,10 @@ set_popularities = {
 	fascism = 75
 }
 
+create_faction = tripartite_pact
+add_to_faction = NIT
+add_to_faction = HUN
+
 set_stability = 0.50
 
 create_country_leader = {

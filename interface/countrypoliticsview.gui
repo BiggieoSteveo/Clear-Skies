@@ -46,7 +46,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 17 y = 347 }
+			position = { x= 15 y = 347 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
@@ -164,7 +164,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 255 y = 66 }
+				position = { x = 256 y = 86 }
 				font = "hoi_16mbs"
 				text = "faction"
 				maxWidth = 193
@@ -193,7 +193,6 @@ guiTypes = {
 				position = { x = 259 y = 36 }
 				alwaystransparent = yes
 			}			
-			
 		}
 
 		containerWindowType = {
@@ -484,9 +483,9 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 180 y = 255 }
-			size = { width=100%% height=100%% }
-			margin = { top = 14 bottom = 13}
+			position = { x = 180 y = 262 }
+			size = { width=100%% height= 75 }
+			margin = { top = 15 bottom = 0}
 		
 			background = {
 				name = "Background"
@@ -497,7 +496,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "idea_categories_grid"
-				position = { x = 17 y = -50 }
+				position = { x = 17 y = -56 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 64 height = 6000 }
 				max_slots_horizontal = 1

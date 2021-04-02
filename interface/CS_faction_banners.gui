@@ -1,0 +1,72 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "CS_nato_faction_banner"
+		position = { x = 88 y = 305 }
+		size = { width = 50 height = 20 }
+		clipping = no
+
+		iconType = {
+			name = "icon_faction_1"
+			spriteType = "GFX_NATO"
+			position = { x = 287 y = 46 }
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "CS_warpac_faction_banner"
+		position = { x = 88 y = 305 }
+		size = { width = 50 height = 20 }
+		clipping = no
+		
+		iconType = {
+			name = "icon_faction_2"
+			spriteType = "GFX_WARPAC"
+			position = { x = 287 y = 46 }
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "CS_tripac_faction_banner"
+		position = { x = 88 y = 305 }
+		size = { width = 50 height = 20 }
+		clipping = no
+		
+		iconType = {
+			name = "icon_faction_3"
+			spriteType = "GFX_TRIPAC"
+			position = { x = 287 y = 46 }
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "CS_indchism_faction_banner"
+		position = { x = 88 y = 305 }
+		size = { width = 50 height = 20 }
+		clipping = no
+		
+		iconType = {
+			name = "icon_faction_3"
+			spriteType = "GFX_INDCHISM"
+			position = { x = 287 y = 46 }
+			alwaystransparent = yes
+		}
+	}
+		
+	containerWindowType = {
+		name = "CS_neutral_banner"
+		position = { x = 88 y = 305 }
+		size = { width = 50 height = 20 }
+		clipping = no
+		
+		iconType = {
+			name = "icon_faction_4"
+			spriteType = "GFX_Neutral_Faction"
+			position = { x = 287 y = 46 }
+			alwaystransparent = yes
+		}
+	}
+}

@@ -697,5 +697,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_monitor_effect_politics_view_medium"
 		textureFile = "gfx/interface/monitor_effect_politics_view_medium.dds"
-	}	
+	}
 }
