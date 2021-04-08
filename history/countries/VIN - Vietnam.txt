@@ -15,13 +15,26 @@ set_popularities = {
 	democratic = 15
 	communism = 85
 }
+create_faction = indchism
+add_to_faction = CAM
+add_to_faction = LAO
+
+set_autonomy = {
+	target = CAM
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomy_integrated_puppet
+}
 
 create_country_leader = {
 	name = "Pham Dúc Linh" 
 	desc = "PHAM_DUC_LINH_DESC"
 	picture = "Portrait_Pham_Duc_Linh.dds"
 	expire = "2032.3.1"
-	ideology = authoritarian_socialism_subtype
+	ideology = military_socialism
 	traits = {
 	}
 }

@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Albania_Ramiz_Alia.dds"
 	expire = "2032.1.1.12"
-	ideology = military_socialism 
+	ideology = congressional_socialism 
 	traits = {
 		#
 	}

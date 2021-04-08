@@ -7,16 +7,16 @@
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 60
+	democratic = 5
 	fascism = 20
 	communism = 15
-	neutrality = 5
+	neutrality = 60
 }
 
 create_country_leader = {
@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Franck_Vanhecke.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype
+	ideology = militia_despotism
 	traits = {
 		#
 	}

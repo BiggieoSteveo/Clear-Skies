@@ -1,12 +1,12 @@
 ﻿l_english:
 
- ##Party Names 
+ ##Country Names
  USA_fascism:0 "United States of America"
  USA_fascism_DEF:0 "the United States of America"
  USA_democratic:0 "United States of America"
  USA_democratic_DEF:0 "the United States of America"
- USA_neutrality:1 "United States of America"
- USA_neutrality_DEF:1 "the United States of America"
+ USA_neutrality:0 "United States of America"
+ USA_neutrality_DEF:0 "the United States of America"
  USA_communism:0 "United Socialist States of America"
  USA_communism_DEF:0 "the United Socialist States of America"
  USA_left_populism:0 "United States of America"
@@ -19,5 +19,9 @@
  USA:0 "American"
  USA_DEF:0 "America"
  USA_ADJ:0 "American"
+ 
+ ##Party Names 
+ USA_neutrality_party:0 "APNS"
+ USA_neutrality_party_long:0 "American Party for National Sufferance" 
  USA_federal_emergency_council_long:0 "Federal Emergency Council"
- USA_federal_emergency_council:0 "FEC"
+ USA_federal_emergency_council:0 "FEDEMC"

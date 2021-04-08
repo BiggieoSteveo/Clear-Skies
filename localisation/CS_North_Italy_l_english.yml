@@ -19,3 +19,7 @@
  NIT:0 "Italy"
  NIT_DEF:0 "Italy"
  NIT_ADJ:0 "Italians"
+
+ ##Party Names 
+ NIT_communism_party:0 "Italian Social Movement"
+ NIT_fascism_party:0 "Italian Social Movement"

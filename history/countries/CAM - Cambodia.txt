@@ -2,7 +2,7 @@
 
 #oob = "CAM_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_politics = {
 	ruling_party = communism
@@ -12,16 +12,16 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 85
-	democratic = 15
+	communism = 84
+	democratic = 16
 }
 
 create_country_leader = {
-	name = "Pol Pot" 
-	desc = "POL_POT_DESC"
-	picture = "Portrait_Pol_Pot.dds"
+	name = "Phy Makara" 
+	desc = ""
+	picture = "Portrait_Phy_Makara.dds"
 	expire = "2032.3.1"
-	ideology = securocratic_socialism
+	ideology = left_wing_nationalism
 	traits = {
 	}
 }

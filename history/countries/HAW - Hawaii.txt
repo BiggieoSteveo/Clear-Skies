@@ -17,10 +17,20 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Archie Bell"
+	desc = ""
+	picture = "Portrait_Archie_Bell.dds"
+	ideology = military_despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Daniel Inouye"
 	desc = ""
 	picture = "Portrait_Daniel_Inouye.dds"
-	ideology = congressional_despotism
+	ideology = anocracy_subtype
 	traits = {
 		#
 	}

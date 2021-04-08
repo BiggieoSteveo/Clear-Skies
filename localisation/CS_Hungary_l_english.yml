@@ -19,3 +19,6 @@
  HUN:0 "Hungary"
  HUN_DEF:0 "Hungary"
  HUN_ADJ:0 "Hungarian"
+ 
+ ##Party Names 
+ GRM_fascism_party:0 "Jobbik"

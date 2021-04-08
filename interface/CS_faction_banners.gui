@@ -55,7 +55,21 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+	
+	containerWindowType = {
+		name = "CS_estway_faction_banner"
+		position = { x = 88 y = 305 }
+		size = { width = 50 height = 20 }
+		clipping = no
 		
+		iconType = {
+			name = "icon_faction_3"
+			spriteType = "GFX_ESTWAY"
+			position = { x = 287 y = 46 }
+			alwaystransparent = yes
+		}
+	}
+
 	containerWindowType = {
 		name = "CS_neutral_banner"
 		position = { x = 88 y = 305 }

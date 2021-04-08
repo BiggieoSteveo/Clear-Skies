@@ -19,4 +19,8 @@ spriteTypes = {
 		name = "GFX_INDCHISM"
 		textureFile = "gfx/interface/INDCHISM.dds"
 	}
+	spriteType = {
+		name = "GFX_ESTWAY"
+		textureFile = "gfx/interface/ESTWAY.dds"
+	}
 }

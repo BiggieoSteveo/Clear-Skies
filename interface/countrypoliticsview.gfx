@@ -452,25 +452,55 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_securocratic_despotism"
+		texturefile = "gfx/interface/ideologies/securocratic_despotism.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_military_socialism"
 		texturefile = "gfx/interface/ideologies/military_socialism.dds"
 	}
-		
+	
+	spriteType = {
+		name = "GFX_ideology_military_despotism"
+		texturefile = "gfx/interface/ideologies/military_despotism.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_congressional_socialism"
 		texturefile = "gfx/interface/ideologies/congressional_socialism.dds"
 	}
-		
+
+	spriteType = {
+		name = "GFX_ideology_congressional_despotism"
+		texturefile = "gfx/interface/ideologies/congressional_despotism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_militia_despotism"
+		texturefile = "gfx/interface/ideologies/militia_despotism.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_clerical_socialism"
 		texturefile = "gfx/interface/ideologies/clerical_socialism.dds"
 	}
 		
 	spriteType = {
+		name = "GFX_ideology_social_despotism"
+		texturefile = "gfx/interface/ideologies/social_despotism.dds"
+	}	
+		
+	spriteType = {
 		name = "GFX_ideology_left_wing_nationalism"
 		texturefile = "gfx/interface/ideologies/left_wing_nationalism.dds"
 	}	
 		
+	spriteType = {
+		name = "GFX_ideology_ultranational_socialism"
+		texturefile = "gfx/interface/ideologies/ultranational_socialism.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_mitia_socialism"
 		texturefile = "gfx/interface/ideologies/mitia_socialism.dds"

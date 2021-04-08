@@ -2,7 +2,7 @@
 
 #oob = "JAP_1936"
 
-set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
+set_stability = 0.2
 set_war_support = 0.8
 
 set_research_slots = 4
@@ -11,21 +11,24 @@ set_fuel_ratio = 1.0
 set_convoys = 400
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	fascism = 72
+	neutrality = 28
 }
 
+create_faction = estaway
+
 create_country_leader = {
-	name = "Yoshiaki Tsutsumi"
-	desc = "YOSHIAKI_TSUTSUMI_DESC"
-	picture = "Portrait_Yoshiaki_Tsutsumi.dds"
+	name = "Tadae Takubo"
+	desc = ""
+	picture = "Portrait_Tadae_Takubo.dds"
 	expire = "1989.1.1"
-	ideology = congressional_despotism
+	ideology = military_ultranationalism
 	traits = {
 	}
 }

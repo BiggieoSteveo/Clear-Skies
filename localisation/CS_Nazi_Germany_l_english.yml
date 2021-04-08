@@ -19,3 +19,6 @@
  GRM:0 "Germany"
  GRM_DEF:0 "Germany"
  GRM_ADJ:0 "German"
+ 
+ ##Party Names 
+ GRM_fascism_party:0 "Deutsche Kriegsarmee"

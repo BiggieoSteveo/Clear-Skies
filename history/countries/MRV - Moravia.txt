@@ -6,15 +6,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-		communism = 30
-		left_populism = 15
-		democratic = 10
-		neutrality = 40
-		fascism = 5
+	communism = 25
+	neutrality = 55
+	democratic = 20
 }
 create_country_leader = { 
-	name = "Pavel Dohnal"
-	picture = "Portrait_Pavel_Dohnal.dds"
+	name = "Bruno Toman"
+	picture = "Portrait_Bruno_Toman.dds"
 	expire = "2032.1.1"
 	ideology = congressional_despotism
 	traits = {

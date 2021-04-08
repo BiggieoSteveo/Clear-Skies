@@ -99,5 +99,24 @@ scripted_gui = {
             }
 		}
 	}
+	
+	CS_banner_estway = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "CS_estway_faction_banner"
+
+
+		visible = {
+			OR = {
+				is_in_faction_with = JAP
+			}
+		}
+
+		properties = {
+            neutral = {
+                image = "GFX_ESTWAY"
+            }
+		}
+	}
 }
 

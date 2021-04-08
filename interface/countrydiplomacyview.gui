@@ -26,20 +26,20 @@ guiTypes = {
 
 			iconType = {
 				name = "diplo_upper_win_bg"
-				position = { x = 139 y = -4 }
+				position = { x = 15 y = -4 }
 				spriteType = "GFX_diplo_upper_win_bg"
 			}				
 			
 			iconType = {
 				name = "diplo_country_flag"
 				quadTextureSprite ="GFX_shield_medium"
-				position = { x= 39 y = 0 }
+				position = { x= 39 y = 5 }
 				Orientation = "UPPER_LEFT"
 			}			
 			
 			iconType = {
 				name = "diplo_flag_frame"
-				position = { x = 14 y = -10 }
+				position = { x = 14 y = -7 }
 				spriteType = "GFX_diplo_flag_frame"
 				alwaystransparent = yes
 			}			
@@ -47,17 +47,17 @@ guiTypes = {
 			iconType ={
 				name = "ideology_icon"
 				spriteType = "GFX_ideology_unknown"
-				position = { x = 158 y = 0 }
+				position = { x = 158 y = -2 }
 				Orientation = "UPPER_LEFT"
 				frame = 1
 			}
 			
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 245 y = 3 }
-				font = "hoi_18mbs"
+				position = { x = 240 y = 3 }
+				font = "hoi_20bs"
 				text = "Germanian"
-				maxWidth = 173
+				maxWidth = 250
 				fixedsize = yes
 				maxHeight = 20
 				format = left
@@ -65,14 +65,14 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 245 y = 23}	
+				position = { x = 240 y = 23}	
 				size = { width = 175 height = 20 }
 				clipping = no
 			
 				instantTextboxType = {
 					name = "faction_name"
 					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
+					font = "hoi_20bs"
 					text = "faction"
 					maxWidth = 173
 					maxHeight = 20
@@ -83,8 +83,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 245 y = 43 }
-				font = "hoi_16mbs"
+				position = { x = 240 y = 43 }
+				font = "hoi_20bs"
 				text = "Rudolf Kittler"
 				maxWidth = 173
 				maxHeight = 20
@@ -113,10 +113,10 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "our_opinion_value"
-					position = { x = 67 y = -4 }
-					font = "hoi_16mbs"
+					position = { x = 67 y = -6 }
+					font = "hoi_20bs"
 					text = "+50"
-					maxWidth = 30
+					maxWidth = 35
 					maxHeight = 20
 					format = center
 				}
@@ -130,10 +130,10 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "their_opinion_value"
-					position = { x = 37 y = 42 }
-					font = "hoi_16mbs"
+					position = { x = 37 y = 39 }
+					font = "hoi_20bs"
 					text = "-100"
-					maxWidth = 30
+					maxWidth = 35
 					maxHeight = 20
 					format = center
 				}
@@ -150,13 +150,13 @@ guiTypes = {
 			{
 				name ="stability_icon"
 				spriteType = "GFX_stability_icon"
-				position = { x= 455 y = 9 } #position = { x= 378 y = 9 }
+				position = { x= 454 y = 12 } #position = { x= 378 y = 9 }
 			}			
 
 			instantTextboxType = {
 				name = "stability_value"
-				position = { x = 446 y = 42 } #position = { x = 369 y = 42 }
-				font = "hoi_16mbs"
+				position = { x = 446 y = 38 }
+				font = "hoi_20bs"
 				text = "100%"
 				maxWidth = 44
 				maxHeight = 20
@@ -174,13 +174,13 @@ guiTypes = {
 			{
 				name ="war_support_icon"
 				spriteType = "GFX_war_support_icon"
-				position = { x= 497 y = 9 } #position = { x= 421 y = 9 }
+				position = { x= 498 y = 12 }
 			}			
 
 			instantTextboxType = {
 				name = "war_support_value"
-				position = { x = 490 y = 42 } #osition = { x = 414 y = 42 }
-				font = "hoi_16mbs"
+				position = { x = 490 y = 38 }
+				font = "hoi_20bs"
 				text = "100%"
 				maxWidth = 44
 				maxHeight = 20
@@ -200,17 +200,17 @@ guiTypes = {
 			buttonType = {
 				name = "relations_tab_button"
 				quadTextureSprite = "GFX_tab_intel_ledger"
-				position = { x=15 y=70 }
+				position = { x=12 y=79 }
 				buttonText = "DIPLOMACY_RELATIONS_TAB"
-				font = "hoi_18mbs"
+				font = "hoi_20bs"
 			}
 		
 			buttonType = {
 				name = "info_tab_button"
 				quadTextureSprite = "GFX_tab_intel_ledger"
-				position = { x=275 y= 70 }
+				position = { x=275 y= 79 }
 				buttonText = "DIPLOMACY_INFO_TAB"
-				font = "hoi_18mbs"
+				font = "hoi_20bs"
 			}
 			
 			#------------------------- END TAB BUTTONS ----------------------------
@@ -224,7 +224,7 @@ guiTypes = {
 					
 				iconType = {
 					name = "leader_portrait"
-					position = { x = 20 y = 10 }
+					position = { x = 22 y = 8 }
 					spriteType = "GFX_leader_unknown"
 					scale = 0.74
 				}
@@ -245,20 +245,20 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "political_pie_chart"
-					position = { x = 141 y = 9 }
+					position = { x = 140 y = 11 }
 					size = { width=330 height=30 }
 					clipping = no
 
 					iconType = {
 						name = "chart"
 						spriteType = "GFX_political_chart_big"
-						position = { x = 51 y = 5 }
+						position = { x = 50 y = 5 }
 					}
 					
 					iconType ={
 						name ="pol_view_bg"
 						spriteType = "GFX_pol_piechart_overlay"
-						position = { x= 16 y = 0 }
+						position = { x= 13 y = -1 }
 					}				
 				}	
 				
@@ -270,8 +270,8 @@ guiTypes = {
 							
 					instantTextboxType = {
 						name = "party_name"
-						position = { x = 5 y = -5 }
-						font = "hoi_16mbs"
+						position = { x = 5 y = -9 }
+						font = "hoi_20bs"
 						text = "party"
 						maxWidth = 245
 						maxHeight = 20
@@ -280,8 +280,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "ideology_name"
-						position = { x = 5 y = 10 }
-						font = "hoi_16mbs"
+						position = { x = 5 y = 9 }
+						font = "hoi_20bs"
 						text = "ideology"
 						maxWidth = 245
 						maxHeight = 20
@@ -289,8 +289,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "elections"
-						position = { x = 5 y = 25 }
-						font = "hoi_16mbs"
+						position = { x = 5 y = 28 }
+						font = "hoi_20bs"
 						text = "elections"
 						maxWidth = 245
 						maxHeight = 20
@@ -305,14 +305,14 @@ guiTypes = {
 					
 					buttonType = {
 						name = "show_national_goal_button"
-						position = { x = 103 y = 7 }
+						position = { x = 99 y = 8 }
 						spriteType = "GFX_diplo_goal_button"
 						clicksound = click_default
 					}
 
 					iconType = {
 						name = "goal_icon"
-						position = { x = 48 y = 39 }
+						position = { x = 47 y = 39 }
 						spriteType = "GFX_goal_unknown"
 						centerposition = yes					
 						scale = 0.9
@@ -320,8 +320,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "national_focus_label"
-						position = { x = 146 y = 23 }
-						font = "hoi_18mbs"
+						position = { x = 168 y = 28 }
+						font = "hoi4_typewriter16_inverted"
 						text = "POLITICS_ACTIVE_GOAL"
 						maxWidth = 200
 						maxHeight = 20
@@ -3698,7 +3698,7 @@ guiTypes = {
 		iconType = {
 			name = "diplolist_country_flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x= 9 y = 10 }
+			position = { x= 9 y = 4 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}			

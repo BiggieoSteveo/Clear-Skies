@@ -7,13 +7,13 @@ set_stability = 0.75
 set_war_support = 0
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2008.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 70
+	neutrality = 70
 	fascism = 20
 	left_populism = 10
 }
@@ -27,7 +27,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Geert_Wilders.dds"
 	expire = "2032.1.1"
-	ideology = anocracy_subtype
+	ideology = congressional_despotism
 	traits = {
 		#
 	}
