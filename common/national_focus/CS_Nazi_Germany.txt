@@ -17,7 +17,7 @@ focus_tree = {
 		#The Reich Reborn
 		focus = {
 			id = GRM_the_reich_reborn
-			icon = 
+			icon = GFX_GRM_the_reich_reborn
 			search_filters = {
 				FOCUS_FILTER_POLITICAL
 			}
@@ -58,7 +58,7 @@ focus_tree = {
 		#Volks ans Gewhr
 		focus = {
 			id = GRM_volks_ans_gewhr
-			icon = 
+			icon = GFX_GRM_volks_ans_gewhr
 			search_filters = {
 				FOCUS_FILTER_POLITICAL
 			}
