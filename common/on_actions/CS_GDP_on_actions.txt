@@ -14,7 +14,42 @@ on_actions = {
 	on_monthly = {
 		effect = {		
 			eco_exchanges = yes
-			econ_start = yes
+		}
+	}
+
+	on_state_control_changed = { ####This fucking code man I swear to god
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = GDP
+						value = 0
+						compare = equals
+					}
+				}
+				set_variable = { GDP_moneycount_invalid = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = ?GDP
+						value = 1
+						compare = greater_than_or_equals
+					}
+				}
+				set_variable = { GDP_moneycount_valid = 0 }
+			}
+			ROOT = {
+				if = {
+					limit = {
+						has_variable = GDP_moneycount_invalid
+						NOT = {
+							has_variable = GDP_moneycount_valid
+						}
+					}
+					econ_start = yes
+				}
+			}
 		}
 	}
 }

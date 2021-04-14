@@ -197,7 +197,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 170 y = 242 }
+			position = { x = 178 y = 898 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
