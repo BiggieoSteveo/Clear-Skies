@@ -6,6 +6,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+
+add_ideas = {
+	GRM_legacy_of_the_orginal_fuhrer
+	GRM_civillian_general_staff
+	GRM_poor_industrial_knowhow
+}
 set_popularities = {
 	fascism = 80
 	communism  = 10

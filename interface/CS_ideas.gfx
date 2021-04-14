@@ -68,4 +68,9 @@ spriteTypes = {
 		name = "GFX_idea_BOS_Secularist_Movement"
 		texturefile = "gfx/interface/ideas/idea_BOS_Secularist_Movement.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_GRM_legacy_of_the_orginal_fuhrer"
+		texturefile = "gfx/interface/ideas/idea_GRM_legacy_of_the_orginal_fuhrer.dds"
+	}
+	
 }
