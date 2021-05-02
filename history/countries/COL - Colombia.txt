@@ -23,7 +23,8 @@ create_country_leader = {
 	desc = "PABLO_CATATUMBO_DESC"
 	picture = "GFX_Portrait_columbia_alfonso_lopez"
 	expire = "2032.1.1"
-	ideology = authoritarian_socialism_subtype
-	traits = {
+	ideology = mitia_socialism 
+	traits = { 
+		militia_commander
 	}
 }

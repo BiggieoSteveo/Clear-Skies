@@ -1,33 +1,197 @@
 inpol_start = {
 
-	set_variable = { infuence_point = 0.25 }
+	set_variable = { infuence_point = 1 }
 
-	set_variable = { executive_branch_faction_infuence = 0 }
-	set_variable = { the_party_faction_infuence = 0 }
-	set_variable = { inteligencia_faction_infuence = 0 }
-	set_variable = { armed_forces_faction_infuence = 0 }
-	set_variable = { militia_faction_infuence = 0 }
+	set_temp_variable = { executive_branch_faction_infuence = 0 }
+	set_temp_variable = { the_party_faction_infuence = 0 }
+	set_temp_variable = { inteligencia_faction_infuence = 0 }
+	set_temp_variable = { armed_forces_faction_infuence = 0 }
+	set_temp_variable = { militia_faction_infuence = 0 }
+	set_temp_variable = { clergy_faction_influence = 0 }
 	
-	clamp_variable = { var = executive_branch_faction_infuence min = 0 max = 100 }
-	clamp_variable = { var = the_party_faction_infuence min = 0 max = 100 }
-	clamp_variable = { var = inteligencia_faction_infuence min = 0 max = 100 }
-	clamp_variable = { var = armed_forces_faction_infuence min = 0 max = 100 }	
-	clamp_variable = { var = militia_faction_infuence min = 0 max = 100 }
+	clamp_temp_variable = { var = executive_branch_faction_infuence min = 0 max = 100 }
+	clamp_temp_variable = { var = the_party_faction_infuence min = 0 max = 100 }
+	clamp_temp_variable = { var = inteligencia_faction_infuence min = 0 max = 100 }
+	clamp_temp_variable = { var = armed_forces_faction_infuence min = 0 max = 100 }	
+	clamp_temp_variable = { var = militia_faction_infuence min = 0 max = 100 }
+	clamp_temp_variable = { var = clergy_faction_influence min = 0 max = 100 }
 
 	round_variable = infuence_point	
-	round_variable = executive_branch_faction_infuence
-	round_variable = the_party_faction_infuence
-	round_variable = inteligencia_faction_infuence
-	round_variable = armed_forces_faction_infuence
-	round_variable = militia_faction_infuence
+	round_temp_variable = executive_branch_faction_infuence
+	round_temp_variable = the_party_faction_infuence
+	round_temp_variable = inteligencia_faction_infuence
+	round_temp_variable = armed_forces_faction_infuence
+	round_temp_variable = militia_faction_infuence
+	round_temp_variable = clergy_faction_influence
 }
 
-inpol_gain = {
-	add_to_variable = { var = executive_branch_faction_infuence value = infuence_point }
-	add_to_variable = { var = the_party_faction_infuence value = infuence_point }
-	add_to_variable = { var = inteligencia_faction_infuence value = infuence_point }
-	add_to_variable = { var = armed_forces_faction_infuence value = infuence_point }
-	add_to_variable = { var = militia_faction_infuence value = infuence_point }
+auth_generate_executive_branch_faction_pol = {
+	if = {
+		limit = {
+			has_country_leader_with_trait = chief_execuitive
+		}
+		add_to_variable = { global.executive_branch_faction_infuence = 50 }
+		add_to_variable = { global.the_party_faction_infuence = 18 }
+		add_to_variable = { global.inteligencia_faction_infuence = 19 }
+		add_to_variable = { global.armed_forces_faction_infuence = 13 }
+	}
 }
+
+auth_generate_the_party_faction_pol = {
+	if = {
+		limit = {
+			has_country_leader_with_trait = party_head
+		}
+		add_to_variable = { the_party_faction_infuence = 45 }
+		add_to_variable = { executive_branch_faction_infuence = 25 }
+		add_to_variable = { inteligencia_faction_infuence = 17 }
+		add_to_variable = { armed_forces_faction_infuence = 13 }
+	}
+}
+
+auth_generate_inteligencia_faction_pol = {
+	if = {
+		limit = {
+			has_country_leader_with_trait = securocrat
+		}
+		add_to_variable = { inteligencia_faction_infuence = 61 }
+		add_to_variable = { the_party_faction_infuence = 18 }
+		add_to_variable = { armed_forces_faction_infuence = 21 }
+	}
+}
+
+auth_generate_armed_forces_faction_pol = {
+	if = {
+		limit = {
+			has_country_leader_with_trait = grand_marshal
+		}
+		add_to_variable = { armed_forces_faction_infuence = 55 }
+		add_to_variable = { the_party_faction_infuence = 24 }
+		add_to_variable = { inteligencia_faction_infuence = 21 }
+	}
+}
+
+auth_generate_militia_faction_pol = {
+	if = {
+		limit = {
+			has_country_leader_with_trait = militia_commander
+		}
+		add_to_variable = { militia_faction_infuence = 23 }
+		add_to_variable = { executive_branch_faction_infuence = 19 }
+		add_to_variable = { the_party_faction_infuence = 18 }
+		add_to_variable = { inteligencia_faction_infuence = 12 }
+		add_to_variable = { armed_forces_faction_infuence = 13 }
+		add_to_variable = { clergy_faction_influence = 15 }
+	}
+}
+
+auth_generate_clergy_faction_pol = {
+	if = {
+		limit = {
+			has_country_leader_with_trait = ruling_cleric
+		}
+		add_to_variable = { clergy_faction_influence = 43 }
+		add_to_variable = { executive_branch_faction_infuence = 9 }
+		add_to_variable = { the_party_faction_infuence = 18 }
+		add_to_variable = { inteligencia_faction_infuence = 12 }
+		add_to_variable = { armed_forces_faction_infuence = 13 }
+		add_to_variable = { militia_faction_infuence = 5 }
+	}
+}
+
+create_pie_chart = { ### Credits to yard1
+	########### Segment 1
+	clear_array = auth_pie_chart_1
+	resize_array = {
+		array = auth_pie_chart_1
+		value = 1
+		size = 100
+	}
+	set_temp_variable = { executive_branch_pop = ROOT.executive_branch_faction_infuence }
+	round_temp_variable = executive_branch_pop
+
+	set_temp_variable = { the_party_pop = ROOT.the_party_faction_infuence }
+	round_temp_variable = the_party_pop 
+	set_variable = { ROOT.last_idx = executive_branch_pop }
+	add_to_temp_variable = { the_party_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = the_party_pop
+		set_variable = { auth_pie_chart_1^v = 2 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { inteligencia_pop = ROOT.inteligencia_faction_infuence }
+	round_temp_variable = inteligencia_pop
+	add_to_temp_variable = { inteligencia_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = inteligencia_pop
+		set_variable = { auth_pie_chart_1^v = 3 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_variable = { remainder_pop_calc = auth_piechart }
+	set_variable = { remainder_pop = 100 }
+	subtract_from_variable = { remainder_pop = remainder_pop_calc }
+
+	set_variable = { invis_bar_auth_pie_chart_1 = ROOT.remainder_pop }
+	round_variable = invis_bar_auth_pie_chart_1 
+	add_to_variable = { invis_bar_auth_pie_chart_1 = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = invis_bar_auth_pie_chart_1
+		set_variable = { auth_pie_chart_1^v = 4 }
+	}
+
+	clear_variable = ROOT.last_idx
+	clear_variable = ROOT.remainder_pop_calc
+	add_to_variable = { auth_pie_chart_1_dirty = 1 }
 	
-	
+	########### Segment 2 
+	clear_array = auth_pie_chart_2
+	resize_array = {
+		array = auth_pie_chart_2
+		value = 1
+		size = 100
+	}
+	set_temp_variable = { armed_forces_pop = ROOT.armed_forces_faction_infuence }
+	add_to_variable = { armed_forces_pop = inteligencia_pop }
+	round_temp_variable = armed_forces_pop
+
+	set_temp_variable = { militia_pop = ROOT.militia_faction_infuence }
+	round_temp_variable = militia_pop 
+	set_variable = { ROOT.last_idx = armed_forces_pop }
+	add_to_temp_variable = { militia_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = militia_pop
+		set_variable = { auth_pie_chart_2^v = 2 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { clergy_pop = ROOT.clergy_faction_influence }
+	round_temp_variable = clergy_pop
+	set_variable = { ROOT.last_idx = militia_pop }
+	add_to_variable = { clergy_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = clergy_pop
+		set_variable = { auth_pie_chart_2^v = 3 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_variable = { invis_bar_auth_pie_chart_2 = ROOT.remainder_pop }
+	round_variable = invis_bar_auth_pie_chart_2 
+	add_to_variable = { invis_bar_auth_pie_chart_2 = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = invis_bar_auth_pie_chart_2
+		set_variable = { auth_pie_chart_2^v = 4 }
+	}
+
+	clear_variable = ROOT.last_idx
+	clear_variable = ROOT.remainder_pop_calc
+	clear_variable = ROOT.remainder_pop
+	add_to_variable = { auth_pie_chart_2_dirty = 1 }
+}

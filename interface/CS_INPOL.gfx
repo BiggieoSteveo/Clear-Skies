@@ -9,4 +9,16 @@ spriteTypes = {
 		name = "GFX_CS_header_micro"
 		texturefile = "gfx/interface/cs_header_micro.dds"
 	}
+	
+	SpriteType = {	
+		name = "GFX_auth_pie_chart_segment_1"
+		texturefile = "gfx/interface/auth_pie_chart_segment_1.dds"
+		noOfFrames = 4
+	}
+	
+	SpriteType = {	
+		name = "GFX_auth_pie_chart_segment_2"
+		texturefile = "gfx/interface/auth_pie_chart_segment_2.dds"
+		noOfFrames = 4
+	}
 }

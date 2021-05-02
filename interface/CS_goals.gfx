@@ -324,17 +324,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_in_war_we_trust"
 		texturefile = "gfx/interface/goals/SOV_in_war_we_trust.dds"			
-	}
-
-	## Nazi Germany ##
-	
-	SpriteType = {
-		name = "GFX_GRM_the_reich_reborn"
-		texturefile = "gfx/interface/goals/GRM_the_reich_reborn.dds"			
-	}
-	
-	SpriteType = {
-		name = "GFX_GRM_volks_ans_gewhr"
-		texturefile = "gfx/interface/goals/GRM_volks_ans_gewhr.dds"			
-	}
+	}			
 }

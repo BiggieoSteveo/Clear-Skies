@@ -1,10 +1,10 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			SOV = {
-				set_variable = { GDP = 622731 }
-				set_variable = { NDB = 521 }
-			}
+			#SOV = {
+			#	set_variable = { GDP = 122731 }
+			#	set_variable = { NDB = 521 }
+			#}
 		}
 	}
 }

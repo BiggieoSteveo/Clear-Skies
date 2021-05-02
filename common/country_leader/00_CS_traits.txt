@@ -1,6 +1,6 @@
 leader_traits = {
 	
-	dictator = {
+	chief_execuitive = {
 		random = no
 		political_power_factor = 0.25
 		
@@ -9,6 +9,75 @@ leader_traits = {
 		}
 	}
 	
+	party_head = {
+		random = no
+		stability_factor = 0.15
+		encryption = 0.5
+		political_power_factor = -0.10
+		gdp_spending = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	securocrat = {
+		random = no
+		compliance_growth = 0.20
+		decryption = 0.5
+		defensive_war_stability_factor = -0.10
+		political_power_cost = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	grand_marshal = {
+		random = no
+		war_support_factor = 0.10
+		justify_war_goal_time = -0.25
+		stability_factor = -0.05
+		consumer_goods_factor = 0.03
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	militia_commander = {
+		random = no
+		resistance_growth_on_our_occupied_states = 0.25
+		equipment_capture_factor = 0.05
+		political_power_factor = -0.10
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ruling_cleric = {
+		random = no
+		mobilization_speed = 0.10
+		non_core_manpower = 0.05
+		research_speed_factor = -0.05
+		political_power_factor = -0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dictator = {
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	warrior_code = {
 		random = no
 		ai_call_ally_desire_factor = -40

@@ -1,14 +1,26 @@
 on_actions = {
+
 	on_startup = {
 		effect = {
 			every_country = {
 				inpol_start = yes
+				create_pie_chart = yes
+				auth_generate_executive_branch_faction_pol = yes
+				auth_generate_the_party_faction_pol = yes
+				auth_generate_inteligencia_faction_pol = yes
+				auth_generate_armed_forces_faction_pol = yes
+				auth_generate_militia_faction_pol = yes
+				auth_generate_clergy_faction_pol = yes
 			}
 		}
 	}
+
 	on_monthly = {
-		effect = {		
-			inpol_gain = yes
+		effect = {	
+			if = {
+			limit = { is_ai = no }
+				create_pie_chart = yes
+			}
 		}
 	}
 }
