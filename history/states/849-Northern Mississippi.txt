@@ -1,0 +1,19 @@
+state={
+	id=849
+	name="STATE_849"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		7464 10753 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
