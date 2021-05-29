@@ -64,3 +64,118 @@ gdp_default_loan = {
 	precision = 2
 	category = country
 }
+
+### SPECIFIC INCOME MODIFIERS
+
+#Income from Civilian Factories - Increases the amount of income you get from civilian factories.
+income_from_civilian_factories = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Civilian Factories - Decreases the amount of income you get from civilian factories.
+cost_from_civilian_factories = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Taxable Population - Increases the amount of income you get from the taxable population.
+income_from_taxable_population = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Taxable Population - Decreases the amount of income you get from the taxable population.
+cost_from_taxable_population = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Chromium Export - Increases the amount of income you get from exporting chromium.
+income_from_chromium_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Chromium Export - Decreases the amount of income you get from exporting chromium.
+cost_from_chromium_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Tungsten Export - Increases the amount of income you get from exporting tungsten.
+income_from_tungsten_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Tungsten Export - Decreases the amount of income you get from exporting tungsten.
+cost_from_tungsten_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Rubber Export - Increases the amount of income you get from exporting rubber.
+income_from_rubber_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Rubber Export - Decreases the amount of income you get from exporting rubber.
+cost_from_rubber_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Aluminium Export - Increases the amount of income you get from exporting aluminium.
+income_from_aluminum_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Aluminium Export - Decreases the amount of income you get from exporting aluminium.
+cost_from_aluminum_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Oil Export - Increases the amount of income you get from exporting oil.
+income_from_oil_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Oil Export - Decreases the amount of income you get from exporting oil.
+cost_from_oil_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Steel Export - Increases the amount of income you get from exporting steel.
+income_from_steel_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Steel Export - Decreases the amount of income you get from exporting steel.
+cost_from_steel_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}

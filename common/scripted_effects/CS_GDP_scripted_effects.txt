@@ -17,43 +17,49 @@ econ_modifiers = {
 	#GDP Increase
 	set_temp_variable = { GDP_increase_national = 1 }
 	divide_temp_variable = { GDP_increase_national = 12 }
-	add_to_temp_variable = { GDP_increase_national = modifier@gdp_increase }
+	set_temp_variable = { GDP_increase_temp = 1 }
+	add_to_temp_variable = { GDP_increase_temp = modifier@gdp_increase }
+	multiply_temp_variable = { GDP_increase_national = GDP_increase_temp }
 	multiply_variable = { var = income value = GDP_increase_national } 
 	
 	#GDP Decrease
 	set_temp_variable = { GDP_decrease_national = 1 }
 	divide_temp_variable = { GDP_decrease_national = 12 }
-	add_to_temp_variable = { GDP_decrease_national = modifier@gdp_decrease }
+	set_temp_variable = { GDP_decrease_temp = 1 }
+	add_to_temp_variable = { GDP_decrease_temp = modifier@gdp_decrease }
+	multiply_temp_variable = { GDP_decrease_national = GDP_decrease_temp }
 	divide_variable = { var = income value = GDP_decrease_national }
 	
 	#GDP Spending Increase
 	set_temp_variable = { GDP_spending_national = 1 }
 	divide_temp_variable = { GDP_spending_national = 12 }
-	add_to_temp_variable = { GDP_spending_national = modifier@gdp_spending }
+	set_temp_variable = { GDP_spending_temp = 1 }
+	add_to_temp_variable = { GDP_spending_temp = modifier@gdp_spending }
+	multiply_temp_variable = { GDP_spending_national = GDP_spending_temp }
 	multiply_variable = { var = generalexpenses value = GDP_spending_national }
 	
 	#GDP Spending Decrease
 	set_temp_variable = { GDP_austerity_national = 1 }
 	divide_temp_variable = { GDP_austerity_national = 12 }
-	add_to_temp_variable = { GDP_austerity_national = modifier@gdp_austerity }
-	divide_variable = { var = generalexpenses value = GDP_austerity_national }
+	set_temp_variable = { GDP_austerity_temp = 1 }
+	add_to_temp_variable = { GDP_austerity_temp = modifier@gdp_austerity }
+	divide_variable = { var = generalexpenses value = GDP_austerity_temp }
 	
 	#GDP Add To Eco
-	set_temp_variable = { GDP_money_gain_national = 1 }
+	set_temp_variable = { GDP_money_gain_national = modifier@gdp_money_gain }
 	divide_temp_variable = { GDP_money_gain_national = 12 }
-	add_to_temp_variable = { GDP_money_gain_national = modifier@gdp_money_gain }
 	add_to_variable = { var = GDP value = GDP_money_gain_national }
 	
 	#GDP Spending From Eco
-	set_temp_variable = { GDP_money_spent_national = 1 }
+	set_temp_variable = { GDP_money_spent_national = modifier@gdp_money_spent }
 	divide_temp_variable = { GDP_money_spent_national = 12 }
-	add_to_temp_variable = { GDP_money_spent_national = modifier@gdp_money_spent }
 	add_to_variable = { var = NDB value = GDP_money_spent_national }
 	
 	#GDP Paying Loan
 	set_temp_variable = { GDP_loan_national = 1 }
-	divide_temp_variable = { GDP_loan_national = 12 }
-	add_to_temp_variable = { GDP_loan_national = modifier@gdp_paying_loan }
+	set_temp_variable = { GDP_loan_temp = 1 }
+	add_to_temp_variable = { GDP_loan_temp = modifier@gdp_paying_loan }
+	multiply_temp_variable = { GDP_loan_national = GDP_loan_temp }
 	multiply_variable = { var = DBP value = GDP_loan_national }
 	
 	#GDP Defaulting
@@ -68,13 +74,76 @@ econ_vars = {
 	set_variable = { generalexpenses = 0}
 	set_variable = { NDB = 1}	
 	
-	###Earnings		
+
+	###Earnings
+	#Civilian Factories
 	set_variable = { cfff = num_of_civilian_factories}
 	divide_variable = { var = cfff value = 30 }
-	set_variable = { tax= num_of_controlled_states}
-	divide_variable = { var = tax value = 30 }
-	set_variable = { nc= num_of_controlled_states}
+	set_temp_variable = { cfff_multiplier = 1 }
+	add_to_temp_variable = { cfff_multiplier = modifier@income_from_civilian_factories }
+	subtract_from_temp_variable = { cfff_multiplier = modifier@cost_from_civilian_factories }
+	multiply_variable = { cfff = cfff_multiplier }
+	#Taxable Population
+	set_variable = { tax = taxable_population }
+	divide_variable = { tax = 5000 }
+	set_temp_variable = { taxable_population_multiplier = 1 }
+	add_to_temp_variable = { taxable_population_multiplier = modifier@income_from_taxable_population }
+	subtract_from_temp_variable = { taxable_population_multiplier = modifier@cost_from_taxable_population }
+	multiply_variable = { taxable_population = taxable_population_multiplier }
+	#Export of Chromium
+	set_variable = { chromium_export = resource_exported@chromium}
+	divide_variable = { var = chromium_export value = 110 }
+	set_temp_variable = { chromium_export_multiplier = 1 }
+	add_to_temp_variable = { chromium_export_multiplier = modifier@income_from_chromium_export }
+	subtract_from_temp_variable = { chromium_export_multiplier = modifier@cost_from_chromium_export }
+	multiply_variable = { chromium_export = chromium_export_multiplier }
+	#Export of Tungsten
+	set_variable = { tungsten_export = resource_exported@tungsten}
+	divide_variable = { var = tungsten_export value = 75 }
+	set_temp_variable = { tungsten_export_multiplier = 1 }
+	add_to_temp_variable = { tungsten_export_multiplier = modifier@income_from_tungsten_export }
+	subtract_from_temp_variable = { tungsten_export_multiplier = modifier@cost_from_tungsten_export }
+	multiply_variable = { tungsten_export = tungsten_export_multiplier }
+	#Export of Rubber
+	set_variable = { rubber_export = resource_exported@rubber}
+	divide_variable = { var = rubber_export value = 55 }
+	set_temp_variable = { rubber_export_multiplier = 1 }
+	add_to_temp_variable = { rubber_export_multiplier = modifier@income_from_rubber_export }
+	subtract_from_temp_variable = { rubber_export_multiplier = modifier@cost_from_rubber_export }
+	multiply_variable = { rubber_export = rubber_export_multiplier }
+	#Export of Aluminium
+	set_variable = { aluminum_export = resource_exported@aluminium}
+	divide_variable = { var = aluminum_export value = 80 }
+	set_temp_variable = { aluminum_export_multiplier = 1 }
+	add_to_temp_variable = { aluminum_export_multiplier = modifier@income_from_aluminum_export }
+	subtract_from_temp_variable = { aluminum_export_multiplier = modifier@cost_from_aluminum_export }
+	multiply_variable = { aluminum_export = aluminum_export_multiplier }
+	#Export of Oil
+	set_variable = { oil_export = resource_exported@oil}
+	divide_variable = { var = oil_export value = 90 }
+	set_temp_variable = { oil_export_multiplier = 1 }
+	add_to_temp_variable = { oil_export_multiplier = modifier@income_from_oil_export }
+	subtract_from_temp_variable = { oil_export_multiplier = modifier@cost_from_oil_export }
+	multiply_variable = { oil_export = oil_export_multiplier }
+	#Export of Steel
+	set_variable = { steel_export = resource_exported@steel}
+	divide_variable = { var = steel_export value = 60 }
+	set_temp_variable = { steel_export_multiplier = 1 }
+	add_to_temp_variable = { steel_export_multiplier = modifier@income_from_steel_export }
+	subtract_from_temp_variable = { steel_export_multiplier = modifier@cost_from_steel_export }
+	multiply_variable = { steel_export = steel_export_multiplier }
+	
+	###Expenses
+	set_variable = { nc= num_owned_states }
 	divide_variable = { var = nc value = 45}
+	set_variable = { no = num_occupied_states }
+	divide_variable = { var = no value = 300 }
+	set_variable = { nf = num_of_military_factories}
+	divide_variable = { var = nf value = 200 }
+	set_variable = { navf = num_of_naval_factories}
+	divide_variable = { var = navf value = 200 }
+	set_variable = { ms = num_divisions}
+	divide_variable = { var = ms value = 100 }
 	set_variable = { chromium_import = resource_imported@chromium}
 	divide_variable = { var = chromium_import value = 100 }
 	set_variable = { tungsten_import = resource_imported@tungsten}
@@ -88,41 +157,19 @@ econ_vars = {
 	set_variable = { steel_import = resource_imported@steel}
 	divide_variable = { var = steel_import value = 50 }
 	
-	###Expenses
-	set_variable = { no = num_occupied_states }
-	divide_variable = { var = no value = 300 }
-	set_variable = { nf = num_of_military_factories}
-	divide_variable = { var = nf value = 200 }
-	set_variable = { navf = num_of_naval_factories}
-	divide_variable = { var = navf value = 200 }
-	set_variable = { ms = num_divisions}
-	divide_variable = { var = ms value = 100 }
-	set_variable = { chromium_export = resource_exported@chromium}
-	divide_variable = { var = chromium_export value = 110 }
-	set_variable = { tungsten_export = resource_exported@tungsten}
-	divide_variable = { var = tungsten_export value = 75 }
-	set_variable = { rubber_export = resource_exported@rubber}
-	divide_variable = { var = rubber_export value = 55 }
-	set_variable = { aluminum_export = resource_exported@aluminium}
-	divide_variable = { var = aluminum_export value = 80 }
-	set_variable = { oil_export = resource_exported@oil}
-	divide_variable = { var = oil_export value = 90 }
-	set_variable = { steel_export = resource_exported@steel}
-	divide_variable = { var = steel_export value = 60 }
-	
 	###Debt Expense
 	set_variable = { DBP = 1 }
 	
 	add_to_variable = { var = income value = tax }
 	add_to_variable = { var = income value = cfff }
 	add_to_variable = { var = income value = rubber_export}
-	add_to_variable = { var = income value = chromium_export}
+	add_to_variable = { var = income value = tungsten_export}
 	add_to_variable = { var = income value = tungsten_export}
 	add_to_variable = { var = income value = steel_export}
 	add_to_variable = { var = income value = oil_export}
-	add_to_variable = { var = income value = aluminium_export}
+	add_to_variable = { var = income value = aluminum_export}
 	add_to_variable = { var = generalexpenses value = rubber_import}
-	add_to_variable = { var = generalexpenses value = chromium_import}
+	add_to_variable = { var = generalexpenses value = tungsten_import}
 	add_to_variable = { var = generalexpenses value = tungsten_import}
 	add_to_variable = { var = generalexpenses value = steel_import}
 	add_to_variable = { var = generalexpenses value = oil_import}
@@ -133,7 +180,7 @@ econ_vars = {
 	add_to_variable = { var = generalexpenses value = depression}
 	add_to_variable = { var = generalexpenses value = nc}
 	add_to_variable = { var = generalexpenses value = rubber_import}
-	add_to_variable = { var = generalexpenses value = chromium_import}
+	add_to_variable = { var = generalexpenses value = tungsten_import}
 	add_to_variable = { var = generalexpenses value = tungsten_import}
 	add_to_variable = { var = generalexpenses value = steel_import}
 	add_to_variable = { var = generalexpenses value = oil_import}

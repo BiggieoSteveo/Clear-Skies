@@ -2,6 +2,14 @@ on_actions = {
 
 	on_startup = {
 		effect = {
+            set_variable = { taxable_population = 0 }
+			every_country = {
+				every_owned_state = {
+					set_variable = { state_pop_temp = var:state_population_k@THIS }
+					divide_variable = { state_pop_temp = 10 }
+					add_to_variable = { PREV.taxable_population = state_pop_temp }
+				}
+			}
 			every_country = {
 				econ_start = yes
 			}
@@ -12,10 +20,16 @@ on_actions = {
 	}
 	
 	on_monthly = {
-		effect = {		
-			eco_exchanges = yes
-			econ_modifiers = yes
+		effect = {
+            set_variable = { taxable_population = 0 }
+            every_owned_state = {
+                set_variable = { state_pop_temp = var:state_population_k@THIS }
+                divide_variable = { state_pop_temp = 10 }
+                add_to_variable = { PREV.taxable_population = state_pop_temp }
+            }
 			econ_vars = yes
+			econ_modifiers = yes
+			eco_exchanges = yes
 		}
 	}
 
