@@ -14,28 +14,19 @@ state={
 			arms_factory = 2
 			industrial_complex = 6
 			dockyard = 2
-			air_base = 10
-			9671 = {
-				naval_base = 4
-
-			}
-			610 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = USA
 		victory_points = {
-			9671 25 
+			9911 10 
 		}
 
 	}
 
 	provinces={
-		610 677 768 781 986 3588 3644 3677 3678 3784 3840 4331 4518 6482 6665 6681 6745 6757 6772 6861 6881 9637 9671 9730 9911 11658 11876 
+		986 3677 3678 3784 3840 4518 6861 6881 9637 9911 11876
 	}
-	manpower=5677248
+	manpower=45201
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

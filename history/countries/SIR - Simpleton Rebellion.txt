@@ -1,11 +1,20 @@
 capital = 370
 
 set_politics = {
-	ruling_party = anarchy 
+	ruling_party = fascism 
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	anarchy = 100
+	fascism = 100
+}
+create_country_leader = {
+	name = "Visitor Immanuel"
+	desc = ""
+	picture = "Portrait_Visitor_Immanuel.dds"
+	expire = "2032.1.1"
+	ideology = clerical_ultranationalism
+	traits = {
+	}
 }

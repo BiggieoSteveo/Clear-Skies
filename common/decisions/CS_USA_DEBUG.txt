@@ -7,4 +7,11 @@ USA_collapse_debug_category = {
 			country_event = { id = american_collapse.1 }
 		}
 	}
+
+	USA_load_collapse_two = {
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision USA_collapse_two"
+			country_event = { id = american_collapse_bad.1 }
+		}
+	}
 }

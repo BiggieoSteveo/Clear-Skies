@@ -1,0 +1,23 @@
+capital = 817
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism  = 75
+	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Max Poole"
+	desc = ""
+	picture = "Portrait_Max_Poole.dds"
+	expire = "2032.1.1"
+	ideology = military_socialism
+	traits = {
+		#
+	}
+}

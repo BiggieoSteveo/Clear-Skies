@@ -1,0 +1,27 @@
+
+state={
+	id=873
+	name="STATE_873"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			air_base = 3
+
+		}
+		add_core_of = USA
+		victory_points = {
+			1527 5
+		}
+
+	}
+
+	provinces={
+		1527 4590 10339 10393 10457 12365 12497 
+	}
+	manpower=24501
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

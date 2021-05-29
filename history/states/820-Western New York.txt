@@ -5,14 +5,12 @@ state={
 		steel=5
 	}
 	
-	state_category = rural
+	state_category = pastoral
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
 
 		}
 		add_core_of = USA

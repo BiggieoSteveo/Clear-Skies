@@ -1,0 +1,30 @@
+state={
+	id=871
+	name="STATE_871"
+	resources={
+		steel=28
+		aluminium=21
+	}
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		add_core_of = USA
+		victory_points = {
+			6890 10 
+		}
+
+	}
+
+	provinces={
+		827 882 3829 3853 4442 6874 6890 9808
+	}
+	manpower=21403
+	buildings_max_level_factor=1.000
+}

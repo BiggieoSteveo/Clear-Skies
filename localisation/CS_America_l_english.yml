@@ -16,12 +16,12 @@
  USA_neutrality_ADJ:0 "American"
  USA_communism_ADJ:0 "American"
  USA_left_populism_ADJ:0 "American"
- USA:0 "American"
+ USA:0 "America"
  USA_DEF:0 "America"
  USA_ADJ:0 "American"
  
  ##Party Names 
- USA_neutrality_party:0 "APNS"
- USA_neutrality_party_long:0 "American Party for National Sufferance" 
+ USA_neutrality_party:0 "PoA"
+ USA_neutrality_party_long:0 "Party of America" 
  USA_federal_emergency_council_long:0 "Federal Emergency Council"
  USA_federal_emergency_council:0 "FEDEMC"

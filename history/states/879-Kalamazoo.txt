@@ -1,0 +1,28 @@
+state={
+	id=879
+	name="STATE_879"
+	resources={
+		steel=5
+	}
+
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+
+		}
+		add_core_of = USA
+		victory_points = {
+			11685 5 
+		}
+
+	}
+
+	provinces={
+		695 6782 9684 11641 11685 11714
+	}
+	manpower=23401
+}

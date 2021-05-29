@@ -10,3 +10,14 @@ set_popularities = {
 	democratic = 21
 	neutrality = 79
 }
+
+create_country_leader = {
+	name = "Sonny Perdue"
+	desc = ""
+	picture = "Portrait_Sonny_Perdue.dds"
+	expire = "2032.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

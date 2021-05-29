@@ -12,8 +12,8 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			air_base = 3
+			industrial_complex = 1
+			air_base = 1
 			3732 = {
 				naval_base = 4
 
@@ -29,5 +29,5 @@ state={
 	provinces={
 		3732 6719 7462 10318 12202 12459
 	}
-	manpower=346790
+	manpower=14502
 }

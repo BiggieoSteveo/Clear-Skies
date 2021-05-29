@@ -2,3 +2,23 @@ USA_collapse_alphastate = {
 	color = rgb { 76 88 106 }
 	color_ui = rgb { 76 88 106 }
 }
+ARZ_new_age = {
+	color = rgb { 149 94 120 }
+	color_ui = rgb { 135 84 99 }
+}
+ARZ_soviet = {
+	color = rgb { 135 84 99 }
+	color_ui = rgb { 135 84 99 }
+}
+ARZ_cult = {
+	color = rgb { 84 84 84 }
+	color_ui = rgb { 84 84 84 }
+}
+ARZ_gang = {
+	color = rgb { 125 125 125 }
+	color_ui = rgb { 125 125 125 }
+}
+TNS_USMC = {
+	color = rgb { 79 97 125 }
+	color_ui = rgb { 79 97 125 }
+}

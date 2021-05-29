@@ -9,6 +9,7 @@ ideas = {
 				conscription_factor = 0.10
 				war_support_factor = 0.10
 				consumer_goods_factor = -0.10
+				gdp_increase = 0.05
 			}
 		}
 		FRA_Savoy_Crisis = {

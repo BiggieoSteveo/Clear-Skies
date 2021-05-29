@@ -5,15 +5,14 @@ state={
 		steel=12
 	}
 
-	state_category = large_town
+	state_category = rural
 
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 2
+			infrastructure = 6
+			arms_factory = 1
 			dockyard = 1
 			6732 = {
 				naval_base = 8
@@ -31,5 +30,5 @@ state={
 	provinces={
 		715 718 905 908 3710 3906 6732 
 	}
-	manpower=720412
+	manpower=9202
 }

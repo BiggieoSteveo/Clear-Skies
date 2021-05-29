@@ -5,19 +5,18 @@ state={
 		steel=2
 	}
 	
-	state_category = rural
+	state_category = pastoral
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
 
 		}
 		add_core_of = USA
 		
 		victory_points = {
-			11665 3
+			11665 1
 		}
 
 	}
@@ -25,6 +24,6 @@ state={
 	provinces={
 		10381 11662 11665 11722
 	}
-	manpower=13520
+	manpower=3520
 	buildings_max_level_factor=1.000
 }

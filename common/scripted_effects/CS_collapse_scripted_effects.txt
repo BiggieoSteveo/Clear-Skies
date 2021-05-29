@@ -1,49 +1,20 @@
 collapse_usa_alpha = {
 	hidden_effect = {
-		EMD = {
-			transfer_state = 361
-			transfer_state = 357
-			transfer_state = 814
-			transfer_state = 815
-			transfer_state = 813
-			transfer_state = 812
-			transfer_state = 806
-			transfer_state = 359
-			transfer_state = 358
-			transfer_state = 360
-			transfer_state = 696
-			add_state_core = 361
-			add_state_core = 357
-			add_state_core = 814
-			add_state_core = 815
-			add_state_core = 813
-			add_state_core = 812
-			add_state_core = 806
-			add_state_core = 359
-			add_state_core = 358
-			add_state_core = 360
-			add_state_core = 696
-			361 = { remove_core_of = USA }
-			357 = { remove_core_of = USA }	
-			814 = { remove_core_of = USA }		
-			815 = { remove_core_of = USA }		
-			813 = { remove_core_of = USA }		
-			812 = { remove_core_of = USA }		
-			806 = { remove_core_of = USA }		
-			359 = { remove_core_of = USA }		
-			358 = { remove_core_of = USA }		
-            360 = { remove_core_of = USA }	
-            696 = { remove_core_of = USA }
-		}
-		ALA = {
+		TNS = {
 			transfer_state = 370
 			transfer_state = 368
 			transfer_state = 363
 			transfer_state = 364
 			transfer_state = 365
 			transfer_state = 367
-			transfer_state = 369	
-			transfer_state = 362			
+			transfer_state = 369
+			transfer_state = 362
+			transfer_state = 858
+			transfer_state = 869
+			transfer_state = 857
+			transfer_state = 854
+			transfer_state = 829
+			transfer_state = 860
 			add_state_core = 370
 			add_state_core = 368
 			add_state_core = 363
@@ -51,15 +22,27 @@ collapse_usa_alpha = {
 			add_state_core = 365
 			add_state_core = 367
 			add_state_core = 369
-			add_state_core = 362			
+			add_state_core = 362
+			add_state_core = 858
+			add_state_core = 869
+			add_state_core = 857
+			add_state_core = 854
+			add_state_core = 829
+			add_state_core = 860
 			370 = { remove_core_of = USA }
-		    368 = { remove_core_of = USA }
-		    363 = { remove_core_of = USA }
-		    364 = { remove_core_of = USA }
-		    365 = { remove_core_of = USA }
-		    367 = { remove_core_of = USA }
-		    369 = { remove_core_of = USA }
-		    362 = { remove_core_of = USA }
+			368 = { remove_core_of = USA }
+			363 = { remove_core_of = USA }
+			364 = { remove_core_of = USA }
+			365 = { remove_core_of = USA }
+			367 = { remove_core_of = USA }
+			369 = { remove_core_of = USA }
+			362 = { remove_core_of = USA }
+			858 = { remove_core_of = USA }
+			869 = { remove_core_of = USA }
+			857 = { remove_core_of = USA }
+			854 = { remove_core_of = USA }
+			829 = { remove_core_of = USA }
+			860 = { remove_core_of = USA }
 		}
 		UAC = {
 			transfer_state = 261
@@ -70,6 +53,17 @@ collapse_usa_alpha = {
 			transfer_state = 391
 			transfer_state = 373
 			transfer_state = 392
+			transfer_state = 868
+			transfer_state = 867
+			transfer_state = 852
+			transfer_state = 841
+			transfer_state = 853
+			transfer_state = 843
+			transfer_state = 851
+			transfer_state = 842
+			transfer_state = 879
+			transfer_state = 878
+			transfer_state = 877			
 			add_state_core = 261
 			add_state_core = 396
 			add_state_core = 393
@@ -77,7 +71,18 @@ collapse_usa_alpha = {
 			add_state_core = 395
 			add_state_core = 391
 			add_state_core = 373
-			add_state_core = 392	
+			add_state_core = 392
+			add_state_core = 868
+			add_state_core = 867
+			add_state_core = 852
+			add_state_core = 841
+			add_state_core = 853
+			add_state_core = 843
+			add_state_core = 851
+			add_state_core = 842
+			add_state_core = 879
+			add_state_core = 878
+			add_state_core = 877	
 			261 = { remove_core_of = USA }
 			396 = { remove_core_of = USA }
 			393 = { remove_core_of = USA }
@@ -86,11 +91,25 @@ collapse_usa_alpha = {
 			391 = { remove_core_of = USA }
 			373 = { remove_core_of = USA }
 			392 = { remove_core_of = USA }
+			868 = { remove_core_of = USA }
+			867 = { remove_core_of = USA }
+			852 = { remove_core_of = USA }
+			841 = { remove_core_of = USA }
+			853 = { remove_core_of = USA }
+			843 = { remove_core_of = USA }
+			851 = { remove_core_of = USA }
+			842 = { remove_core_of = USA }
 		}
 		FLO = {
 			transfer_state = 366
+			transfer_state = 869
+			transfer_state = 858
 			add_state_core = 366
-			366 = { remove_core_of = USA }		
+			add_state_core = 869
+			add_state_core = 858
+			366 = { remove_core_of = USA }
+			869 = { remove_core_of = USA }
+			858 = { remove_core_of = USA }
 		}
 		USB = {
 			transfer_state = 382
@@ -100,6 +119,7 @@ collapse_usa_alpha = {
 			transfer_state = 390
 			transfer_state = 381
 			transfer_state = 388
+			transfer_state = 856
 			add_state_core = 382
 			add_state_core = 383
 			add_state_core = 384
@@ -107,6 +127,7 @@ collapse_usa_alpha = {
 			add_state_core = 390
 			add_state_core = 381
 			add_state_core = 388
+			add_state_core = 856
 			382 = { remove_core_of = USA }
 			383 = { remove_core_of = USA }
 			384 = { remove_core_of = USA }
@@ -114,6 +135,7 @@ collapse_usa_alpha = {
 			390 = { remove_core_of = USA }
 			381 = { remove_core_of = USA }
 			388 = { remove_core_of = USA }
+			856 = { remove_core_of = USA }
 		}
 		TEX = {
 			transfer_state = 375
@@ -121,16 +143,49 @@ collapse_usa_alpha = {
 			transfer_state = 371
 			transfer_state = 372
 			transfer_state = 376
+			transfer_state = 870
+			transfer_state = 862
+			transfer_state = 839
+			transfer_state = 833
+			transfer_state = 864
+			transfer_state = 863
+			transfer_state = 861
+			transfer_state = 832
+			transfer_state = 831
+			transfer_state = 850
+			transfer_state = 830
 			add_state_core = 375
 			add_state_core = 374
 			add_state_core = 371
 			add_state_core = 372
 			add_state_core = 376
+			add_state_core = 870
+			add_state_core = 862
+			add_state_core = 839
+			add_state_core = 833
+			add_state_core = 864
+			add_state_core = 863
+			add_state_core = 861
+			add_state_core = 832
+			add_state_core = 831
+			add_state_core = 850
+			add_state_core = 830
 			375 = { remove_core_of = USA }
 			374 = { remove_core_of = USA }
 			371 = { remove_core_of = USA }
 			372 = { remove_core_of = USA }
 			376 = { remove_core_of = USA }
+			870 = { remove_core_of = USA }
+			862 = { remove_core_of = USA }
+			839 = { remove_core_of = USA }
+			833 = { remove_core_of = USA }
+			864 = { remove_core_of = USA }
+			863 = { remove_core_of = USA }
+			861 = { remove_core_of = USA }
+			832 = { remove_core_of = USA }
+			831 = { remove_core_of = USA }
+			850 = { remove_core_of = USA }
+			830 = { remove_core_of = USA }
 		}
 		CAL = {
 			transfer_state = 386
@@ -140,6 +195,22 @@ collapse_usa_alpha = {
 			transfer_state = 380
 			transfer_state = 377
 			transfer_state = 378
+			transfer_state = 836
+			transfer_state = 837
+			transfer_state = 846
+			transfer_state = 844
+			transfer_state = 838
+			transfer_state = 865
+			transfer_state = 859
+			transfer_state = 835
+			transfer_state = 845
+			transfer_state = 834
+			transfer_state = 848
+			transfer_state = 840
+			transfer_state = 847
+			transfer_state = 855
+			transfer_state = 839
+			transfer_state = 849
 			add_state_core = 386
 			add_state_core = 385
 			add_state_core = 379
@@ -147,6 +218,22 @@ collapse_usa_alpha = {
 			add_state_core = 380
 			add_state_core = 377
 			add_state_core = 378
+			add_state_core = 836
+			add_state_core = 837
+			add_state_core = 846
+			add_state_core = 844
+			add_state_core = 838
+			add_state_core = 865
+			add_state_core = 859
+			add_state_core = 835
+			add_state_core = 845
+			add_state_core = 834
+			add_state_core = 848
+			add_state_core = 840
+			add_state_core = 847
+			add_state_core = 855
+			add_state_core = 839
+			add_state_core = 849
 			386 = { remove_core_of = USA }
 			385 = { remove_core_of = USA }
 			379 = { remove_core_of = USA }
@@ -154,6 +241,22 @@ collapse_usa_alpha = {
 			380 = { remove_core_of = USA }
 			377 = { remove_core_of = USA }
 			378 = { remove_core_of = USA }
+			836 = { remove_core_of = USA }
+			837 = { remove_core_of = USA }
+			846 = { remove_core_of = USA }
+			844 = { remove_core_of = USA }
+			838 = { remove_core_of = USA }
+			865 = { remove_core_of = USA }
+			859 = { remove_core_of = USA }
+			835 = { remove_core_of = USA }
+			845 = { remove_core_of = USA }
+			834 = { remove_core_of = USA }
+			848 = { remove_core_of = USA }
+			840 = { remove_core_of = USA }
+			847 = { remove_core_of = USA }
+			855 = { remove_core_of = USA }
+			839 = { remove_core_of = USA }
+			849 = { remove_core_of = USA }
 		}
 		USA = {
 			set_cosmetic_tag = USA_collapse_alphastate
@@ -182,4 +285,382 @@ collapse_usa_alpha = {
 		}
 		country_event = { id = american_collapse_news.1 days = 1 }	
 	}
-}			
+}
+
+collapse_usa_bravo = {
+	hidden_effect = {		
+		VPS = {	
+			transfer_state = 823
+			transfer_state = 818
+			transfer_state = 819
+			transfer_state = 813
+			transfer_state = 857
+			transfer_state = 812
+			transfer_state = 821
+			transfer_state = 814
+			transfer_state = 817
+			transfer_state = 815
+			transfer_state = 822
+			transfer_state = 357
+			add_state_core = 823
+			add_state_core = 818
+			add_state_core = 819
+			add_state_core = 813
+			add_state_core = 857
+			add_state_core = 812
+			add_state_core = 821
+			add_state_core = 814
+			add_state_core = 817
+			add_state_core = 815
+			add_state_core = 822
+			add_state_core = 357
+		}
+		PTT = {
+			transfer_state = 825
+			transfer_state = 806
+			transfer_state = 824
+			add_state_core = 825
+			add_state_core = 806
+			add_state_core = 824
+		}
+		CSA = {
+			transfer_state = 362
+			transfer_state = 363
+			transfer_state = 829
+			transfer_state = 364
+			transfer_state = 854
+			add_state_core = 362
+			add_state_core = 363
+			add_state_core = 829
+			add_state_core = 364
+			add_state_core = 854
+		}
+		SIR = {
+			transfer_state = 365
+			transfer_state = 367
+			transfer_state = 370
+			transfer_state = 857
+			add_state_core = 365
+			add_state_core = 367
+			add_state_core = 370
+			add_state_core = 857
+		}
+		FLO = {
+			transfer_state = 366
+			add_state_core = 366
+		}
+		TNS = {
+			transfer_state = 368
+			transfer_state = 369
+			transfer_state = 860
+			transfer_state = 875
+			transfer_state = 876
+			add_state_core = 368
+			add_state_core = 369
+			add_state_core = 860
+			add_state_core = 875
+			add_state_core = 876
+
+			set_cosmetic_tag = TNS_USMC
+			retire_country_leader = yes
+			set_politics = {
+				ruling_party = neutrality
+			}
+			set_party_name = { 
+				ideology = neutrality 
+				long_name = TNS_united_states_marine_corps_long
+				name = TNS_united_states_marine_corps
+			}
+			set_popularities = {
+				neutrality = 100
+			}
+			create_country_leader = {
+				name = "Alfred M.Gray Jr"
+				desc = ""
+				picture = "Portrait_Alfred_M._Gray_Jr.dds"
+				expire = "2032.1.1"
+				ideology = military_despotism
+				traits = {
+					#
+				}
+			}
+		}
+		UAC = {
+			transfer_state = 393
+			transfer_state = 394
+			transfer_state = 395
+			transfer_state = 868
+			transfer_state = 867
+			transfer_state = 852
+			add_state_core = 393
+			add_state_core = 394
+			add_state_core = 395
+			add_state_core = 868
+			add_state_core = 867
+			add_state_core = 852
+		}
+		TEX = {
+			transfer_state = 372
+			transfer_state = 371
+			transfer_state = 870
+			transfer_state = 862
+			add_state_core = 372
+			add_state_core = 371
+			add_state_core = 870
+			add_state_core = 862
+		}
+		MNE = {
+			transfer_state = 842
+			transfer_state = 841
+			transfer_state = 851
+			transfer_state = 391
+			transfer_state = 843
+			add_state_core = 842
+			add_state_core = 841
+			add_state_core = 851
+			add_state_core = 391
+			add_state_core = 843
+		}
+		IDI = {
+			transfer_state = 396
+			transfer_state = 853
+			transfer_state = 261
+			transfer_state = 871
+			transfer_state = 872
+			transfer_state = 874
+			add_state_core = 396
+			add_state_core = 853
+			add_state_core = 261
+			add_state_core = 871
+			add_state_core = 872
+			add_state_core = 874
+		}
+		MIS = {
+			transfer_state = 392
+			transfer_state = 373
+			transfer_state = 873
+			add_state_core = 392
+			add_state_core = 373
+			add_state_core = 873
+		}
+		RVE = {
+			transfer_state = 869
+			transfer_state = 858
+			add_state_core = 869
+			add_state_core = 858
+		}
+		TSR = {
+			transfer_state = 374
+			transfer_state = 830
+			transfer_state = 831
+			transfer_state = 861
+			add_state_core = 374
+			add_state_core = 830
+			add_state_core = 831
+			add_state_core = 861
+		}
+		SRT = {
+			transfer_state = 375
+			transfer_state = 863
+			add_state_core = 375
+			add_state_core = 863
+		}
+		CTX = {
+			transfer_state = 832
+			transfer_state = 833
+			transfer_state = 864
+			add_state_core = 832
+			add_state_core = 833
+			add_state_core = 864
+		}
+		RNM = {
+			transfer_state = 840
+			transfer_state = 376
+			transfer_state = 850
+			add_state_core = 840
+			add_state_core = 376
+			add_state_core = 850
+		}
+		CAL = {
+			transfer_state = 837
+			transfer_state = 836
+			transfer_state = 846
+			transfer_state = 844
+			add_state_core = 837
+			add_state_core = 836
+			add_state_core = 846
+			add_state_core = 844
+		}
+		EMD = {
+			transfer_state = 378
+			transfer_state = 865
+			transfer_state = 845
+			add_state_core = 378
+			add_state_core = 865
+			add_state_core = 845
+		}
+		USB = {
+			transfer_state = 382
+			transfer_state = 383
+			transfer_state = 384
+			transfer_state = 389
+			transfer_state = 390
+			transfer_state = 381
+			transfer_state = 388
+			transfer_state = 856
+			add_state_core = 382
+			add_state_core = 383
+			add_state_core = 384
+			add_state_core = 389
+			add_state_core = 390
+			add_state_core = 381
+			add_state_core = 388
+			add_state_core = 856
+		}
+		ARZ = {
+			transfer_state = 377
+			transfer_state = 849
+			add_state_core = 377
+			add_state_core = 849
+			random_list = {
+				20 = {
+					set_cosmetic_tag = ARZ_cult
+					set_politics = {
+						ruling_party = fascism
+					}
+					set_party_name = { 
+						ideology = fascism 
+						long_name = ARZ_organization_of_american_aryans_long
+						name = ARZ_organization_of_american_aryans
+					}
+					set_popularities = {
+						fascism = 100
+					}
+					create_country_leader = {
+						name = "Harvey Lowe"
+						desc = ""
+						picture = "Portrait_Harvey_Lowe.dds"
+						expire = "2032.3.1"
+						ideology = clerical_ultranationalism  
+						traits = {
+								#
+						}
+					}
+					modifier = {
+						factor = 20
+						has_government = communism
+						has_government = left_populism
+					}
+				}
+				20 = {
+					CAL = {
+						transfer_state = 377
+						transfer_state = 849
+						add_state_core = 377
+						add_state_core = 849
+					}
+				}
+				20 = {
+					set_cosmetic_tag = ARZ_new_age
+					modifier = {
+						factor = 20
+						has_stability < 0.3
+					}
+				}
+				20 = {
+					set_cosmetic_tag = ARZ_soviet
+					modifier = {
+						factor = 20
+						has_government = fascism 
+					}
+				}
+				20 = {
+					set_cosmetic_tag = ARZ_gang
+					set_politics = {
+						ruling_party = neutrality
+					}
+					set_party_name = { 
+						ideology = neutrality 
+						name = ARZ_roller_ballers
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+					create_country_leader = {
+						name = "Tallow Tom"
+						desc = ""
+						picture = "Portrait_Tallow_Tom.dds"
+						expire = "2032.3.1"
+						ideology = militia_despotism  
+						traits = {
+								#
+						}
+					}
+					modifier = {
+						factor = 20
+						has_stability < 0.2
+					}
+				}
+			}
+		}
+		SCR = {
+			transfer_state = 838
+			transfer_state = 835
+			transfer_state = 859
+			add_state_core = 838
+			add_state_core = 835
+			add_state_core = 859
+		}
+		DES = {
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 855
+			add_state_core = 379
+			add_state_core = 380
+			add_state_core = 855
+		}
+		CAS = {
+			transfer_state = 386
+			transfer_state = 839
+			transfer_state = 848
+			add_state_core = 386
+			add_state_core = 839
+			add_state_core = 848
+		}
+		ORE = {
+			transfer_state = 385
+			transfer_state = 834
+			transfer_state = 387
+			transfer_state = 847
+			add_state_core = 385
+			add_state_core = 834
+			add_state_core = 387
+			add_state_core = 847
+		}
+		USA = {
+			set_cosmetic_tag = USA_collapse_alphastate
+			retire_country_leader = yes
+			set_politics = {
+				ruling_party = neutrality
+			}
+			set_party_name = { 
+				ideology = neutrality 
+				long_name = USA_federal_emergency_council_long
+				name = USA_federal_emergency_council
+			}
+			set_popularities = {
+				neutrality = 100
+			}
+			create_country_leader = {
+				name = "Federal Emergency Council"
+				desc = "federal_emergnecy_council_DESC"
+				picture = "Portrait_Federal_Emergnecy_Council.dds"
+				expire = "2032.3.1"
+				ideology = despotism_subtype  
+				traits = {
+						#
+				}
+			}
+		}
+	}
+}

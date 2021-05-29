@@ -5,17 +5,14 @@ state={
 		steel=5
 	}
 
-	state_category = town
+	state_category = rural
 
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
+			infrastructure = 5
 			dockyard = 1
-
 		}
 		add_core_of = USA
 		victory_points = {
@@ -27,5 +24,5 @@ state={
 	provinces={
 		11830
 	}
-	manpower=103223
+	manpower=13223
 }

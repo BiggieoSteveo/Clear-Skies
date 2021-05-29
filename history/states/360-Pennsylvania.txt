@@ -1,7 +1,7 @@
 state={
 	id=360
 	name="STATE_360"
-	manpower = 101372
+	manpower = 32372
 	
 	state_category = rural
 	
@@ -14,7 +14,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 1
 			6845 = {
 				naval_base = 10
 

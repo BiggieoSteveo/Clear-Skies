@@ -1,0 +1,19 @@
+state={
+	id=842
+	name="STATE_842"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1560 1760 1831 4664 7829 9910 10341 10478 10526 11589
+	}
+	manpower=11031
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

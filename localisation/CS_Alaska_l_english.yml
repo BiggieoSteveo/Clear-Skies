@@ -1,6 +1,6 @@
 ﻿l_english:
 
- ##Country Names
+ ##Alaska - Country Names
  ALK_democratic:0 "State of Alaska"
  ALK_democratic_DEF:0 "the State of Alaska"
  ALK_democratic_ADJ:0 "American"
@@ -18,8 +18,8 @@
  ALK_fascism_ADJ:0 "Alaskan"
  ALK:0 "Alaska"
  ALK_DEF:0 "Alaska"
- ALK_ADJ:0 "Alaskan"
+ ALK_ADJ:0 "American"
 
- ##Party Names 
+ ##Alaska - Party Names
  ALK_neutrality_party:0 "ACC"
  ALK_neutrality_party_long:0 "Alaskan Central Command" 

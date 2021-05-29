@@ -1,0 +1,26 @@
+state={
+	id=850
+	name="STATE_850"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 10
+			industrial_complex = 6
+			arms_factory = 4
+			air_base = 6
+			anti_air_building = 1
+		}
+		add_core_of = USA
+		victory_points = {
+			13250 20 
+		}
+	}
+
+	provinces={
+		13250 
+	}
+	manpower=2045913
+	buildings_max_level_factor=1.000
+	state_category = arcoplex
+}

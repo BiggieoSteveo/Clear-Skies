@@ -22,7 +22,7 @@ country_event = {
 	option = {
 		name = american_collapse.1.a
 		hidden_effect = {
-			set_country_flag = america_collapse_one
+			set_country_flag = america_has_collapsed
 				USA = {
 				collapse_usa_alpha = yes
 			}
@@ -41,5 +41,39 @@ news_event = {
 
 	option = {
 		name = american_collapse_news.1.a
+	}	
+}
+
+country_event = {
+	id = american_collapse_bad.1
+	title = american_collapse_bad.1.t
+	desc = american_collapse_bad.1.d
+	picture = GFX_BOS_report_sarajevo_bombing
+	
+	fire_only_once = yes	
+	is_triggered_only = yes
+
+	option = {
+		name = american_collapse.1.a
+		hidden_effect = {
+			set_country_flag = america_has_collapsed_bad
+				USA = {
+				collapse_usa_bravo = yes
+			}
+		}
+	}	
+}
+
+news_event = {
+	id = american_collapse_news.2
+	title = american_collapse_news.2.t
+	desc = american_collapse_news.2.d
+	picture = GFX_SOV_news_bomber
+	
+	fire_only_once = yes	
+	is_triggered_only = yes
+
+	option = {
+		name = american_collapse_news.2.a
 	}	
 }

@@ -1,0 +1,23 @@
+capital = 864
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism  = 50
+	neutrality = 50
+}
+
+create_country_leader = {
+	name = "Lennon Coleman"
+	desc = ""
+	picture = "Portrait_Lennon_Coleman.dds"
+	expire = "2032.1.1"
+	ideology = clerical_socialism
+	traits = {
+		#
+	}
+}
