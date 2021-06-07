@@ -9,13 +9,13 @@ state={
 	history={
 		owner = USA
 		victory_points = {
-			6984 5 
+			6786 5 
 		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
 			dockyard = 1
-			6984 = {
+			9786 = {
 				naval_base = 2
 
 			}

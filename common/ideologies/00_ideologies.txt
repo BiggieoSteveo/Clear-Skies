@@ -38,18 +38,12 @@ ideologies = {
 		color = { 92 16 16 }
 
 		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_puppet = yes
+			can_force_government = yes
 			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
 		}
-		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-		}
+
 		ai_communist = yes	
 		can_be_boosted = no
 
@@ -76,19 +70,16 @@ ideologies = {
 
 		color = { 92 51 51 }
 
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.25
+
 		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_puppet = yes
+			can_force_government = yes
 			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
 		}
 
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-		}
 		ai_neutral = yes	
 		can_be_boosted = no
 
@@ -115,19 +106,16 @@ ideologies = {
 
 		color = { 51 51 92 } 
 
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.25
+
 		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_puppet = yes
+			can_force_government = yes
 			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
 		}
 
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-		}
 		ai_neutral = yes		
 		can_be_boosted = no
 	}
@@ -168,19 +156,16 @@ ideologies = {
 
 		color = { 87 87 87 }
 
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.25
+
 		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_puppet = yes
+			can_force_government = yes
 			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
 		}
 
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-		}
 		ai_neutral = yes			
 		can_be_boosted = no
 	}
@@ -221,19 +206,20 @@ ideologies = {
 
 		color = { 58 58 58 }
 
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.25
+		
 		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_puppet = yes
+			can_force_government = yes
 			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
 		}
 
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
 		}
+
 		ai_neutral = yes		
 		can_be_boosted = no
 	}
@@ -259,13 +245,13 @@ ideologies = {
 			can_force_government = no
 			can_puppet = no
 			can_join_factions = no
-			can_puppet = yes
-			can_send_volunteers = yes
+			can_puppet = no
+			can_send_volunteers = no
 		}
 
 		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 1.00
 			ai_get_ally_desire_factor = -500
 		}
 		ai_fascist = yes	
