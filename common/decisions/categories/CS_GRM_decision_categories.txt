@@ -1,0 +1,12 @@
+GRM_aryan_backers_category = {
+	picture = GFX_decision_aryan_backers
+	icon = GFX_decision_category_generic_political_actions
+
+	allowed = {
+		original_tag = GRM
+	}
+	
+	visible = {
+	has_completed_focus = GRM_our_aryan_backers
+    }
+}

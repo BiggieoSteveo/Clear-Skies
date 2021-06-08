@@ -22,3 +22,30 @@
  
  ##Party Names 
  GRM_fascism_party:0 "Deutsche Kriegsarmee"
+
+##Focus names
+GRM_the_reich_reborn:0 "The Reich Reborn"
+GRM_the_reich_reborn_desc:0 "The Reich Reborn"
+GRM_our_aryan_backers:0 "Our Aryan backers"
+GRM_our_aryan_backers_desc:0 "Our Aryan backers"
+GRM_volks_ans_gewhr:0 ""Volks Ans Gewher""
+GRM_volks_ans_gewhr_desc:0 ""Volks Ans Gewher""
+GRM_the_bastards_of_stalin:0 "The bastards of Stalin"
+GRM_the_bastards_of_stalin_desc:0 "The bastards of Stalin"
+GRM_reinstate_kommissarbefehl:0 "Reinstate Kommissarbefehl"
+GRM_reinstate_kommissarbefehl_desc:0 "Reinstate Kommissarbefehl"
+GRM_destruction_of_soviet_influence:0 "Destruction of Soviet influence"
+GRM_destruction_of_soviet_influence_desc:0 "Destruction of Soviet influence"
+GRM_the_swastika_over_dresden:0 "The Swastika over Dresden"
+GRM_the_swastika_over_dresden_desc:0 "The Swastika over Dresden"
+GRM_trotskys_plotters:0 "Trotsky's plotters"
+GRM_trotskys_plotters_desc:0 "Trotsky's plotters"
+GRM_over_the_rhine:0 "Over the Rhine"
+GRM_over_the_rhine_desc:0 "Over the Rhine"
+GRM_all_guns_are_good:0 "The Rhines lifeblood"
+GRM_all_guns_are_good_desc:0 "The Rhines lifeblood"
+GRM_to_save_germany:0 "To save Germany"
+GRM_to_save_germany_desc:0 "To save Germany"
+ 
+ ##Tooltips
+ ouraryanbackers:0 "§LDecisions are unlocked to gain aid from Austria§!"

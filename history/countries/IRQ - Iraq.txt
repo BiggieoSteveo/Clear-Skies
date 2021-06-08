@@ -5,22 +5,22 @@
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "2008.1.1.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	left_populism = 20
-	neutrality = 80
+	communism = 80
 }
 
 create_country_leader = {
-	name = "Ayad Allawi"
-	desc = "Ayad_Allawi_DESC"
-	picture = "Portrait_Ayad_Allawi.dds"
+	name = "Saddam Hussein"
+	desc = "Saddam_Hussein_DESC"
+	picture = "Portrait_Saddam_Hussein.dds"
 	expire = "2032.1.1"
-	ideology = military_despotism
+	ideology = left_wing_nationalism
 	traits = {
 	}
 }

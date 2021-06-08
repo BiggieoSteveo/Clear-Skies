@@ -30,13 +30,14 @@ focus_tree = {
 				factor = 1
 			}
 			completion_reward = {
+			
 			}
 		}
 		
-		#Our Alpine Backers
+		#Our Aryan Backers
 		focus = {
-			id = GRM_our_alpine_backers
-			icon = 
+			id = GRM_our_aryan_backers
+			icon = GFX_GRM_our_aryan_backers
 			search_filters = {
 				FOCUS_FILTER_POLITICAL
 			}
@@ -52,6 +53,7 @@ focus_tree = {
 				factor = 1
 			}
 			completion_reward = {
+			custom_effect_tooltip = ouraryanbackers
 			}
 		}
 		
@@ -66,7 +68,7 @@ focus_tree = {
 			y = 4
 			cost = 5
 			prerequisite = { 
-				focus = GRM_our_alpine_backers 
+				focus = GRM_our_aryan_backers
 			}
 			available_if_capitulated = yes
 			cancelable = no
@@ -80,7 +82,7 @@ focus_tree = {
 		#The bastards of Stalin
 		focus = {
 			id = GRM_the_bastards_of_stalin
-			icon = 
+			#icon = 
 			search_filters = {
 				FOCUS_FILTER_POLITICAL
 			}
@@ -88,7 +90,7 @@ focus_tree = {
 			y = 3
 			cost = 5
 			prerequisite = { 
-				focus = GRM_our_alpine_backers 
+				focus = GRM_our_aryan_backers
 			}
 			mutually_exclusive = { 
 				focus = GRM_trotskys_plotters 
@@ -183,7 +185,7 @@ focus_tree = {
 			y = 3
 			cost = 5
 			prerequisite = { 
-				focus = GRM_our_alpine_backers 
+				focus = GRM_our_aryan_backers
 			}
 			mutually_exclusive = { 
 				focus = GRM_the_bastards_of_stalin 

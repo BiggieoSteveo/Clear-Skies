@@ -1,5 +1,22 @@
 spriteTypes = {	
 
+
+###Nazi Germany
+SpriteType = {
+	name = "GFX_GRM_the_reich_reborn"
+	texturefile = "gfx/interface/goals/GRM_the_reich_reborn.dds"			
+}	
+SpriteType = {
+	name = "GFX_GRM_our_aryan_backers"
+	texturefile = "gfx/interface/goals/GRM_our_aryan_backers.dds"			
+}	
+SpriteType = {
+	name = "GFX_GRM_volks_ans_gewhr"
+	texturefile = "gfx/interface/goals/GRM_volks_ans_gewhr.dds"			
+}
+
+
+
 ###Bosnia
 
 	SpriteType = {

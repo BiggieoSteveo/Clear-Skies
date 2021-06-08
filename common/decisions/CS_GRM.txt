@@ -1,0 +1,16 @@
+##start
+GRM_aryan_backers_category = {
+
+		GRM_austrian_guns = {
+		
+			icon = generic_political_rally
+
+			allowed = {
+				original_tag = GRM
+			}
+
+			available = {
+			has_completed_focus = GRM_our_aryan_backers
+			}
+	}
+}
